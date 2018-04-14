@@ -12,8 +12,8 @@ weight = 5
   interests = [
     "Statistical Learning",
     "Image Processing",
-    "Natural Language Processing"
-    "Communicating Statistical Concepts"
+    "Natural Language Processing",
+    "Communicating Statistical Concepts",
     "R programming"
   ]
 
