@@ -10,9 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Machine Learning",
-    "Image Analysis",
-    "Spatial Data"
+    "Statistical Learning",
+    "Image Processing",
+    "Natural Language Processing"
+    "Communicating Statistical Concepts"
+    "R programming"
   ]
 
 # List your qualifications (such as academic degrees).
