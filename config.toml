@@ -235,9 +235,9 @@ defaultContentLanguageInSubdir = false
     link = "//github.com/trianglegirl"
     
     [[params.social]]
-    icon = "twitter"
+    icon = "linkedin"
     icon_pack = "fa"
-    link = "//twitter.com/trianglegirl"
+    link = "https://www.linkedin.com/in/rhian-davies-5b384143/"
 
 
 # Navigation Links
