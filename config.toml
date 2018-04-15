@@ -223,21 +223,27 @@ defaultContentLanguageInSubdir = false
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/trianglegirl"
-
+  
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?hl=en&authuser=1&user=oip-pLQAAAAJ"
+    icon = "strava"
+    icon_pack = "fa"
+    link = "https://www.strava.com/athletes/5412155" 
+
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/trianglegirl"
+    link = "//github.com/trianglegirl" 
     
     [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/rhian-davies-5b384143/"
+    
+    [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.co.uk/citations?hl=en&authuser=1&user=oip-pLQAAAAJ"
 
 
 # Navigation Links
