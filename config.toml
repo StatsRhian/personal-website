@@ -225,7 +225,7 @@ defaultContentLanguageInSubdir = false
     link = "//twitter.com/trianglegirl"
   
   [[params.social]]
-    icon = "strava"
+    icon = "bicycle"
     icon_pack = "fa"
     link = "https://www.strava.com/athletes/5412155" 
 
