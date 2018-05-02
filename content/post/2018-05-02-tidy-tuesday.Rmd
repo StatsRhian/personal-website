@@ -1,13 +1,10 @@
 ---
 title: Tidy Tuesday
-author: ''
+author: 'Rhian Davies'
 date: '2018-05-02'
 slug: tidy-tuesday
-categories: []
-tags: []
-header:
-  caption: ''
-  image: ''
+categories: ["R"]
+tags: ["R"]
 ---
 
 
