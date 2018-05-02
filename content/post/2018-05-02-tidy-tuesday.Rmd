@@ -1,0 +1,36 @@
+---
+title: Tidy Tuesday
+author: ''
+date: '2018-05-02'
+slug: tidy-tuesday
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+When people ask me "How do I learn R", I always point them towards the excellent [R for Data Science book.](http://r4ds.had.co.nz/) It's freely available and I love the order the chapters, starting with visualisation and tidy data before delving into the details of programming with R. 
+
+Recently a [community](http://www.rfordatasci.com/) has developed around this book, when I act as a mentor. One of the regular community events is [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), a weekly challenge to take a dataset and create a visualisation`. 
+
+I had a go at the week 4 submission on Global Mortality data.
+
+I decided to attempt to make some [sparklines](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR) graphics. I used code from [Dr Lukasz Piwek](https://twitter.com/lukaszpiwek) and his [Tufte in R](http://www.motioninsocial.com/tufte/#sparklines) project. It's a great project and I hope I get chance to play with some of the other plots in the future.
+
+I started off considering death by Cardiovascular diseases. 
+
+I wrote some code which identified the 5 countries with the largest increase in share of death by cardiovascular diseases, and also the 5 countries with the largest decrease. These 10 countries were then plotted as a sparkline, with the minimum and maximum values highlighted. 
+
+I then wrapped this code as a function, and generated plots for all possible causes of death to look for interesting findings. Full code is available on [Github.](https://github.com/trianglegirl/r4ds/tree/master/2018-04-17-global-mortality)
+
+![](https://github.com/trianglegirl/r4ds/blob/master/2018-04-17-global-mortality/figures/sparkline-Cardiovascular%20diseases.png)
+
+As a quick plot, I'm fairly happy with this. However, as always there are many ways to improve. 
+
+* Looping over all possible causes of death generates some weird plots, especially when the percentages are small.
+* The Sparkline plots should probably be more information rich and have less white space to make Tufte happy.
+* My function to create the sparkline plots should probably be chunked into smaller functions
+
+Let me know what you think on [Twitter](https://twitter.com/trianglegirl). Suggestions/pull requests welcome!
