@@ -9,7 +9,7 @@ tags: ["R", "Tidy Tuesday"]
 
 When people ask me "How do I learn R", I always point them towards the excellent [R for Data Science book.](http://r4ds.had.co.nz/) It's freely available and I love the order the chapters, starting with visualisation and tidy data before delving into the details of programming with R. 
 
-Recently a [community](http://www.rfordatasci.com/) has developed around this book, when I act as a mentor. One of the regular community events is [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), a weekly challenge to take a dataset and create a visualisation`. 
+Recently a [community](http://www.rfordatasci.com/) has developed around this book, when I act as a mentor. One of the regular community events is [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday), a weekly challenge to take a dataset and create a visualisation. 
 
 I had a go at the week 4 submission on Global Mortality data.
 
