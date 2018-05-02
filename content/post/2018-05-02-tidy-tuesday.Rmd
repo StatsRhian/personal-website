@@ -4,9 +4,8 @@ author: 'Rhian Davies'
 date: '2018-05-02'
 slug: tidy-tuesday
 categories: ["R"]
-tags: ["R"]
+tags: ["R", "Tidy Tuesday"]
 ---
-
 
 When people ask me "How do I learn R", I always point them towards the excellent [R for Data Science book.](http://r4ds.had.co.nz/) It's freely available and I love the order the chapters, starting with visualisation and tidy data before delving into the details of programming with R. 
 
