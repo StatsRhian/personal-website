@@ -21,7 +21,7 @@ I wrote some code which identified the 5 countries with the largest increase in 
 
 I then wrapped this code as a function, and generated plots for all possible causes of death to look for interesting findings. Full code is available on [Github.](https://github.com/trianglegirl/r4ds/tree/master/2018-04-17-global-mortality)
 
-![](https://github.com/trianglegirl/r4ds/blob/master/2018-04-17-global-mortality/figures/sparkline-Cardiovascular%20diseases.png)
+![](https://raw.githubusercontent.com/trianglegirl/r4ds/master/2018-04-17-global-mortality/figures/sparkline-Cardiovascular%20diseases.png)
 
 As a quick plot, I'm fairly happy with this. However, as always there are many ways to improve. 
 
