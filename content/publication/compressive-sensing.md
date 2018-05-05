@@ -17,7 +17,7 @@ authors = ["Rhian Davies, Lyudmila Mihaylova, Nicos Pavlidis, Idris Eckley"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In * 2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF),*, IEEE."
+publication = "In *2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)*, IEEE."
 publication_short = "In *IEEE SDF*"
 
 # Abstract and optional shortened version.
@@ -60,4 +60,4 @@ caption = ""
 
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+This paper was awarded "Best Paper" at the IEEE Conference on Sensor Data Fusion 2013.
