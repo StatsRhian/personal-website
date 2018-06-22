@@ -1,6 +1,6 @@
 +++
 title = "Efficient Analysis of Data Streams"
-date = 2018-03-01T00:00:00
+date = 2017-06-01T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Rhian Davies"]
