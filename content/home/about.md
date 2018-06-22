@@ -37,6 +37,6 @@ weight = 5
 
 # Biography
 
-Rhian Davies is a data scientist at Arctic Shores. Her research interests include clustering, image analysis and stochastic processes. She is an active communicator and is a statistical ambassador for the Royal Statistical Society.
+Rhian Davies is a data scientist at Digital Rail. Her research interests include clustering, image analysis and stochastic processes. She is an active communicator and is a statistical ambassador for the Royal Statistical Society.
 
 
