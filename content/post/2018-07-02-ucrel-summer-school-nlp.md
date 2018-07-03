@@ -33,3 +33,7 @@ Quick tips
 * Document EVERYTHING! From how you scraped and cleaning the data, to creating that pretty plot.
 * Release all code and data with any papers you write. I mean if it isn't on GitHub is it even research?
 * Before releasing a corpus publically think carefully about possible ethical and legal issues.
+
+### Interdisciplinary
+
+Get involved. but dont neglect domain knowledge
