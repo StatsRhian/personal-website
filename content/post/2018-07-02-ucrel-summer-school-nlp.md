@@ -2,7 +2,7 @@
 title: UCREL NLP Summer School
 author: ''
 date: '2018-07-02'
-draft: true
+draft: false
 slug: ucrel-summer-school-nlp
 categories: []
 tags:
@@ -12,7 +12,7 @@ header:
   image: ''
 ---
 
-This week I am attending the [UCREL Summer School in corpus-based natural language processing (NLP)](http://ucrel.lancs.ac.uk/summerschool/nlp.php). The summer school is taught by leading experts in the field both from Lancaster University and other institutions. 
+Last week I attended the [UCREL Summer School in corpus-based natural language processing (NLP)](http://ucrel.lancs.ac.uk/summerschool/nlp.php). The summer school is taught by leading experts in the field both from Lancaster University and other institutions. 
 
 Here are a couple of my thoughts and take aways from the week. 
 
@@ -30,10 +30,10 @@ Another topic close to my heart :heart:.
 
 Quick tips
 
-* Document EVERYTHING! From how you scraped and cleaning the data, to creating that pretty plot.
+* Document EVERYTHING! From how you scraped and cleaned the data, to creating that pretty plot.
 * Release all code and data with any papers you write. I mean if it isn't on GitHub is it even research?
 * Before releasing a corpus publically think carefully about possible ethical and legal issues.
 
-### Interdisciplinary
+### Be an interdisciplinary hero
 
-Get involved. but dont neglect domain knowledge
+Get involved! There are so many applications areas which make intersting NLP projects. Just during this week, we have had talks from biosciences, accounting and financnes, geography and the poublising indstury to name a few. However, it's important to work closely with the domain experts and utilise their understanding of the area.
