@@ -16,7 +16,5 @@ weight = 60
 +++
 What I'm focusing on now:
 
-- [Running, cycling and swimming](https://www.strava.com/athletes/5412155) in Lancashire and the Lake District
-- Learning to speak Welsh using  [Say Something in Welsh](https://www.saysomethingin.com/welsh)
-- Analysing personal sports data using Strava and R
-- Reading as many [books as I can](https://www.goodreads.com/user_challenges/10264907)
+- My pesonal projects are hosted on [GitHub](https://github.com/trianglegirl/personal-projects/blob/master/README.md)
+
