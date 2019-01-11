@@ -48,14 +48,14 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Rhian Davies"
-  role = "Statistician, Data Scientist, STEM communicator"
+  role = "Statistician, Data Scientist, Public Speaker"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Digital Rail", url = "http://www.digitalrail.co.uk/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "rss-speaker-square.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "square.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "thetrianglegirl@gmail.com"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   #office_hours = "Monday 10:00 to 13:00 or email for appointment"
