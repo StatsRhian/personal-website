@@ -13,11 +13,6 @@ location = "London, United Kingdom"
 # Is this a selected talk? (true/false)
 selected = false
 
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
-
 # Links (optional).
 url_pdf = ""
 url_slides = ""
