@@ -11,7 +11,7 @@ event_url = "https://www.lancaster.ac.uk/maths/engagement/working-with-schools/f
 location = "Lancaster, United Kingdom"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Links (optional).
 url_slides = "https://trianglegirl.github.io/presentations/2019-01-10-data-detective/2019-01-10-data-detective.html#1" 
