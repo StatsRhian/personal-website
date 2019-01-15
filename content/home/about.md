@@ -37,6 +37,6 @@ weight = 5
 
 # Biography
 
-Rhian Davies is a data scientist at Digital Rail. Her research interests include clustering, image analysis and stochastic processes.  is an active communicator and is a statistical ambassador for the Royal Statistical Society. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) full C.V.
+I'm is a data scientist at [Digital Rail](https://www.digitalrail.co.uk/). My research interests include clustering, image analysis and stochastic processes. I'm an active communicator and is a statistical ambassador for the Royal Statistical Society. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) my full C.V.
 
 
