@@ -1,7 +1,7 @@
 +++
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
-title = "Faster, Safer, Better
+title = "Faster, Safer, Better"
 time_start = 2018-10-23T17:30:00
 time_end = 2018-10-23T18:00:00
 abstract = "A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI).
