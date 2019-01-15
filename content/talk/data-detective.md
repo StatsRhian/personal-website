@@ -13,10 +13,14 @@ location = "Lancaster, United Kingdom"
 # Is this a selected talk? (true/false)
 selected = false
 
-# Links (optional).
-url_slides = "https://trianglegirl.github.io/presentations/2019-01-10-data-detective/2019-01-10-data-detective.html#1" 
-[[url_custom]] name = "GitHub" url = "https://github.com/trianglegirl/presentations/tree/master/2019-01-10-data-detective"
-
+# Links (optional)
+url_pdf = ""
+url_slides = "https://trianglegirl.github.io/presentations/2019-01-10-data-detective/2019-01-10-data-detective.html#1"
+url_video = ""
+[[url_custom]]
+    name = "GitHub"
+    url = "https://github.com/trianglegirl/presentations/tree/master/2019-01-10-data-detective"
+    
 # Does the content use math formatting?
 math = true
 
