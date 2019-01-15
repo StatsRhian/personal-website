@@ -16,5 +16,5 @@ weight = 60
 +++
 What I'm focusing on now:
 
-- My pesonal projects are hosted on [GitHub](https://github.com/trianglegirl/personal-projects/blob/master/README.md)
+- My personal projects are tracked on [GitHub](https://github.com/trianglegirl/personal-projects/blob/master/README.md)
 
