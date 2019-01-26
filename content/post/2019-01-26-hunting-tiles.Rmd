@@ -1,9 +1,9 @@
 ---
 title: Hunting Tiles
-author: ''
+author: 'Rhian Davies'
 date: '2019-01-26'
 slug: hunting-tiles
-categories: []
+categories: ["Cycling"]
 tags: []
 header:
   caption: ''
