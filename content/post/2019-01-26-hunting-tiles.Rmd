@@ -2,6 +2,7 @@
 title: Hunting Tiles
 author: 'Rhian Davies'
 date: '2019-01-26'
+draft: no
 slug: hunting-tiles
 categories: ["Cycling"]
 tags: []
@@ -18,14 +19,14 @@ The new tiles in 2018 were mostly gathered during our big trips away such as cyc
 
 ![](/post/2019-01-26-hunting-tiles_files/bigtrips2018.jpeg)
 
-
 We also did a couple of longer bike rides such and [Howgill Lane](https://www.strava.com/activities/1555798288), [Kirby Stephen](https://www.strava.com/activities/1687019306) and the [Fylde Coast](https://www.strava.com/activities/1800611999).
 
 ![](/post/2019-01-26-hunting-tiles_files/longerrides.jpeg)
-
 
 In 2019 I'd like to cover more than 418 new tiles. We have a couple of big trips lined up, including cycling to North West Wales, and a week exploring Devon.
 
 I'd also like to expand my max cluster. This is represented by the blue tiles, and in 2018 I had a max cluster of 164. In order to expand it, I aim to link up Kirby Lonsdale, Settle and Grasmere. 
 
-Finally, the black squares in the image relate to the maximum square you have covered. So far I have a max quare of 7x7. Increasing this is quite difficult due to being near the sea, however, I think I can increase this to 8x8.
+Finally, the black squares in the image relate to the maximum square you have covered. So far I have a max square of 7x7. Increasing this is quite difficult due to being near the sea, however, I think I can increase this to 8x8.
+
+I'll provide monthy updates on our tile explorations to track how we're getting on. Happy tile hunting :cycling:!
