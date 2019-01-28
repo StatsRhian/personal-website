@@ -29,4 +29,4 @@ I'd also like to expand my max cluster. This is represented by the blue tiles, a
 
 Finally, the black squares in the image relate to the maximum square you have covered. So far I have a max square of 7x7. Increasing this is quite difficult due to being near the sea, however, I think I can increase this to 8x8.
 
-I'll provide monthy updates on our tile explorations to track how we're getting on. Happy tile hunting :cycling:!
+I'll provide monthy updates on our tile explorations to track how we're getting on.
