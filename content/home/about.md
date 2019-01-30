@@ -11,10 +11,10 @@ weight = 5
 [interests]
   interests = [
     "Statistical Learning",
-    "Image Processing",
-    "Natural Language Processing",
+    "R programming",
     "Communicating Statistical Concepts",
-    "R programming"
+    "Image Processing",
+    "Natural Language Processing"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -37,6 +37,6 @@ weight = 5
 
 # Biography
 
-I am a data scientist at [Digital Rail](https://www.digitalrail.co.uk/). My research interests include clustering, image analysis and stochastic processes. I'm an active communicator and a statistical ambassador for the Royal Statistical Society. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) my full C.V.
+I am a data scientist at [Digital Rail](https://www.digitalrail.co.uk/). I'm an active communicator and am  as tatistical ambassador for the Royal Statistical Society. I love all things R and an am active member of the R community, including organising R Ladies Lancaster. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) my full C.V.
 
 
