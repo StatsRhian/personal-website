@@ -37,6 +37,6 @@ weight = 5
 
 # Biography
 
-I am a data scientist at [Digital Rail](https://www.digitalrail.co.uk/). I'm an active communicator and am  as tatistical ambassador for the Royal Statistical Society. I love all things R and an am active member of the R community, including organising R Ladies Lancaster. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) my full C.V.
+I am a data scientist at [Digital Rail](https://www.digitalrail.co.uk/). I'm an active communicator and a [statistical ambassador for the Royal Statistical Society](http://www.rss.org.uk/RSS/Influencing_Change/Statistical_literacy/RSS_statistical_ambassadors/RSS/Influencing_Change/Statistical_literacy_sub/RSS_statistical_ambassadors.aspx?hkey=d06d38f3-8148-4fde-891a-5e3e7fe4fffc). I love all things R and an am active member of the R community. [Download](https://raw.githubusercontent.com/trianglegirl/CV/master/CV-Davies-Rhian.pdf) my full C.V.
 
 
