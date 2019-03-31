@@ -19,7 +19,7 @@ I did one [tile hunting ride](https://www.strava.com/activities/2121232456) earl
 February has been quite a crazy month for us, with moving house and interviewing for a new job. Hopefully March will include more adventures afar and new tiles!
 
 ## Summary
-* New tiles this year: 23
+* New tiles this year: 122
 * New tiles all time: 53
 * Max cluster: 185
 
