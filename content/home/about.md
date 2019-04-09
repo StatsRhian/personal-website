@@ -14,7 +14,7 @@ weight = 5
     "R programming",
     "Communicating Statistical Concepts",
     "Image Processing",
-    "Natural Language Processing"
+    "Machine Learning"
   ]
 
 # List your qualifications (such as academic degrees).
