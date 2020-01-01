@@ -3,7 +3,7 @@ date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Can you trust your R package?"
 time_start = 2019-11-16T10:00:00
-time_end = 2019-11-21-T10:45:00
+time_end = 2019-11-21T10:45:00
 abstract = "Are you forgetful and lazy like me, but still want to make fabulous, dependable R packages? Enter Travis, a helpful service which can automatically run checks, tests and even tweet about your package.
 
 I'll explain what continuous integration is and tell stories of how we use it at Jumping Rivers. I'll also introduce inteRgrate, an R package we've developed to help us keep our packages running smoothly."
