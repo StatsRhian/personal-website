@@ -10,7 +10,7 @@ title = "Rhian Davies"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2020"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -72,7 +72,7 @@ defaultContentLanguageInSubdir = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display next/previous section pager?
   section_pager = false
