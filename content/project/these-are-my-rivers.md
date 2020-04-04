@@ -3,20 +3,20 @@
 date = "2014-04-27"
 
 # Project title.
-title = "2048"
+title = "These are my rivers"
 
 # Project summary to display on homepage.
-summary = "An editted clone of the 2048 game."
+summary = "Mapping the rivers I paddle"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "2048.png"
+image_preview = "lancaster_rivers.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = [""]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://trianglegirl.github.io/2048/"
+external_link = "https://github.com/trianglegirl/these-are-my-rivers"
 
 # Does the project detail page use math formatting?
 math = false
