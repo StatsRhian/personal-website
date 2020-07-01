@@ -1,29 +1,23 @@
-+++
-date = 2017-01-01T00:00:00  # Schedule page publish date.
-
-title = "The State of Big Data"
-time_start = 2018-07-26T11:30:00
-time_end = 2018-07-26T12:00:00
-abstract = "A discussion of the current state of big data, where it can help the rail industry and what the pitfalls are."
-event = "Digital Rail Summit"
-event_url = ""
-location = "Lancaster, United Kingdom"
-
-# Is this a selected talk? (true/false)
-selected = false
-
-# Links (optional)
-url_pdf = ""
-url_slides = "https://trianglegirl.github.io/presentations/2018-07-26-the-state-of-big-data/the-state-of-big-data.html#1"
-url_video = ""
-[[url_custom]]
-    name = "GitHub"
-    url = "https://github.com/trianglegirl/presentations/tree/master/2018-07-26-the-state-of-big-data"
-    
-# Does the content use math formatting?
-math = true
-
-# Does the content use source code highlighting?
-highlight = true
-
-+++
+---
+abstract: Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it's Rhian's job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness.
+all_day: false
+authors: []
+date: "2018-07-26T11:30:00"
+date_end: "2018-07-26T12:00:00"
+event: Florence Nightingale Day 2019
+event_url: https://www.lancaster.ac.uk/maths/engagement/working-with-schools/florence-nightingale-day/
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  focal_point: Right
+location: Lancaster, United Kingdom
+math: true
+publishDate: "2017-01-01T00:00:00Z"
+summary: A discussion of the current state of big data, where it can help the rail industry and what the pitfalls are.
+tags: []
+title: Digital Rail Summit
+url_code: "https://github.com/trianglegirl/presentations/tree/master/2018-07-26-the-state-of-big-data"
+url_pdf: ""
+url_slides: "https://trianglegirl.github.io/presentations/2018-07-26-the-state-of-big-data/the-state-of-big-data.html#1"
+url_video: ""
+---
