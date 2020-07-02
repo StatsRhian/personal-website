@@ -19,5 +19,5 @@ title: Data Viz for Better
 url_code: "https://github.com/trianglegirl/presentations/tree/master/2020-07-01-data-viz-for-better"
 url_pdf: ""
 url_slides: "https://bit.ly/flo-data-viz"
-url_video: "https://youtu.be/zoDrMKsfxTA"
+url_video: "https://youtu.be/zoDrMKsfxTA?t=6057"
 ---
