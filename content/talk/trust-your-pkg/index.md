@@ -8,7 +8,7 @@ event: SatRday Cardiff 2019
 event_url: https://cardiff2019.satrdays.org/
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 location: Cardiff, United Kingdom
 math: true

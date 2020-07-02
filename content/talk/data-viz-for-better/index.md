@@ -8,7 +8,7 @@ event: RSS Merseyside
 event_url: https://sites.google.com/site/rssmerseyside/research-meetings/florence-nightingale
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [Wellcome Collection](https://wellcomecollection.org/works/p4mbdctw)'
   focal_point: Right
 location: Virtual event
 math: true

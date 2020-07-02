@@ -8,12 +8,12 @@ event: IMechE North West Railway Division
 event_url: https://nearyou.imeche.org/near-you/UK/North-Western/north-western-rd-centre/event-detail?id=15559
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 location: Manchester, United Kingdom
 math: true
 publishDate: "2017-01-01T00:00:00Z"
-summary: Investigating Florence Nightingale's Polar Area Diagram discussing how she used them to argue a case for better hospital management. 
+summary: A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI). 
 tags: []
 title: Faster, Safer, Better
 url_code: "https://github.com/trianglegirl/presentations/tree/master/2018-10-23-mind-the-gap-iMechE"

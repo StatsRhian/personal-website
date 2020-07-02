@@ -8,13 +8,14 @@ event: Florence Nightingale Day 2019
 event_url: https://www.lancaster.ac.uk/maths/engagement/working-with-schools/florence-nightingale-day/
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 location: Lancaster, United Kingdom
 math: true
 publishDate: "2017-01-01T00:00:00Z"
 summary:  
-tags: []
+tags:
+ - statistics
 title: Data Detective
 url_code: "https://github.com/trianglegirl/presentations/tree/master/2019-01-10-data-detective"
 url_pdf: ""
