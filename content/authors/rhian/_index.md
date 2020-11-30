@@ -28,16 +28,16 @@ social:
   link: 'mailto:rhian@jumpingrivers.com'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/trianglegirl
+  link: https://twitter.com/StatsRhian
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/rhian-davies-5b384143/
+  link: https://www.linkedin.com/in/statsrhian
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?hl=en&authuser=1&user=oip-pLQAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/trianglegirl
+  link: https://github.com/StatsRhian
 - icon: strava
   icon_pack: fab
   link: https://www.strava.com/athletes/5412155
