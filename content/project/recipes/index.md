@@ -1,15 +1,22 @@
 ---
-date: "2016-04-27"
-external_link: "https://trianglegirl.github.io/recipes/"
-image: 
-  caption: 
-  focal_point: Smart
-summary: Creating a personal reciepe book to learn the bookdown package.
-tags:
-- RStats
 title: Recipes
-url_code: "https://github.com/trianglegirl/recipes"
-url_pdf: ""
-url_slides: ""
-url_video: ""
+summary: Creating a personal recipe book to learn the bookdown package.
+date: "2016-04-27"
+tags:
+- markdown
+# layout options: single or single-sidebar
+layout: single
+
+links:
+- icon: lemon
+  icon_pack: fas
+  name: recipes
+  url: https://statsrhian.github.io/recipes/
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/statsrhian/recipes
 ---
+
+I don't particularly enjoy cooking. But I _do_ enjoy making irrelevant websites.
+When I do cook, I like having a tried and tested recipe to follow. I decided to use {bookdown} to put all of our standard recipes into a nice, searchable, version controlled, online book.

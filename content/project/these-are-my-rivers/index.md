@@ -1,17 +1,20 @@
 ---
-date: "2014-04-27"
-external_link: "https://github.com/trianglegirl/these-are-my-rivers"
-image: 
-  caption: 
-  focal_point: Smart
-summary: Mapping the rivers I paddle.
-tags:
-- RStats
-- Activity Data
 title: These are my rivers
-url_code: "https://github.com/trianglegirl/these-are-my-rivers"
-url_pdf: ""
-url_slides: ""
-url_video: ""
+excerpt: Making poster art of the local rivers.
+date: 2019-10-01
+tags:
+- activity data
+# layout options: single or single-sidebar
+layout: single
+links:
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/statsrhian/these-are-my-rivers
 ---
+
+I'd like to make some art for my home, filling in the local rivers that I paddle.
+I'm still not sure exactly what I'd like the finished poster to look like.
+
 

@@ -1,7 +1,6 @@
 ---
-abstract: Learn about the mathematics behind love and dating with the stable matching algorithm.
-all_day: false
-authors: []
+title: Love and Mathematics
+excerpt: Learn about the mathematics behind love and dating with the stable matching algorithm.
 date: "2013-02-14T10:00:00"
 date_end: "2013-02-14T11:00:00"
 event: Lancaster University Outreach
@@ -11,15 +10,14 @@ image:
   caption: ""
   focal_point: Right
 location: Lancaster, U.K
-math: true
-publishDate: "2017-01-01T00:00:00Z"
-summary: Learn about the mathematics behind love and dating with the stable matching algorithm.
 tags:
   - outreach
   - statistics
-title: Love and Mathematics
-url_code: ""
-url_pdf: ""
-url_slides: "https://github.com/trianglegirl/presentations/tree/master/2013-02-14-stable-marriage-problem"
-url_video: ""
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/statsrhian/presentations/tree/main/2013-02-14-stable-marriage-problem
 ---
+
+An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples.
