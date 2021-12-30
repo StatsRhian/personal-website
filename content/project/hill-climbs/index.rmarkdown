@@ -1,0 +1,29 @@
+---
+title: "Hill climbs"
+excerpt: "Mapping the top Lancashire cycle hill climbs in leaflet."
+date: 2021-06-01
+tags:
+- Activity Data
+# layout options: single or single-sidebar
+layout: single
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/statsrhian/hill-climbs
+---
+
+I like cycling. I'm not great at going fast, but I quite enjoy puffing my way to the top of a hill.
+
+When I first started playing with the {leaflet}, I mapped the local hill climbs.
+
+
+```{r, echo = FALSE}
+library(magrittr)
+lancashire = sf::st_read("lancashire_climbs/lancashire_climbs.shp", quiet = TRUE)
+
+leaflet::leaflet() %>%
+  leaflet::addTiles() %>%
+  leaflet::addPolylines(data = lancashire, col = ~col, label = ~name)
+```
+
