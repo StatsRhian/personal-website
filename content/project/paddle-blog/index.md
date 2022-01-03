@@ -1,5 +1,5 @@
 ---
-title: Paddle Blog
+title: Paddling Blog
 excerpt: Documenting and mapping my paddles.
 date: 2021-10-01
 tags:
@@ -16,7 +16,7 @@ links:
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/statsrhian/paddling_blog
+  url: https://github.com/statsrhian/paddling-blog
 ---
 
 As I work towards my sea kayaking leadership award, I'll need to track and reflect on my paddling. I'm doing this via a {distill} website because I have an addiction to building static sites in #RStats.
