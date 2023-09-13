@@ -1,0 +1,10 @@
+---
+title: "Recipes"
+description: "Creating a personal recipe book to learn the {bookdown} package."
+image: featured.JPG
+img-alt: "Blueberry almond slices on a black board."
+---
+
+I don't particularly enjoy cooking. But I *do* enjoy making irrelevant websites. When I do cook, I like having a tried and tested recipe to follow. I decided to use {bookdown} to put all of my standard recipes into a nice, searchable, [version controlled, online book](https://statsrhian.github.io/recipes/).
+
+![](featured.JPG){fig-alt="Blueberry almond slices on a black board."}

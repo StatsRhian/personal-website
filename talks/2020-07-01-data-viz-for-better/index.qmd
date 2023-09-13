@@ -1,0 +1,22 @@
+---
+title: Data Viz for Better
+subtitle: RSS Merseyside
+description: Investigating Florence Nightingale's Polar Area Diagram and discussing how she used them to argue a case for better hospital management. 
+date: "2020-07-01"
+categories: [meetup]
+image: featured.jpeg
+img-alt: "Original polar area diagrams, made by FLorence Nightingale. Segments coming out from a central point."
+---
+
+## Abstract
+
+It is sometimes said that Florence Nightingale was the first person to present data in a visual form. This is not true, however, she may have been the first person to use data visualisation to persuade people of the need for change. In this talk, I will show Florence's original diagrams and discuss how she used them to argue a case for better hospital management. I'll also showcase the Florences of the future, highlighting women who are using data visualisation to bring change in today's world.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zoDrMKsfxTA?start=6057" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Links
+
+- [Slides](https://statsrhian.github.io/talks/2020/2020-07-01-data-viz-for-better/2020-05-12-florence-and-data-viz.html#1)
+- [RSS Merseyside](https://sites.google.com/site/rssmerseyside/research-meetings/florence-nightingale)

@@ -1,0 +1,31 @@
+---
+title: "Share your Models with R {plumber} APIs"
+subtitle: "RSS International Conference 2022"
+description: "What is an API? And why would I make one?"
+date: 2022-09-13
+categories: [conference]
+image: "featured.jpg"
+img-alt: "Baby ring tailed lemur being held by two gloved hands."
+---
+
+## Abstract
+
+So you've developed a statistical model, and now you want to share it with the world. You've heard that APIs make it easy to scale the reach of your work. But what is an API? How do you make one? And how difficult is it to do?
+
+At some point, you may want to share your statistical models with other people. If they are not R users, they may not be able to use your work without translating it into their language of choice. However, if your model is available in the form of an API, then anybody can import your results without this difficult translation step.
+
+Making your models available through an API reduces the handoff between R and other tools or technologies. More people can access your results and use them to make data-driven decisions.
+
+The {plumber} package makes it easy to convert your R functions into API endpoints using just a few special comments.
+
+In this talk I'll introduce what an API is, how the {plumber} package works and give an example of sharing a statistical model to a wider audience.
+
+## Materials
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2022/2022-09-13-plumber/2022-09-13-plumber.html" width="100%" height = "400px"></iframe>
+</p>
+
+-   [Slides](https://statsrhian.github.io/talks/2022/2022-09-13-plumber/2022-09-13-plumber.html)
+
+-   [RSS International Conference 2022, Aberdeen](https://rss.org.uk/training-events/conference2022/)

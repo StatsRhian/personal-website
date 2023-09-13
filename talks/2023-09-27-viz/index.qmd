@@ -1,0 +1,18 @@
+---
+title: "Selecting the right tool for visualisation"
+subtitle: "Data Innovation Showcase, National Innovation Centre for Data"
+description: "From Zero to Data Science Hero."
+date: 2023-09-28
+categories: [conference]
+image: "featured.jpg"
+img-alt: ""
+---
+
+## Abstract
+
+Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don't miss out on this opportunity to innovate!
+
+## Links
+
+- [Data Innovation Showcase, National Innovation Centre for Data](https://www.nicd.org.uk/data-innovation-showcase)
+

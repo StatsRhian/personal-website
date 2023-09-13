@@ -1,0 +1,10 @@
+---
+title: "These are my rivers"
+description: "Making poster art of the local rivers."
+image: featured.png
+img-alt: "A map of Lancashire, highlighting selected rivers."
+---
+
+I'd like to make some [art for my home](https://github.com/statsrhian/these-are-my-rivers), filling in the local rivers that I paddle. I'm still not sure exactly what I'd like the finished poster to look like.
+
+![](featured.png){fig-alt="A map of Lancashire, highlighting selected rivers."}

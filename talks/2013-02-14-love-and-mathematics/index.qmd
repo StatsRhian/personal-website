@@ -1,0 +1,17 @@
+---
+title: "Love and Mathematics"
+subtitle: "Lancaster University Outreach"
+description: "Learn about the mathematics behind love and dating with the stable matching algorithm."
+date: 2013-02-14
+categories: [outreach]
+image: "featured.jpg"
+img-alt: "Drawings of the mathematicians Gale and Shapley"
+---
+
+## Abstract
+
+An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples.
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2013/2013-02-14-stable-marriage-problem/StableMarriageProblem.pdf" width="100%" height = "400px"></iframe>
+</p>

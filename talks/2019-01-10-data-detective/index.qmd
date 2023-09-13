@@ -1,0 +1,21 @@
+---
+title: "Data Detective"
+description: "Stories showcasing the pitfalls that we as humans often struggle with when it comes to randomness."
+date: "2019-01-10"
+subtitle: "Florence Nightingale Day 2019"
+image: featured.jpg
+categories: [outreach]
+img-alt: "Three cartoon heads sharing the same thought bubble."
+---
+
+## Abstract
+
+Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it's Rhian's job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness.
+
+![](featured.jpg){fig-alt="Three cartoon heads sharing the same thought bubble."}
+
+## Links
+
+-   [Slides](https://statsrhian.github.io/talks/2019-01-10-data-detective/2019-01-10-data-detective.html#1)
+-   [Florence Nightingale Day 2019](https://www.lancaster.ac.uk/maths/engagement/working-with-schools/florence-nightingale-day/)
+

@@ -1,0 +1,27 @@
+---
+title: "Don't Panic! The Ambassadors guide to communicating statistics"
+subtitle: "RSS International Conference 2022"
+description: "Advice and guidance on communicating complex statistical ideas and concepts in plain language"
+date: 2022-09-14
+categories: [conference, workshop]
+image: "featured.jpg"
+img-alt: "Royal Statistical Society logo. A yellow vertical bar."
+---
+
+## Abstract
+
+The RSS Statistical Ambassadors have been selected and trained by the Society to engage in statistical discussions with the media, schools and wider public.
+
+This group session will actively engage the audience through a number of exercises to stretch attendees' communication skills. The Ambassadors will provide advice and guidance to encourage attendees to communicate complex statistical ideas and concepts in plain language, and to consider alternative ways to communicate their own research.
+
+The session aims to help statisticians prepare to give insightful comments, whether written, via social media, on radio, or in television interviews.
+
+![](featured.jpg){fig-alt="Royal Statistical Society logo. A yellow vertical bar."}
+
+## Links
+
+
+
+-   [Slides](https://statsrhian.github.io/talks/2022/2022-09-14-communicating-stats/2022-09-14-communicating-stats.html)
+
+-   [RSS International Conference 2022, Aberdeen](https://rss.org.uk/training-events/conference2022/)

@@ -1,0 +1,9 @@
+---
+title: "Rhi on the Sea"
+description: "Documenting and mapping my paddles."
+img-alt: "Photograph of a white cliffs and a female sea kayaker taken from a red sea kayak"
+---
+
+As I work towards my sea kayaking leadership award, I'll need to track and reflect on my paddling. I'm doing this via a {distill} [website](https://rhionthesea.netlify.app/) because I have an addiction to building static sites in #RStats.
+
+![](featured.jpg){fig-alt="Photograph of a red sea kayak on the sea."}
