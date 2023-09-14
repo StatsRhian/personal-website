@@ -1,0 +1,16 @@
+---
+title: "RI Mathematics Masterclass on Group Theory"
+description: "A Royal Institution Masterclass on Group Theory."
+date: "2014-03-01"
+subtitle: Royal Institution Mathematics Masterclass
+categories: [outreach]
+image: featured.jpg
+img-alt: "Screengrab from Futurama. Amy and the professor are stood near a large machine."
+---
+
+A workshop aimed at bright 14-16 year olds introducing some group theory concepts. Delivered as an invited Royal Institution Masterclass.
+
+![](featured.jpg){fig-alt="Screengrab from Futurama. Amy and the professor are stood near a large machine."}
+
+-   [Materials](https://github.com/statsrhian/talks/tree/main/2014/2014-03-01-ri-masterclass)
+-   [Royal Institution Mathematics Masterclass](https://www.rigb.org/education/masterclasses)

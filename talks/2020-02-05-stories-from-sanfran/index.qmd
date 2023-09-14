@@ -1,0 +1,25 @@
+---
+title: "Stories from San Francisco"
+subtitle: R-Ladies Lancaster
+description: "What I learnt at RStudio Conference 2020"
+date: 2020-02-05
+categories: [meetup]
+image: "featured.jpg"
+img-alt: "Aerial shot of R-Ladies at RStudio conference 2020. Hundreds of women waving at the camera."
+---
+
+## Abstract
+
+I'm lucky to be attending the RStudio Conference this year. I'll give a talk summarising some of the new and exciting things I learnt at the conference to share with you all!
+
+## Links
+
+<p align="center">
+<iframe src="https://rladies.org/meetup-presentations_lancaster/2020-02-05-rmarkdown/rstudio_conf/rstudio_conf.html#1" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://rladies.org/meetup-presentations_lancaster/2020-02-05-rmarkdown/rstudio_conf/rstudio_conf.html#1)
+
+- [Meetup](https://www.meetup.com/rladies-lancaster/events/267885448/) 
+
+

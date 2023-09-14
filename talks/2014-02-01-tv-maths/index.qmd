@@ -1,0 +1,15 @@
+---
+title: "Maths on T.V."
+description: "Learn about the mathematics hidden in every day T.V shows."
+date: "2014-02-01"
+subtitle: "Lancaster University Outreach"
+categories: [outreach]
+image: featured.png
+img-alt: "The Simpsons family."
+---
+
+An outreach talk highlighting some of the mathematical concepts hidden in T.V shows.
+
+-   [Materials](https://github.com/statsrhian/talks/tree/main/2014/2014-02-01-tv-maths)
+
+![](featured.png){fig-alt="The Simpsons family."}

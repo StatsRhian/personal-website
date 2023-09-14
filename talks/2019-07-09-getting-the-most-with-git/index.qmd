@@ -1,0 +1,20 @@
+---
+title: Getting the most out of Git
+description: Workshop on Git & Continous Integration
+date: "2019-07-09"
+subtitle: useR! 2019 Workshop
+categories: [conference, workshop]
+image: featured.png
+img-alt: "UseR 2019 logo."
+---
+
+## Abstract
+
+Do you wonder what a pull request is? Do you browse GitHub and see lots of repositories with fancy looking badges, and think, I would like some of them? And what is a git-hook and why should you care? In this tutorial, we'll look at how we can leverage external tools, such as travis, covr, and Docker hub.
+
+![](featured.png){fig-alt="Logo for UseR! 2019."}
+
+## Links
+
+-   [Slides](https://www.jumpingrivers.com/t/2019-user-git/#1)
+-   [UseR! 2019](https://www.user2019.fr/tutorials/)

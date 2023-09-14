@@ -1,0 +1,23 @@
+---
+title: "Automating Bespoke Online Teaching"
+subtitle: "UseR! 2021"
+description: "Using R to create a bespoke learning environment automatically."
+date: 2021-07-08
+categories: [conference]
+image: "featured.png"
+img-alt: "Cartoon depicting a classroom of adults. A male is stood at the from of the class pointing at the letter R on a projector."
+---
+
+## Abstract
+
+At Jumping Rivers we deliver over 100 R, Python and Stan training courses each year, engaging with thousands of new learners. The necessity to move to fully online training in March last year meant we quickly had to completely rethink how to deliver R training interactively online. We internally trialled running our usual in-person training just on Zoom - and it really doesn't work trust us! We already used R & R Markdown to create all training materials including slides and notes. However, our new workflow uses R in every step of the way, from creating a bespoke learning environment, to collating feedback and generating certificates. This improves the learning experience as the small things are automated and allows the trainer to concentrate on actual training.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tR7sNOPq9-I?start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Links
+
+-   [Slides](https://statsrhian.github.io/talks/2021-07-08-automating-bespoke-online-teaching/2021/2021-07-08-automating-bespoke-online-teaching.html#1)
+
+- [useR! 2021, Virtual](https://user2021.r-project.org/)

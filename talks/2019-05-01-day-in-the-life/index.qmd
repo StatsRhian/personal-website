@@ -1,0 +1,20 @@
+---
+title: A day in the life with R
+description: A whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps. 
+date: "2019-05-01"
+subtitle: R-Ladies Lancaster
+categories: [meetup]
+image: featured.png
+img-alt: "Seven hex stickers including rtweet, rmarkdown and data pasta."
+---
+
+## Abstract
+
+I've been using R for many years and at the moment it feels like I basically run my life in the medium of R. I'll give an whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps - and hinders.
+
+![](featured.png){fig-alt="Seven hex stickers including rtweet, rmarkdown and data pasta"}
+
+## Links
+
+-   [R-Ladies Lancaster](https://www.meetup.com/rladies-lancaster/events/260217938/)
+-   [Slides](https://statsrhian.github.io/presentations/2019-05-01-day-in-the-life/day-in-the-life.html#1)

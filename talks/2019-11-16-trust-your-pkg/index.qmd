@@ -1,0 +1,20 @@
+---
+title: Can you trust your R package?
+subtitle: "SatRday Cardiff 2019"
+description: I'll explain what continuous integration is and tell stories of how we use it at Jumping Rivers.
+categories: [meetup]
+date: "2019-11-16"
+image: featured.png
+img-alt: "Cartoon woman with a hardhat and glasses. The colouring is pride rainbow."
+---
+
+## Abstract
+
+Are you forgetful and lazy like me, but still want to make fabulous, dependable R packages? Enter Travis, a helpful service which can automatically run checks, tests and even tweet about your package. I'll explain what continuous integration is and tell stories of how we use it at Jumping Rivers. I'll also introduce inteRgrate, an R package we've developed to help us keep our packages running smoothly.
+
+![](featured.png){fig-alt="Cartoon woman with a hardhat and glasses. The colouring is pride rainbow."}
+
+## Links
+
+-   [Slides](https://statsrhian.github.io/talks/2019-11-16-trust-your-pkg/2019-11-16-trust-your-pkg.html#1)
+-   [SatRday Cardiff](https://cardiff2019.satrdays.org/)

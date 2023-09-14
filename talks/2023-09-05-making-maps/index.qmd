@@ -1,0 +1,30 @@
+---
+title: "Making Maps! Visualising spatial data in R"
+subtitle: "RSS International Conference 2023"
+description: "Interactive workshop introducing {sf} and {tmap}"
+date: 2023-09-05
+categories: [conference, workshop]
+image: "featured.jpg"
+img-alt: "A robot pointing at a colourful, framed world map."
+---
+
+## Abstract
+
+Maps can be a powerful way to communicate your research to wider audiences. Traditionally, you would need to use a specific geographic information system (GIS) tool for mapping. R is now a widely used open source software platform for working with spatial data thanks to its powerful analysis and visualisation packages.
+
+In this workshop, you’ll learn the fundamentals of working with geospatial data in R. You'll create high-quality, informative maps - that look great too!
+
+If you want to participate in the exercises, please bring a laptop to the session. There is no need to install anything in advance. Some basic prior knowledge is helpful but not essential for attending this session.
+
+## Links
+
+<p align="center">
+<iframe src="https://jumpingrivers.github.io/rss-making-maps/slides.html" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://jumpingrivers.github.io/rss-making-maps/slides.html)
+
+- [Workshop materials](https://github.com/jumpingrivers/rss-making-maps)
+
+- [RSS International Conference 2023, Harrogate](https://rss.org.uk/training-events/conference-2023/)
+

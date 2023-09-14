@@ -1,0 +1,21 @@
+---
+title: "A Tale of Two Languages "
+subtitle: "PyLadies Munich, PyLadies Tunis & R-Ladies Cologne"
+description: "The challenges and opportunities of working within a bilingual team."
+date: 2022-07-27
+categories: [meetup]
+image: "featured.jpg"
+img-alt: "Three cartoon faces with speech bubbles."
+---
+
+## Abstract
+
+In this talk, Rhian will share stories of how Jumping Rivers develop in both R and Python - often in the same project. Rhian will share how they write all of their Python training materials in R Markdown, and how they built the Diffify tool to analyse R packages in both Python and R. Rhian will also talk a little about the challenges and opportunities they have working within a bilingual team at Jumping Rivers.
+
+![](featured.jpg){fig-alt="Three cartoon faces with speech bubbles"}
+
+## Links
+
+- [Recording](https://www.youtube.com/watch?v=F1n35M3Uihk&feature=share&utm_source=EJGixIgBCJiu2KjB4oSJEQ&t=348)
+- [Slides](https://statsrhian.github.io/talks/2022/2022-07-27-tale-of-two-languages/2022-07-27-tale-two-languages.pdf)
+- [PyLadies + R-Ladies — Bringing the communities together](https://www.meetup.com/rladies-cologne/events/286727615/)

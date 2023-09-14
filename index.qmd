@@ -1,0 +1,35 @@
+---
+title: "Rhian Davies"
+image: img/rhian-davies.jpg
+favicon: img/favicon.ico
+about:
+  template: trestles
+  links:
+  - icon: github
+    text: GitHub
+    href: https://github.com/statsrhian    
+  - icon: mastodon
+    text: Mastodon
+    href: https://fosstodon.org/@statsrhian
+  - icon: twitter
+    text: Twitter
+    href: https://twitter.com/statsrhian
+  - icon: strava
+    text: Strava
+    href: https://www.strava.com/athletes/5412155  
+  - icon: linkedin
+    text: LinkedIn
+    href: https://www.linkedin.com/in/statsrhian
+---
+
+## Hello 👋
+
+I'm a data science leader, statistical consultant and R expert, based in the U.K. 
+
+I'm passionate about using statistics to help people make data driven decisions.
+
+I'm currently Technical Lead of Data Science at [Jumping Rivers](https://www.jumpingrivers.com). 
+
+I’m an active communicator and a statistical ambassador for the [Royal Statistical Society](https://rss.org.uk/), helping journalists and the members of the public understand statistical concepts. 
+
+When I’m not at a laptop, you’ll find me outdoors. I love cycling, sea kayaking, fell running and climbing.

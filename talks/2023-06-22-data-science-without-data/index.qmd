@@ -1,0 +1,34 @@
+---
+title: "Data Science without the Data"
+subtitle: "Rencontres R 2023"
+description: "Maintaining flexibility and adaptability in the face of changing data requirements."
+date: 2023-06-22
+categories: [conference, keynote]
+image: "featured.png"
+img-alt: "Hex sticker for Recontres R 2023. The three arch old bridge of Avignon is in the centre in block yellow."
+---
+
+## Abstract
+
+
+As data scientists, we sometimes find ourselves faced with the daunting task of writing code without actually seeing the data we are working with. Whether it's due to data privacy concerns, limited access, or simply data that has not yet been collected, we often have to rely on incomplete or synthetic data to develop and test our code.
+
+In a recent project, we worked on patient-level data. As such, the controls around the data and analysis (were rightfully) tightly controlled. We'll share how we used dummy data and mock-ups to inform code development, maintaining flexibility and adaptability in the face of changing data requirements. We'll also discuss the importance of and collaboration between developers and subject experts to ensure that code is developed with a deep understanding of the data domain
+
+By understanding these challenges and developing effective strategies for overcoming them, we can ensure that our code is robust, reliable, and effective, even in the absence of direct data access.
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2023/2023-06-22-data-science-without-the-data/slides.html#/title-slide" width="100%" height = "400px"></iframe>
+</p>
+
+-   [Slides](https://statsrhian.github.io/talks/2023/2023-06-22-data-science-without-the-data/slides.html#/title-slide)
+
+-   [Recording](https://www.youtube.com/watch?v=BY9SMkq20AM)
+
+-   [Rencontres R 2023, Avignon](https://rr2023.sciencesconf.org/)
+
+
+
+

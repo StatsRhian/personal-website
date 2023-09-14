@@ -1,0 +1,20 @@
+---
+title: Faster, Safer, Better
+subtitle: IMechE North West Railway Division
+description: A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI). 
+date: "2018-10-23"
+categories: [meetup]
+img: featured.png
+img-alt: "Security camera footage of a train platform with coloured boxes highlighting people."
+---
+
+## Abstract
+
+A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI). An invited talk to the local group of the IMechE Railway division.
+
+![](featured.png){fig-alt="Security camera footage of a train platform with coloured boxes highlighting people."}
+
+## Links
+
+-   [Slides](https://statsrhian.github.io/talks/2018/2018-10-23-mind-the-gap-iMechE/2018-10-23-mind-the-gap-iMechE.html#1)
+-   [IMechE North West Railway Division](https://nearyou.imeche.org/near-you/UK/North-Western/north-western-rd-centre/event-detail?id=15559)

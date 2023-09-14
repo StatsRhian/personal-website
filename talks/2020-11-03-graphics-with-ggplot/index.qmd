@@ -1,0 +1,23 @@
+---
+title: "Introduction to {ggplot2}"
+subtitle: "NHS R Conference 2020"
+description: "A two hour workshop presented at the NHS R Conference."
+date: "2020-11-03"
+categories: [conference, workshop]
+image: featured.jpg
+img-alt: "Cartoon of a female artist painting on a canvas."
+---
+
+## Abstract
+
+One reason to learn R is that it can be used to produce publication quality graphics. In this tutorial we'll introduce you to the fantastic ggplot2 package and help you create many different types of plots. We'll explain "geoms"
+and "aesthetics" and give you a flavour of the different ways you can adapt the look of your plots. This workshop will be very hands-on and no previous knowledge of {ggplot2} is necessary.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jiuDr4aYgkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Links
+
+-  [Slides](https://jumpingrivers.github.io/nhs-ggplot2/slides.html#1)
+- [NHS R Conference 2020](https://nhsrcommunity.com/events/nhs-r-community-conference-nov2020)

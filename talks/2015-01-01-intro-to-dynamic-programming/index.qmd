@@ -1,0 +1,14 @@
+---
+title: "An Introduction to Dynamic Programming"
+description: "A short introduction to dynamic programming. Aimed at 16 - 18 year olds."
+date: 2015-01-01
+categories: [outreach]
+image: featured.png
+img-alt: "A character from Skyrim in full battle clothing stoof near a river."
+---
+
+Introducing the knapsack problem and travel routing.
+
+![](featured.png){fig-alt="A character from Skyrim in full battle clothing stoof near a river."}
+
+-   [Code Repo](https://github.com/statsrhian/talks/tree/main/2015/2015-01-01-intro-to-dynamic-programming)

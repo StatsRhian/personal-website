@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: a57378fe-ab34-4cbf-ac53-defcb88c6975
+      url: 'https://kaleidoscopic-pixie-f709ac.netlify.app'

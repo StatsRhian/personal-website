@@ -1,0 +1,9 @@
+---
+title: "Talks"
+listing:
+  contents: talks
+  sort-ui: false
+  sort: "date desc"
+  filter-ui: [title, description, date]
+  categories: true
+---

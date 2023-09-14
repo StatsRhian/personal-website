@@ -1,0 +1,27 @@
+---
+title: "Share your data story"
+subtitle: "RSS International Conference 2023"
+description: "Tips for getting started with a data science portfolio."
+date: 2023-09-04
+categories: [conference]
+image: "featured.jpg"
+img-alt: "A swimmer in a river looking happy."
+---
+
+## Abstract
+
+A data science portfolio is a great way to showcase what makes you standout. In this workshop, I'll convince you that you don't have to have to have it all to get started with a professional portfolio.
+
+For the pre-workshop for early career statisticians.
+
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2023/2023-09-04-share-your-data-story/slides.html#1" width="100%" height = "400px"></iframe>
+</p>
+
+-   [Slides](https://statsrhian.github.io/talks/2023/2023-09-04-share-your-data-story/slides.html#1)
+
+-   [RSS International Conference 2023, Harrogate](https://rss.org.uk/training-events/conference-2023/)
+
