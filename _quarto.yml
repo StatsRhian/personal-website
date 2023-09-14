@@ -13,7 +13,7 @@ website:
       - talks.qmd
       - projects.qmd
       - text: "C.V."
-        href: https://statsrhian.github.io/CV/cv.pdf
+        href: https://statsrhian.github.io/CV/davies-rhian.pdf
 
 format:
   html:
