@@ -1,10 +1,10 @@
 ---
-title: "Selecting the right tool for visualisation"
+title: "On-demand overviews: Automatic reporting for managers"
 subtitle: "Data Innovation Showcase, National Innovation Centre for Data"
 description: "From Zero to Data Science Hero."
 date: 2023-09-28
 categories: [conference]
-image: "featured.jpg"
+image: "featured.png"
 img-alt: ""
 ---
 
@@ -13,6 +13,12 @@ img-alt: ""
 Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don't miss out on this opportunity to innovate!
 
 ## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2023/2023-09-reporting-for-managers/slides.html" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/talks/2023/2023-09-reporting-for-managers/slides.html)
 
 - [Data Innovation Showcase, National Innovation Centre for Data](https://www.nicd.org.uk/data-innovation-showcase)
 
