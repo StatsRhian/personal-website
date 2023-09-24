@@ -1,0 +1,22 @@
+---
+title: "Magic, Syphilis and C.S.I"
+subtitle: "STOR-i Forucm"
+description: "A friendly introduction to Compressive Sensing."
+date: 2013-11-01
+categories: [meetup]
+image: "featured.png"
+img-alt: "A balanced weighing scale"
+draft: false
+---
+
+## Abstract
+
+Introducing Compressive Sensing through examples of statistical pooling.
+
+## Links
+
+[Slides](https://statsrhian.github.io/talks/2013/2013-10-SDF-conference/slides.pdf)
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2013/2013-11-magic-syphilis-and-csi/slides.pdf" width="100%" height = "400px"></iframe>
+</p>

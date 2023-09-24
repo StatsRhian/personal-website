@@ -1,0 +1,22 @@
+---
+title: "The effect of recovery algorithms on compressive sensing background subtraction"
+subtitle: "2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)"
+description: "Background subtraction is a key method required to aid processing surveillance videos."
+date: 2013-10-11
+categories: [conference]
+image: "featured.png"
+img-alt: "A man starting into an old cine camera"
+---
+
+## Abstract
+
+Background subtraction is a key method required to aid processing surveillance videos. Current methods require storing each pixel of every video frame, which can be wasteful as most of this information refers to the uninteresting background. Compressive sensing can offer an efficient solution by using the fact that foreground is often sparse in the spatial domain. By making this assumption and applying a specific recovery algorithm to a trained background, it is possible to reconstruct the foreground, using only a low dimensional representation of the difference between the current frame and the estimated background scene. Although new compressive sensing background subtraction algorithms are being created, no study has been made of the effect of recovery algorithms on performance of background subtraction. This is considered by applying both Basis Pursuit and Orthogonal Matching Pursuit (OMP) to a standard test video, and comparing their accuracy.
+
+## Links
+
+[Slides](https://statsrhian.github.io/talks/2013/2013-10-SDF-conference/slides.pdf)
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2013/2013-10-SDF-conference/slides.pdf" width="100%" height = "400px"></iframe>
+</p>
+
