@@ -1,5 +1,5 @@
 ---
-title: "Visualisation"
+title: "Communicating risks and uncertainty in health statistics for the users"
 subtitle: "RSS Official Stats and the Health Stats Users"
 description: "Communicating risks and uncertainty in health statistics for the users."
 date: 2023-11-20
@@ -10,7 +10,11 @@ img-alt: ""
 
 ## Abstract
 
-TBA
+TBC
+
+How do you best communicate complex pictures to a wide audience without confusing and over complicated explanations, particularly when the focus is on improved accessibility with clear and understandable messages?
+How do you balance transparent and accurate reporting with accessibility?  
+What does work when communicating health risks and survival to users? What does not?
 
 
 
