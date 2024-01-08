@@ -1,18 +1,8 @@
 [
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/hill-climbs/index.html",
-      "/projects/levelup/index.html",
-      "/projects/recipes/index.html",
-      "/projects/paddle-blog/index.html",
-      "/projects/these-are-my-rivers/index.html"
-    ]
-  },
-  {
     "listing": "/talks.html",
     "items": [
-      "/talks/2023-11-20-communicating-health-stats/index.html",
+      "/talks/2024-01-11-stori-career/index.html",
       "/talks/2023-09-27-reporting-for-managers/index.html",
       "/talks/2023-09-06-code-mess/index.html",
       "/talks/2023-09-05-making-maps/index.html",
@@ -37,6 +27,16 @@
       "/talks/2013-11-magic-syphilis-csi/index.html",
       "/talks/2013-10-sdf/index.html",
       "/talks/2013-02-14-love-and-mathematics/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/hill-climbs/index.html",
+      "/projects/levelup/index.html",
+      "/projects/recipes/index.html",
+      "/projects/paddle-blog/index.html",
+      "/projects/these-are-my-rivers/index.html"
     ]
   }
 ]

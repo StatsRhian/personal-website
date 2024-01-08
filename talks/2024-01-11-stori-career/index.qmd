@@ -1,0 +1,27 @@
+---
+title: "A personal STOR-i"
+subtitle: "STOR-i annual conference"
+description: "Career and leadership talk"
+date: 2024-01-11
+categories: [conference]
+image: "featured.png"
+img-alt: ""
+---
+
+## Abstract
+
+STOR-i is committed to developing and disseminating research of direct relevance to industry and government as well as to the academic community. We hold an annual conference to showcase STOR-i’s research progress and achievement.
+
+The Annual Conference provides an opportunity to cement co-working within STOR-i and stimulate the pooling of ideas and the discussion of research opportunities within targeted areas. The annual conference is open to our industrial partners, to visiting PhD students, and to our external advisers.
+
+I'm presenting a career and leadership talk, reflecting on my jobs so far.
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2024/2024-01-stori/2024-01-stori.html" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/talks/2024/2024-01-stori/2024-01-stori.html)
+
+- [STOR-i Annual Conference](https://www.lancaster.ac.uk/stor-i/research/workshops-and-seminars)
