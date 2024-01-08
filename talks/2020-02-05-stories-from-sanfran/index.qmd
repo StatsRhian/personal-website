@@ -3,7 +3,7 @@ title: "Stories from San Francisco"
 subtitle: R-Ladies Lancaster
 description: "What I learnt at RStudio Conference 2020"
 date: 2020-02-05
-categories: [meetup]
+categories: [meetup, R, R-Ladies]
 image: "featured.jpg"
 img-alt: "Aerial shot of R-Ladies at RStudio conference 2020. Hundreds of women waving at the camera."
 ---

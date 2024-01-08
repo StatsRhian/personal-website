@@ -3,7 +3,7 @@ title: A day in the life with R
 description: A whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps. 
 date: "2019-05-01"
 subtitle: R-Ladies Lancaster
-categories: [meetup]
+categories: [meetup, R, R-Ladies]
 image: featured.png
 img-alt: "Seven hex stickers including rtweet, rmarkdown and data pasta."
 ---

@@ -3,7 +3,7 @@ title: "Share your Models with R {plumber} APIs"
 subtitle: "RSS International Conference 2022"
 description: "What is an API? And why would I make one?"
 date: 2022-09-13
-categories: [conference]
+categories: [conference, R, programming]
 image: "featured.jpg"
 img-alt: "Baby ring tailed lemur being held by two gloved hands."
 ---

@@ -3,7 +3,7 @@ title: "Taking the stress out of your code mess"
 subtitle: "RSS International Conference 2023"
 description: "Actionable tips to help you refactor your code"
 date: 2023-09-06
-categories: [conference]
+categories: [conference, programming]
 image: "featured.jpg"
 img-alt: "Cartoon of a robot stood in the shadow of a large pile of data. The pile is about 4 times as high as the robot."
 ---

@@ -3,7 +3,7 @@ title: "Changing the world with data"
 subtitle: "Speakers for Schools"
 description: "A taste of what it’s like to be a problem solver for a living"
 date: 2023-02-23
-categories: [outreach]
+categories: [outreach, data science]
 image: "featured.png"
 img-alt: "Cartoon of Rhian and Clarissa with lots of penguins."
 ---

@@ -3,7 +3,7 @@ title: "Share your data story"
 subtitle: "RSS International Conference 2023"
 description: "Tips for getting started with a data science portfolio."
 date: 2023-09-04
-categories: [conference]
+categories: [conference, workshop, career]
 image: "featured.jpg"
 img-alt: "A swimmer in a river looking happy."
 ---

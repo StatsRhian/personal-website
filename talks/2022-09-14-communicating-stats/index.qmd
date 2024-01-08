@@ -3,7 +3,7 @@ title: "Don't Panic! The Ambassadors guide to communicating statistics"
 subtitle: "RSS International Conference 2022"
 description: "Advice and guidance on communicating complex statistical ideas and concepts in plain language"
 date: 2022-09-14
-categories: [conference, workshop]
+categories: [conference, workshop, communication]
 image: "featured.jpg"
 img-alt: "Royal Statistical Society logo. A yellow vertical bar."
 ---

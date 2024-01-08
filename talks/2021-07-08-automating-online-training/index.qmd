@@ -3,7 +3,7 @@ title: "Automating Bespoke Online Teaching"
 subtitle: "UseR! 2021"
 description: "Using R to create a bespoke learning environment automatically."
 date: 2021-07-08
-categories: [conference]
+categories: [conference, R]
 image: "featured.png"
 img-alt: "Cartoon depicting a classroom of adults. A male is stood at the from of the class pointing at the letter R on a projector."
 ---

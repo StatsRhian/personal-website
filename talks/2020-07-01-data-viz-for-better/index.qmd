@@ -3,7 +3,7 @@ title: Data Viz for Better
 subtitle: RSS Merseyside
 description: Investigating Florence Nightingale's Polar Area Diagram and discussing how she used them to argue a case for better hospital management. 
 date: "2020-07-01"
-categories: [meetup]
+categories: [meetup, visualisation, ggplot2, R]
 image: featured.jpeg
 img-alt: "Original polar area diagrams, made by FLorence Nightingale. Segments coming out from a central point."
 ---

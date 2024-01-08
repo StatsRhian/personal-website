@@ -3,7 +3,7 @@ title: Faster, Safer, Better
 subtitle: IMechE North West Railway Division
 description: A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI). 
 date: "2018-10-23"
-categories: [meetup]
+categories: [meetup, rail]
 img: featured.png
 img-alt: "Security camera footage of a train platform with coloured boxes highlighting people."
 ---

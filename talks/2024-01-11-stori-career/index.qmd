@@ -3,7 +3,7 @@ title: "A personal STOR-i"
 subtitle: "STOR-i annual conference"
 description: "Career and leadership talk"
 date: 2024-01-11
-categories: [conference]
+categories: [conference, career]
 image: "featured.png"
 img-alt: ""
 ---

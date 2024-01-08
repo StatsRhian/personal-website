@@ -3,7 +3,7 @@ title: "Reproducible data reports with Quarto"
 subtitle: "RSS International Conference 2022"
 description: "Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story."
 date: 2022-09-15
-categories: [conference, workshop]
+categories: [conference, workshop, quarto]
 image: "featured.jpg"
 img-alt: "Lemur looks at the camera."
 ---

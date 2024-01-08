@@ -3,7 +3,7 @@ title: "Making Maps! Visualising spatial data in R"
 subtitle: "RSS International Conference 2023"
 description: "Interactive workshop introducing {sf} and {tmap}"
 date: 2023-09-05
-categories: [conference, workshop]
+categories: [conference, workshop, R, spatial]
 image: "featured.jpg"
 img-alt: "A robot pointing at a colourful, framed world map."
 ---

@@ -3,7 +3,7 @@ title: "Introduction to {ggplot2}"
 subtitle: "NHS R Conference 2020"
 description: "A two hour workshop presented at the NHS R Conference."
 date: "2020-11-03"
-categories: [conference, workshop]
+categories: [conference, workshop, R, ggplot2]
 image: featured.jpg
 img-alt: "Cartoon of a female artist painting on a canvas."
 ---

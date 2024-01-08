@@ -3,7 +3,7 @@ title: "On-demand overviews"
 subtitle: "Data Innovation Showcase, National Innovation Centre for Data"
 description: "Automatic reporting for managers."
 date: 2023-09-28
-categories: [conference]
+categories: [conference, R, quarto]
 image: "featured.png"
 img-alt: ""
 ---

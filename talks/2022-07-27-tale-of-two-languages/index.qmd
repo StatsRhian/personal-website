@@ -3,7 +3,7 @@ title: "A Tale of Two Languages "
 subtitle: "PyLadies Munich, PyLadies Tunis & R-Ladies Cologne"
 description: "The challenges and opportunities of working within a bilingual team."
 date: 2022-07-27
-categories: [meetup]
+categories: [meetup, career, R-Ladies, PyLadies]
 image: "featured.jpg"
 img-alt: "Three cartoon faces with speech bubbles."
 ---
