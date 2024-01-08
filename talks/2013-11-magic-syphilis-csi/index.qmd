@@ -1,6 +1,6 @@
 ---
 title: "Magic, Syphilis and C.S.I"
-subtitle: "STOR-i Forucm"
+subtitle: "STOR-i Forum"
 description: "A friendly introduction to Compressive Sensing."
 date: 2013-11-01
 categories: [meetup]
