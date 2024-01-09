@@ -14,6 +14,7 @@ website:
       - projects.qmd
       - text: "C.V."
         href: https://statsrhian.github.io/CV/davies-rhian.pdf
+      - now.qmd
 
 format:
   html:
