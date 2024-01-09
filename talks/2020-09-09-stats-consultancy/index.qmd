@@ -2,7 +2,7 @@
 title: "Statistical consultancy: advice for going it alone"
 subtitle: "RSS International Conference 2020"
 description: "Panel session"
-date: 2020-12-01
+date: 2020-09-09
 categories: [conference, career]
 image: "featured.png"
 img-alt: "Online conferencing with Rhian Davies, Sophie Carr, Rob Mastrodomenico and Holly Jones."
