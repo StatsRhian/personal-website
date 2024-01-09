@@ -1,0 +1,21 @@
+---
+title: "Statistical consultancy: advice for going it alone"
+subtitle: "RSS International Conference 2020"
+description: "Panel session"
+date: 2020-09-09
+categories: [conference, career]
+image: "featured.png"
+img-alt: "Online conferencing with Rhian Davies, Sophie Carr, Rob Mastrodomenico and Holly Jones."
+---
+
+## Abstract
+
+Statistical consultants supply expert advice, deliver statistical analysis, and provide training to individuals, organisations and businesses. There are many different types of consulting, each with benefits and difficulties. While this variety may encourage many into the field, it can also make the leap into consultancy seem daunting for young statisticians.
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QuKAgWaJls4?si=WWDQ68l7rlfQMO6U&amp;start=527s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Notes
+
+My notes for the panel session are on [GitHub](https://github.com/StatsRhian/talks/blob/main/2020/2020-09-09-rss-statistical-consultancy/notes.md).
