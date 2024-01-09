@@ -1,0 +1,22 @@
+---
+title: "The varied life of a data scientist"
+subtitle: Various University departments
+description: "Career talk aimed at undergraduates considering data science careers."
+date: 2020-12-01
+categories: [career]
+image: "featured.jpg"
+img-alt: "Rhian is gesticulating whilst stood at a wooden lecturn. The RSS logo is visible on the screen behind."
+---
+
+## Abstract
+
+Career talk given at a different departments at Lancaster and Newcastle University.
+
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/talks/2020/2020-12-01-career-talk/2020-12-01-career-talk.html#1" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/talks/2020/2020-12-01-career-talk/2020-12-01-career-talk.html#1)

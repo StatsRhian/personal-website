@@ -1,7 +1,7 @@
 ---
 title: "A personal STOR-i"
 subtitle: "STOR-i annual conference"
-description: "Career and leadership talk"
+description: "Personal career and leadership talk aimed at postgraduate statisticians."
 date: 2024-01-11
 categories: [conference, career]
 image: "featured.png"
