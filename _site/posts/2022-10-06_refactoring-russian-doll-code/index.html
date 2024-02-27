@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-07-08">
-<meta name="description" content="Using R to create a bespoke learning environment automatically.">
+<meta name="dcterms.date" content="2022-10-06">
+<meta name="description" content="Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.">
 
-<title>Rhian Davies - Automating Bespoke Online Teaching</title>
+<title>Rhian Davies - Refactoring Russian Doll Code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -120,16 +154,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Automating Bespoke Online Teaching</h1>
-            <p class="subtitle lead">UseR! 2021</p>
+      <h1 class="title">Refactoring Russian Doll Code</h1>
                   <div>
         <div class="description">
-          Using R to create a bespoke learning environment automatically.
+          Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">conference</div>
                 <div class="quarto-category">R</div>
+                <div class="quarto-category">refactoring</div>
               </div>
                   </div>
   </div>
@@ -141,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 8, 2021</p>
+        <p class="date">October 6, 2022</p>
       </div>
     </div>
     
@@ -159,19 +192,79 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>At Jumping Rivers we deliver over 100 R, Python and Stan training courses each year, engaging with thousands of new learners. The necessity to move to fully online training in March last year meant we quickly had to completely rethink how to deliver R training interactively online. We internally trialed running our usual in-person training just on Zoom - and it really doesn’t work trust us! We already used R &amp; R Markdown to create all training materials including slides and notes. However, our new workflow uses R in every step of the way, from creating a bespoke learning environment, to collating feedback and generating certificates. This improves the learning experience as the small things are automated and allows the trainer to concentrate on actual training.</p>
-<p align="center">
-<iframe src="https://statsrhian.github.io/talks/2021/2021-07-08-automating-bespoke-online-teaching/2021-07-08-automating-bespoke-online-teaching.html#1" width="100%" height="400px">
-</iframe>
-</p>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/tR7sNOPq9-I?start=578" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-<ul>
-<li><p><a href="https://statsrhian.github.io/talks/2021/2021-07-08-automating-bespoke-online-teaching/2021-07-08-automating-bespoke-online-teaching.html#1">Slides</a></p></li>
-<li><p><a href="https://user2021.r-project.org/">useR! 2021, Virtual</a></p></li>
-</ul>
+<p>Recently, I’ve been working with an environmental scientist to refactor a large R package. Let’s call her Jane.</p>
+<p>Jane inherited a mess of code, and had to get it working as quickly as possible. She tidied up it as best as she could in the time, but now that the company depended on it, it needed some attention. We referred to it as her “Russian Doll code” because it had many nested functions, each passing the same giant nested lists back and forth. I could see that it frustrated her every time she had to touch it as she knew there was a better way to structure the code.</p>
+<p>We booked in some 1:1 support sessions and sat down together with the aim of making the code easier to work with.</p>
+<p><img src="vacuum.png" title="Tidy your code" alt="Jumping Rivers robot using a vacuum cleaner on a pile of code and text." style="display: block; width: 400px; margin-right: auto; margin-left: auto;"></p>
+<section id="define-the-messy-zone" class="level3">
+<h3 class="anchored" data-anchor-id="define-the-messy-zone">Define the messy zone</h3>
+<p>You know when you tidy your bedroom, you optimistically pull <em>everything</em> out onto the floor. A few hours later, the bed is covered and there are piles of clothes everywhere. There’s no going back, and you aren’t going to be able to sleep on your bed tonight unless you clean everything. (Just me?)</p>
+<p>Throughout the refactoring process, it was essential that we were able to continuously run and test the functionality of the package. But how could we rewrite all of our functions without affecting the functionality of the whole code base?</p>
+<p>We decided to start with the smallest functions, and re-write the main body of the code. However, in order to ensure the higher-level functions still worked, we defined a <em>messy zone</em> at the start and end of each function. In the top messy zone, we would reassign any function parameters to have better names and structure. In the bottom messy zone, we would ensure that the function return matched the old return. We were then free to completely refactor the main bit of the function, knowing that the inputs and outputs were handled.</p>
+<p>Being explicit about where the mess is “allowed” let us to focus on simplifying and clarifying the internals whilst still ensuring that the higher level code functioned as expected. It also meant that we didn’t have to decide on the structure of the function parameters initially, and we could work that out naturally as the code evolved. It also gave us clear markers of where we would need to clean up later, and avoided the issue of forgetting to change parameters everywhere.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>example <span class="ot">=</span> <span class="cf">function</span>(arg1, arg2) {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Messy zone</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    a_better_name <span class="ot">=</span> arg1<span class="sc">$</span>mess<span class="sc">$</span>ugh</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    helpful_name <span class="ot">=</span> arg2<span class="sc">$</span>what<span class="sc">$</span>is<span class="sc">$</span>this</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Refactor the internals</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    useful_result <span class="ot">=</span> a_better_name <span class="sc">+</span> helpful_name</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    sensible_name_tibble <span class="ot">=</span> a_better_name <span class="sc">*</span> helpful_name    </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Messy Zone</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    results<span class="sc">$</span>some<span class="sc">$</span>mess <span class="ot">=</span> useful_result</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    results<span class="sc">$</span>another<span class="sc">$</span>naff<span class="sc">$</span>list <span class="ot">=</span> sensible_name_tibble</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="push-the-mess-up-push-it-real-good" class="level3">
+<h3 class="anchored" data-anchor-id="push-the-mess-up-push-it-real-good">Push the mess up (Push it real good)</h3>
+<p>Once we refactored the main bodies of all the small, inner functions, it was time to clean up the mess we had made earlier. We started by listing the arguments and returns of the inner functions. Once we had decided on sensible names and formats, we changed them all in one go across all functions - clearing the messy zone.</p>
+<p>We were then free to move up a level, to the next Russian doll, pushing the mess up. We kept repeating this process, slowly moving up through the layers, from the smallest Russian doll, up until we were at the top of the code base.</p>
+<p><img src="featured.jpg" title="Russian Dolls" alt="Seven, traditional wooden Russian Dolls doing from largerst on the left, to smallest on the right." style="display: block; width: 400px; margin-right: auto; margin-left: auto;"></p>
+</section>
+<section id="start-with-a-blank-slate" class="level3">
+<h3 class="anchored" data-anchor-id="start-with-a-blank-slate">Start with a blank slate</h3>
+<p>When you’re refactoring a function, it can be tempting to copy the old function into a new script, and just start editing. However, the copy-paste method for refactoring can tie you to the style of the old function, making redesign harder. We found that writing the revised functions from scratch forced us to reconsider every step of the old function and challenge every step. Ask yourself, what is this function actually trying to achieve, and how should we implement it?</p>
+</section>
+<section id="take-time-to-design" class="level3">
+<h3 class="anchored" data-anchor-id="take-time-to-design">Take time to design</h3>
+<p>Jane and I had one session where we didn’t touch any code <em>at all</em>. We talked, doodled and drew diagrams. You might leave a session like this feeling a little deflated that you didn’t achieve anything. However, that session was actually the most valuable. In the following session we made huge progress, because we had already done the hard work of thinking out the design fully. We were able to whizz through the functions, implementing our new design efficiently. We found ourselves constantly referring back to the diagrams to remind ourselves of the design choices we had made.</p>
+</section>
+<section id="a-good-name-goes-a-long-way" class="level3">
+<h3 class="anchored" data-anchor-id="a-good-name-goes-a-long-way">A good name goes a long way</h3>
+<p>We all know that it’s important to choose good names for parameters and functions. However, in this project, I was surprised just how much of a difference a good name makes. Sometimes, the <em>only</em> thing we would change in a function would be the names. Often a simple rename morphed the unintelligible code in front of me into a clear, readable explanation of the approach.</p>
+</section>
+<section id="test-regularly" class="level3">
+<h3 class="anchored" data-anchor-id="test-regularly">Test regularly</h3>
+<p>Things are going to go wrong. You are going to accidentally delete a line of code, or put a bracket in the wrong place. If you ensure that your code is always run-able then you can constantly check your code still works by running your tests. This is particularly important when implementing statistical models to ensure that numerical results are unaffected by the refactor. In R, the <a href="https://testthat.r-lib.org/">{testthat}</a> package makes it easy and painless to add package tests. If you’re using git, using continuous integration to run an R package check on every commit takes away the burden of remembering to stop and test.</p>
+</section>
+<section id="why-rather-than-how" class="level3">
+<h3 class="anchored" data-anchor-id="why-rather-than-how">Why rather than How</h3>
+<p>The code was initially what I would call “<strong>How</strong>” programming. The different components of the functions were grouped by <em>how</em> the calculations were computed programmatically rather than <em>why</em> we were calculating them. This made it hard for someone new to the code to understand what each function did.</p>
+<p>I’m not an environmental scientist, so I don’t understand all of the science behind Jane’s complex model. However, by asking questions about what she was trying to achieve, we re-grouped the different stages of each function in terms of the science, rather than the implementation. Changing focus of the code to the scientific method made it much clearer to follow.</p>
+<p><img src="colab.jpg" title="Collaboration" alt="Cartoon of  four people sat around a table, with laptops. One of them is pointing at a projector screen with the python logo on it." style="display: block; width: 400px; margin-right: auto; margin-left: auto;"></p>
+</section>
+<section id="do-it-with-a-friend" class="level3">
+<h3 class="anchored" data-anchor-id="do-it-with-a-friend">Do it with a friend</h3>
+<p>Refactoring can be quite daunting. You’ve often got lots of moving parts and it can be difficult to hold both the overall design, and the small technical details in your head at the same time. Having someone to pair program with you makes this much easier. In our sessions, Jane would “drive”, coding the finer technical implementations, whilst I was the passenger, observing and challenging her on whether the implementation she was writing fitted in with our grand design. The person helping you doesn’t have to understand the code in detail, in fact sometimes it helps if they don’t! It can also be more fun to work collaboratively, we would celebrate together when we were able to delete a large chunk of obsolete code.</p>
+</section>
+<section id="wrap-up" class="level3">
+<h3 class="anchored" data-anchor-id="wrap-up">Wrap up</h3>
+<p>Refactoring code properly takes time, and sometimes it can be hard to justify the cost. However, poorly written code is difficult to develop, time consuming to maintain and tends to mask bugs which are hiding in the cobwebs of functions that no-one really understands any more. Hopefully these tips will help the next time you get the chance to refactor some code. Here they are again:</p>
+<ol type="1">
+<li>Define the messy zone</li>
+<li>Push the mess up</li>
+<li>Start with a blank slate</li>
+<li>Take time to design</li>
+<li>A good name goes a long way</li>
+<li>Test regularly</li>
+<li>Why rather than How</li>
+<li>Do it with a friend</li>
+</ol>
+<p><em>This post first appeared at <a href="https://www.jumpingrivers.com/blog/refactoring-russian-doll-code/">jumpingrivers.com/blog</a></em></p>
 
 
 </section>

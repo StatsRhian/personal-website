@@ -11,6 +11,7 @@ website:
       - text: "About"
         file: index.qmd
       - talks.qmd
+      - posts.qmd
       - projects.qmd
       - text: "C.V."
         href: https://statsrhian.github.io/CV/davies-rhian.pdf

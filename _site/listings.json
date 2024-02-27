@@ -41,5 +41,11 @@
       "/projects/paddle-blog/index.html",
       "/projects/these-are-my-rivers/index.html"
     ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2022-10-06_refactoring-russian-doll-code/index.html"
+    ]
   }
 ]
