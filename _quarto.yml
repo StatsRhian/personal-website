@@ -19,4 +19,6 @@ website:
 
 format:
   html:
-    theme: theme.scss
+    theme:
+       light: [flatly, theme-light.scss]
+       dark: darkly
