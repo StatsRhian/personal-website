@@ -1,0 +1,23 @@
+---
+title: "Cleaner code with CI"
+subtitle: RStudio Conference 2020
+description: "What is CI and how can it help me write awesome code?"
+date: 2020-01-29
+categories: [conference, lightning-talk, git, ci/cd]
+image: "featured.jpg"
+img-alt: "Rhian, Ian, Seb and Theo stood at the Jumping Rivers stand at Posit conference 2020."
+---
+
+I was asked to present a lightning talk at an R-Ladies breakfast session at Posit conference.
+
+## Abstract
+
+What is continuous integration (CI) and how can it help me write awesome code? I'll explain the basic idea of CI and share stories of my experience with it so far.
+
+## Content
+
+## Links
+
+- [Slides](https://statsrhian.github.io/talks/2020/2020-01-29-cleaner-code-with-CI/2020-01-29-cleaner-code-with-CI.pdf)
+
+- [Speaker notes](https://statsrhian.github.io/talks/2020/2020-01-29-cleaner-code-with-CI/peaker-notes.html)

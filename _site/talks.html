@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -97,15 +104,42 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./img/letter-R.png" alt="A handwritten, blue, letter R" class="navbar-logo">
     </a>
@@ -120,34 +154,34 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./talks.html" rel="" target="" aria-current="page">
- <span class="menu-text">Talks</span></a>
+    <a class="nav-link active" href="./talks.html" aria-current="page"> 
+<span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://statsrhian.github.io/CV/davies-rhian.pdf" rel="" target="">
- <span class="menu-text">C.V.</span></a>
+    <a class="nav-link" href="https://statsrhian.github.io/CV/davies-rhian.pdf"> 
+<span class="menu-text">C.V.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./now.html" rel="" target="">
- <span class="menu-text">Now</span></a>
+    <a class="nav-link" href="./now.html"> 
+<span class="menu-text">Now</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -157,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(28)</span></div><div class="category" data-category="PyLadies">PyLadies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(8)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(3)</span></div><div class="category" data-category="career">career <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ci/cd">ci/cd <span class="quarto-category-count">(1)</span></div><div class="category" data-category="communication">communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="compressive sensing">compressive sensing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(14)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="git">git <span class="quarto-category-count">(1)</span></div><div class="category" data-category="keynote">keynote <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meetup">meetup <span class="quarto-category-count">(7)</span></div><div class="category" data-category="outreach">outreach <span class="quarto-category-count">(6)</span></div><div class="category" data-category="programming">programming <span class="quarto-category-count">(3)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="rail">rail <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spatial">spatial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualisation">visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(6)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(29)</span></div><div class="category" data-category="PyLadies">PyLadies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(8)</span></div><div class="category" data-category="R-Ladies">R-Ladies <span class="quarto-category-count">(3)</span></div><div class="category" data-category="career">career <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ci/cd">ci/cd <span class="quarto-category-count">(2)</span></div><div class="category" data-category="communication">communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="compressive sensing">compressive sensing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(15)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="git">git <span class="quarto-category-count">(2)</span></div><div class="category" data-category="keynote">keynote <span class="quarto-category-count">(1)</span></div><div class="category" data-category="lightning-talk">lightning-talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meetup">meetup <span class="quarto-category-count">(7)</span></div><div class="category" data-category="outreach">outreach <span class="quarto-category-count">(6)</span></div><div class="category" data-category="programming">programming <span class="quarto-category-count">(3)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="rail">rail <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spatial">spatial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualisation">visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -176,7 +210,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -190,19 +226,19 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="conference,career" data-listing-date-sort="1704931200000" data-listing-file-modified-sort="1709074191700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="conference,career" data-listing-date-sort="1704931200000" data-listing-file-modified-sort="1709387385653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
 <div class="thumbnail">
-<p><a href="./talks/2024-01-11-stori-career/index.html"> <img src="./talks/2024-01-11-stori-career/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2024-01-11-stori-career/index.html" class="no-external"></a></p><a href="./talks/2024-01-11-stori-career/index.html" class="no-external">
+<p><img src="./talks/2024-01-11-stori-career/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2024-01-11-stori-career/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2024-01-11-stori-career/index.html">
 <h3 class="no-anchor listing-title">
-A personal STOR-i
+<a href="./talks/2024-01-11-stori-career/index.html" class="no-external">A personal STOR-i</a>
 </h3>
 <div class="listing-subtitle">
-STOR-i annual conference
+<a href="./talks/2024-01-11-stori-career/index.html" class="no-external">STOR-i annual conference</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -211,33 +247,31 @@ conference
 career
 </div>
 </div>
-<a href="./talks/2024-01-11-stori-career/index.html">
 <div class="listing-description">
-<p>Personal career and leadership talk aimed at postgraduate statisticians.</p>
+<a href="./talks/2024-01-11-stori-career/index.html" class="no-external">Personal career and leadership talk aimed at postgraduate statisticians.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2024-01-11-stori-career/index.html">
+<a href="./talks/2024-01-11-stori-career/index.html" class="no-external">
 <div class="listing-date">
 Jan 11, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="conference,R,quarto" data-listing-date-sort="1695855600000" data-listing-file-modified-sort="1709074191700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="conference,R,quarto" data-listing-date-sort="1695855600000" data-listing-file-modified-sort="1709387385649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
 <div class="thumbnail">
-<p><a href="./talks/2023-09-27-reporting-for-managers/index.html"> <img src="./talks/2023-09-27-reporting-for-managers/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external"></a></p><a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external">
+<p><img src="./talks/2023-09-27-reporting-for-managers/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-09-27-reporting-for-managers/index.html">
 <h3 class="no-anchor listing-title">
-On-demand overviews
+<a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external">On-demand overviews</a>
 </h3>
 <div class="listing-subtitle">
-Data Innovation Showcase, National Innovation Centre for Data
+<a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external">Data Innovation Showcase, National Innovation Centre for Data</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -249,33 +283,31 @@ R
 quarto
 </div>
 </div>
-<a href="./talks/2023-09-27-reporting-for-managers/index.html">
 <div class="listing-description">
-<p>Automatic reporting for managers.</p>
+<a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external">Automatic reporting for managers.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-09-27-reporting-for-managers/index.html">
+<a href="./talks/2023-09-27-reporting-for-managers/index.html" class="no-external">
 <div class="listing-date">
 Sep 28, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="conference,programming" data-listing-date-sort="1693954800000" data-listing-file-modified-sort="1709074191696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="conference,programming" data-listing-date-sort="1693954800000" data-listing-file-modified-sort="1709387385649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
 <div class="thumbnail">
-<p><a href="./talks/2023-09-06-code-mess/index.html"> <img src="./talks/2023-09-06-code-mess/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-09-06-code-mess/index.html" class="no-external"></a></p><a href="./talks/2023-09-06-code-mess/index.html" class="no-external">
+<p><img src="./talks/2023-09-06-code-mess/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-09-06-code-mess/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-09-06-code-mess/index.html">
 <h3 class="no-anchor listing-title">
-Taking the stress out of your code mess
+<a href="./talks/2023-09-06-code-mess/index.html" class="no-external">Taking the stress out of your code mess</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2023
+<a href="./talks/2023-09-06-code-mess/index.html" class="no-external">RSS International Conference 2023</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -284,33 +316,31 @@ conference
 programming
 </div>
 </div>
-<a href="./talks/2023-09-06-code-mess/index.html">
 <div class="listing-description">
-<p>Actionable tips to help you refactor your code</p>
+<a href="./talks/2023-09-06-code-mess/index.html" class="no-external">Actionable tips to help you refactor your code</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-09-06-code-mess/index.html">
+<a href="./talks/2023-09-06-code-mess/index.html" class="no-external">
 <div class="listing-date">
 Sep 6, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="conference,workshop,R,spatial" data-listing-date-sort="1693868400000" data-listing-file-modified-sort="1709074191696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="conference,workshop,R,spatial" data-listing-date-sort="1693868400000" data-listing-file-modified-sort="1709387385649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
 <div class="thumbnail">
-<p><a href="./talks/2023-09-05-making-maps/index.html"> <img src="./talks/2023-09-05-making-maps/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-09-05-making-maps/index.html" class="no-external"></a></p><a href="./talks/2023-09-05-making-maps/index.html" class="no-external">
+<p><img src="./talks/2023-09-05-making-maps/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-09-05-making-maps/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-09-05-making-maps/index.html">
 <h3 class="no-anchor listing-title">
-Making Maps! Visualising spatial data in R
+<a href="./talks/2023-09-05-making-maps/index.html" class="no-external">Making Maps! Visualising spatial data in R</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2023
+<a href="./talks/2023-09-05-making-maps/index.html" class="no-external">RSS International Conference 2023</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -325,33 +355,31 @@ R
 spatial
 </div>
 </div>
-<a href="./talks/2023-09-05-making-maps/index.html">
 <div class="listing-description">
-<p>Interactive workshop introducing {sf} and {tmap}</p>
+<a href="./talks/2023-09-05-making-maps/index.html" class="no-external">Interactive workshop introducing {sf} and {tmap}</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-09-05-making-maps/index.html">
+<a href="./talks/2023-09-05-making-maps/index.html" class="no-external">
 <div class="listing-date">
 Sep 5, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="conference,workshop,career" data-listing-date-sort="1693782000000" data-listing-file-modified-sort="1709074191692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="conference,workshop,career" data-listing-date-sort="1693782000000" data-listing-file-modified-sort="1709387385641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <div class="thumbnail">
-<p><a href="./talks/2023-09-04-share-your-data-story/index.html"> <img src="./talks/2023-09-04-share-your-data-story/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external"></a></p><a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external">
+<p><img src="./talks/2023-09-04-share-your-data-story/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-09-04-share-your-data-story/index.html">
 <h3 class="no-anchor listing-title">
-Share your data story
+<a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external">Share your data story</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2023
+<a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external">RSS International Conference 2023</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -363,33 +391,31 @@ workshop
 career
 </div>
 </div>
-<a href="./talks/2023-09-04-share-your-data-story/index.html">
 <div class="listing-description">
-<p>Tips for getting started with a data science portfolio.</p>
+<a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external">Tips for getting started with a data science portfolio.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-09-04-share-your-data-story/index.html">
+<a href="./talks/2023-09-04-share-your-data-story/index.html" class="no-external">
 <div class="listing-date">
 Sep 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="conference,keynote,data science" data-listing-date-sort="1687388400000" data-listing-file-modified-sort="1709074191692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="conference,keynote,data science" data-listing-date-sort="1687388400000" data-listing-file-modified-sort="1709387385641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
 <div class="thumbnail">
-<p><a href="./talks/2023-06-22-data-science-without-data/index.html"> <img src="./talks/2023-06-22-data-science-without-data/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external"></a></p><a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external">
+<p><img src="./talks/2023-06-22-data-science-without-data/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-06-22-data-science-without-data/index.html">
 <h3 class="no-anchor listing-title">
-Data Science without the Data
+<a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external">Data Science without the Data</a>
 </h3>
 <div class="listing-subtitle">
-Rencontres R 2023
+<a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external">Rencontres R 2023</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -401,33 +427,31 @@ keynote
 data science
 </div>
 </div>
-<a href="./talks/2023-06-22-data-science-without-data/index.html">
 <div class="listing-description">
-<p>Maintaining flexibility and adaptability in the face of changing data requirements.</p>
+<a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external">Maintaining flexibility and adaptability in the face of changing data requirements.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-06-22-data-science-without-data/index.html">
+<a href="./talks/2023-06-22-data-science-without-data/index.html" class="no-external">
 <div class="listing-date">
 Jun 22, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="outreach,data science" data-listing-date-sort="1677110400000" data-listing-file-modified-sort="1709074191692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="6" data-categories="outreach,data science" data-listing-date-sort="1677110400000" data-listing-file-modified-sort="1709387385641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
 <div class="thumbnail">
-<p><a href="./talks/2023-02-23-changing-the-world-with-data/index.html"> <img src="./talks/2023-02-23-changing-the-world-with-data/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external"></a></p><a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external">
+<p><img src="./talks/2023-02-23-changing-the-world-with-data/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2023-02-23-changing-the-world-with-data/index.html">
 <h3 class="no-anchor listing-title">
-Changing the world with data
+<a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external">Changing the world with data</a>
 </h3>
 <div class="listing-subtitle">
-Speakers for Schools
+<a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external">Speakers for Schools</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
@@ -436,33 +460,31 @@ outreach
 data science
 </div>
 </div>
-<a href="./talks/2023-02-23-changing-the-world-with-data/index.html">
 <div class="listing-description">
-<p>A taste of what it’s like to be a problem solver for a living</p>
+<a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external">A taste of what it’s like to be a problem solver for a living</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2023-02-23-changing-the-world-with-data/index.html">
+<a href="./talks/2023-02-23-changing-the-world-with-data/index.html" class="no-external">
 <div class="listing-date">
 Feb 23, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="conference,workshop,quarto" data-listing-date-sort="1663196400000" data-listing-file-modified-sort="1709074191692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="conference,workshop,quarto" data-listing-date-sort="1663196400000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
 <div class="thumbnail">
-<p><a href="./talks/2022-09-15-quarto/index.html"> <img src="./talks/2022-09-15-quarto/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2022-09-15-quarto/index.html" class="no-external"></a></p><a href="./talks/2022-09-15-quarto/index.html" class="no-external">
+<p><img src="./talks/2022-09-15-quarto/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2022-09-15-quarto/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2022-09-15-quarto/index.html">
 <h3 class="no-anchor listing-title">
-Reproducible data reports with Quarto
+<a href="./talks/2022-09-15-quarto/index.html" class="no-external">Reproducible data reports with Quarto</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2022
+<a href="./talks/2022-09-15-quarto/index.html" class="no-external">RSS International Conference 2022</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -474,33 +496,31 @@ workshop
 quarto
 </div>
 </div>
-<a href="./talks/2022-09-15-quarto/index.html">
 <div class="listing-description">
-<p>Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story.</p>
+<a href="./talks/2022-09-15-quarto/index.html" class="no-external">Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2022-09-15-quarto/index.html">
+<a href="./talks/2022-09-15-quarto/index.html" class="no-external">
 <div class="listing-date">
 Sep 15, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="conference,workshop,communication" data-listing-date-sort="1663110000000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="conference,workshop,communication" data-listing-date-sort="1663110000000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
 <div class="thumbnail">
-<p><a href="./talks/2022-09-14-communicating-stats/index.html"> <img src="./talks/2022-09-14-communicating-stats/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external"></a></p><a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external">
+<p><img src="./talks/2022-09-14-communicating-stats/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2022-09-14-communicating-stats/index.html">
 <h3 class="no-anchor listing-title">
-Don’t Panic! The Ambassadors guide to communicating statistics
+<a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external">Don’t Panic! The Ambassadors guide to communicating statistics</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2022
+<a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external">RSS International Conference 2022</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -512,33 +532,31 @@ workshop
 communication
 </div>
 </div>
-<a href="./talks/2022-09-14-communicating-stats/index.html">
 <div class="listing-description">
-<p>Advice and guidance on communicating complex statistical ideas and concepts in plain language</p>
+<a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external">Advice and guidance on communicating complex statistical ideas and concepts in plain language</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2022-09-14-communicating-stats/index.html">
+<a href="./talks/2022-09-14-communicating-stats/index.html" class="no-external">
 <div class="listing-date">
 Sep 14, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="conference,R,programming" data-listing-date-sort="1663023600000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="conference,R,programming" data-listing-date-sort="1663023600000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <div class="thumbnail">
-<p><a href="./talks/2022-09-13-plumber/index.html"> <img src="./talks/2022-09-13-plumber/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2022-09-13-plumber/index.html" class="no-external"></a></p><a href="./talks/2022-09-13-plumber/index.html" class="no-external">
+<p><img src="./talks/2022-09-13-plumber/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2022-09-13-plumber/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2022-09-13-plumber/index.html">
 <h3 class="no-anchor listing-title">
-Share your Models with R {plumber} APIs
+<a href="./talks/2022-09-13-plumber/index.html" class="no-external">Share your Models with R {plumber} APIs</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2022
+<a href="./talks/2022-09-13-plumber/index.html" class="no-external">RSS International Conference 2022</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -550,33 +568,31 @@ R
 programming
 </div>
 </div>
-<a href="./talks/2022-09-13-plumber/index.html">
 <div class="listing-description">
-<p>What is an API? And why would I make one?</p>
+<a href="./talks/2022-09-13-plumber/index.html" class="no-external">What is an API? And why would I make one?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2022-09-13-plumber/index.html">
+<a href="./talks/2022-09-13-plumber/index.html" class="no-external">
 <div class="listing-date">
 Sep 13, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="meetup,career,R-Ladies,PyLadies" data-listing-date-sort="1658876400000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="meetup,career,R-Ladies,PyLadies" data-listing-date-sort="1658876400000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
 <div class="thumbnail">
-<p><a href="./talks/2022-07-27-tale-of-two-languages/index.html"> <img src="./talks/2022-07-27-tale-of-two-languages/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external"></a></p><a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external">
+<p><img src="./talks/2022-07-27-tale-of-two-languages/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2022-07-27-tale-of-two-languages/index.html">
 <h3 class="no-anchor listing-title">
-A Tale of Two Languages
+<a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external">A Tale of Two Languages</a>
 </h3>
 <div class="listing-subtitle">
-PyLadies Munich, PyLadies Tunis &amp; R-Ladies Cologne
+<a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external">PyLadies Munich, PyLadies Tunis &amp; R-Ladies Cologne</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -591,33 +607,31 @@ R-Ladies
 PyLadies
 </div>
 </div>
-<a href="./talks/2022-07-27-tale-of-two-languages/index.html">
 <div class="listing-description">
-<p>The challenges and opportunities of working within a bilingual team.</p>
+<a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external">The challenges and opportunities of working within a bilingual team.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2022-07-27-tale-of-two-languages/index.html">
+<a href="./talks/2022-07-27-tale-of-two-languages/index.html" class="no-external">
 <div class="listing-date">
 Jul 27, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="conference,R" data-listing-date-sort="1625698800000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="conference,R" data-listing-date-sort="1625698800000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
 <div class="thumbnail">
-<p><a href="./talks/2021-07-08-automating-online-training/index.html"> <img src="./talks/2021-07-08-automating-online-training/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external"></a></p><a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external">
+<p><img src="./talks/2021-07-08-automating-online-training/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2021-07-08-automating-online-training/index.html">
 <h3 class="no-anchor listing-title">
-Automating Bespoke Online Teaching
+<a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external">Automating Bespoke Online Teaching</a>
 </h3>
 <div class="listing-subtitle">
-UseR! 2021
+<a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external">UseR! 2021</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -626,65 +640,61 @@ conference
 R
 </div>
 </div>
-<a href="./talks/2021-07-08-automating-online-training/index.html">
 <div class="listing-description">
-<p>Using R to create a bespoke learning environment automatically.</p>
+<a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external">Using R to create a bespoke learning environment automatically.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2021-07-08-automating-online-training/index.html">
+<a href="./talks/2021-07-08-automating-online-training/index.html" class="no-external">
 <div class="listing-date">
 Jul 8, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="career" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="12" data-categories="career" data-listing-date-sort="1606780800000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="thumbnail">
-<p><a href="./talks/2020-12-01-career/index.html"> <img src="./talks/2020-12-01-career/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-12-01-career/index.html" class="no-external"></a></p><a href="./talks/2020-12-01-career/index.html" class="no-external">
+<p><img src="./talks/2020-12-01-career/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-12-01-career/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2020-12-01-career/index.html">
 <h3 class="no-anchor listing-title">
-The varied life of a data scientist
+<a href="./talks/2020-12-01-career/index.html" class="no-external">The varied life of a data scientist</a>
 </h3>
 <div class="listing-subtitle">
-Various University departments
+<a href="./talks/2020-12-01-career/index.html" class="no-external">Various University departments</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('career'); return false;">
 career
 </div>
 </div>
-<a href="./talks/2020-12-01-career/index.html">
 <div class="listing-description">
-<p>Career talk aimed at undergraduates considering data science careers.</p>
+<a href="./talks/2020-12-01-career/index.html" class="no-external">Career talk aimed at undergraduates considering data science careers.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2020-12-01-career/index.html">
+<a href="./talks/2020-12-01-career/index.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="conference,workshop,R,ggplot2" data-listing-date-sort="1604361600000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="conference,workshop,R,ggplot2" data-listing-date-sort="1604361600000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
 <div class="thumbnail">
-<p><a href="./talks/2020-11-03-graphics-with-ggplot/index.html"> <img src="./talks/2020-11-03-graphics-with-ggplot/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external"></a></p><a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external">
+<p><img src="./talks/2020-11-03-graphics-with-ggplot/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2020-11-03-graphics-with-ggplot/index.html">
 <h3 class="no-anchor listing-title">
-Introduction to {ggplot2}
+<a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external">Introduction to {ggplot2}</a>
 </h3>
 <div class="listing-subtitle">
-NHS R Conference 2020
+<a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external">NHS R Conference 2020</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -699,33 +709,31 @@ R
 ggplot2
 </div>
 </div>
-<a href="./talks/2020-11-03-graphics-with-ggplot/index.html">
 <div class="listing-description">
-<p>A two hour workshop presented at the NHS R Conference.</p>
+<a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external">A two hour workshop presented at the NHS R Conference.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2020-11-03-graphics-with-ggplot/index.html">
+<a href="./talks/2020-11-03-graphics-with-ggplot/index.html" class="no-external">
 <div class="listing-date">
 Nov 3, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="conference,career" data-listing-date-sort="1599606000000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="14" data-categories="conference,career" data-listing-date-sort="1599606000000" data-listing-file-modified-sort="1709387385637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
 <div class="thumbnail">
-<p><a href="./talks/2020-09-09-stats-consultancy/index.html"> <img src="./talks/2020-09-09-stats-consultancy/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external"></a></p><a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external">
+<p><img src="./talks/2020-09-09-stats-consultancy/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2020-09-09-stats-consultancy/index.html">
 <h3 class="no-anchor listing-title">
-Statistical consultancy: advice for going it alone
+<a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external">Statistical consultancy: advice for going it alone</a>
 </h3>
 <div class="listing-subtitle">
-RSS International Conference 2020
+<a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external">RSS International Conference 2020</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -734,33 +742,31 @@ conference
 career
 </div>
 </div>
-<a href="./talks/2020-09-09-stats-consultancy/index.html">
 <div class="listing-description">
-<p>Panel session</p>
+<a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external">Panel session</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2020-09-09-stats-consultancy/index.html">
+<a href="./talks/2020-09-09-stats-consultancy/index.html" class="no-external">
 <div class="listing-date">
 Sep 9, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="meetup,visualisation,ggplot2,R" data-listing-date-sort="1593558000000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="15" data-categories="meetup,visualisation,ggplot2,R" data-listing-date-sort="1593558000000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <div class="thumbnail">
-<p><a href="./talks/2020-07-01-data-viz-for-better/index.html"> <img src="./talks/2020-07-01-data-viz-for-better/featured.jpeg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external"></a></p><a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external">
+<p><img src="./talks/2020-07-01-data-viz-for-better/featured.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2020-07-01-data-viz-for-better/index.html">
 <h3 class="no-anchor listing-title">
-Data Viz for Better
+<a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external">Data Viz for Better</a>
 </h3>
 <div class="listing-subtitle">
-RSS Merseyside
+<a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external">RSS Merseyside</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -775,33 +781,31 @@ ggplot2
 R
 </div>
 </div>
-<a href="./talks/2020-07-01-data-viz-for-better/index.html">
 <div class="listing-description">
-<p>Investigating Florence Nightingale’s Polar Area Diagram and discussing how she used them to argue a case for better hospital management.</p>
+<a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external">Investigating Florence Nightingale’s Polar Area Diagram and discussing how she used them to argue a case for better hospital management.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2020-07-01-data-viz-for-better/index.html">
+<a href="./talks/2020-07-01-data-viz-for-better/index.html" class="no-external">
 <div class="listing-date">
 Jul 1, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="meetup,R,R-Ladies" data-listing-date-sort="1580860800000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="16" data-categories="meetup,R,R-Ladies" data-listing-date-sort="1580860800000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
 <div class="thumbnail">
-<p><a href="./talks/2020-02-05-stories-from-sanfran/index.html"> <img src="./talks/2020-02-05-stories-from-sanfran/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external"></a></p><a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external">
+<p><img src="./talks/2020-02-05-stories-from-sanfran/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2020-02-05-stories-from-sanfran/index.html">
 <h3 class="no-anchor listing-title">
-Stories from San Francisco
+<a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external">Stories from San Francisco</a>
 </h3>
 <div class="listing-subtitle">
-R-Ladies Lancaster
+<a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external">R-Ladies Lancaster</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -813,33 +817,70 @@ R
 R-Ladies
 </div>
 </div>
-<a href="./talks/2020-02-05-stories-from-sanfran/index.html">
 <div class="listing-description">
-<p>What I learnt at RStudio Conference 2020</p>
+<a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external">What I learnt at RStudio Conference 2020</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2020-02-05-stories-from-sanfran/index.html">
+<a href="./talks/2020-02-05-stories-from-sanfran/index.html" class="no-external">
 <div class="listing-date">
 Feb 5, 2020
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="meetup,programming,git,ci/cd" data-listing-date-sort="1573862400000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="conference,lightning-talk,git,ci/cd" data-listing-date-sort="1580256000000" data-listing-file-modified-sort="1709659264314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
 <div class="thumbnail">
-<p><a href="./talks/2019-11-16-trust-your-pkg/index.html"> <img src="./talks/2019-11-16-trust-your-pkg/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external"></a></p><a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external">
+<p><img src="./talks/2020-01-29-cleaner-code-with-CI/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2019-11-16-trust-your-pkg/index.html">
 <h3 class="no-anchor listing-title">
-Can you trust your R package?
+<a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external">Cleaner code with CI</a>
 </h3>
 <div class="listing-subtitle">
-SatRday Cardiff 2019
+<a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external">RStudio Conference 2020</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
+conference
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('lightning-talk'); return false;">
+lightning-talk
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('git'); return false;">
+git
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ci/cd'); return false;">
+ci/cd
+</div>
+</div>
+<div class="listing-description">
+<a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external">What is CI and how can it help me write awesome code?</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./talks/2020-01-29-cleaner-code-with-CI/index.html" class="no-external">
+<div class="listing-date">
+Jan 29, 2020
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="meetup,programming,git,ci/cd" data-listing-date-sort="1573862400000" data-listing-file-modified-sort="1709659273906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<div class="thumbnail">
+<p><a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external"></a></p><a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external">
+<p><img src="./talks/2019-11-16-trust-your-pkg/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external">Can you trust your R package?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external">SatRday Cardiff 2019</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -854,33 +895,31 @@ git
 ci/cd
 </div>
 </div>
-<a href="./talks/2019-11-16-trust-your-pkg/index.html">
 <div class="listing-description">
-<p>I’ll explain what continuous integration is and tell stories of how we use it at Jumping Rivers.</p>
+<a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external">I’ll explain what continuous integration is and tell stories of how we use it at Jumping Rivers.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2019-11-16-trust-your-pkg/index.html">
+<a href="./talks/2019-11-16-trust-your-pkg/index.html" class="no-external">
 <div class="listing-date">
 Nov 16, 2019
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="conference,workshop" data-listing-date-sort="1562626800000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="19" data-categories="conference,workshop" data-listing-date-sort="1562626800000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <div class="thumbnail">
-<p><a href="./talks/2019-07-09-getting-the-most-with-git/index.html"> <img src="./talks/2019-07-09-getting-the-most-with-git/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external"></a></p><a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external">
+<p><img src="./talks/2019-07-09-getting-the-most-with-git/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2019-07-09-getting-the-most-with-git/index.html">
 <h3 class="no-anchor listing-title">
-Getting the most out of Git
+<a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external">Getting the most out of Git</a>
 </h3>
 <div class="listing-subtitle">
-useR! 2019 Workshop
+<a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external">useR! 2019 Workshop</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -889,33 +928,31 @@ conference
 workshop
 </div>
 </div>
-<a href="./talks/2019-07-09-getting-the-most-with-git/index.html">
 <div class="listing-description">
-<p>Workshop on Git &amp; Continous Integration</p>
+<a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external">Workshop on Git &amp; Continous Integration</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2019-07-09-getting-the-most-with-git/index.html">
+<a href="./talks/2019-07-09-getting-the-most-with-git/index.html" class="no-external">
 <div class="listing-date">
 Jul 9, 2019
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="meetup,R,R-Ladies" data-listing-date-sort="1556665200000" data-listing-file-modified-sort="1709074191688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="20" data-categories="meetup,R,R-Ladies" data-listing-date-sort="1556665200000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <div class="thumbnail">
-<p><a href="./talks/2019-05-01-day-in-the-life/index.html"> <img src="./talks/2019-05-01-day-in-the-life/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external"></a></p><a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external">
+<p><img src="./talks/2019-05-01-day-in-the-life/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2019-05-01-day-in-the-life/index.html">
 <h3 class="no-anchor listing-title">
-A day in the life with R
+<a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external">A day in the life with R</a>
 </h3>
 <div class="listing-subtitle">
-R-Ladies Lancaster
+<a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external">R-Ladies Lancaster</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -927,33 +964,31 @@ R
 R-Ladies
 </div>
 </div>
-<a href="./talks/2019-05-01-day-in-the-life/index.html">
 <div class="listing-description">
-<p>A whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps.</p>
+<a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external">A whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2019-05-01-day-in-the-life/index.html">
+<a href="./talks/2019-05-01-day-in-the-life/index.html" class="no-external">
 <div class="listing-date">
 May 1, 2019
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="outreach,data science" data-listing-date-sort="1547078400000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="21" data-categories="outreach,data science" data-listing-date-sort="1547078400000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
 <div class="thumbnail">
-<p><a href="./talks/2019-01-10-data-detective/index.html"> <img src="./talks/2019-01-10-data-detective/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2019-01-10-data-detective/index.html" class="no-external"></a></p><a href="./talks/2019-01-10-data-detective/index.html" class="no-external">
+<p><img src="./talks/2019-01-10-data-detective/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2019-01-10-data-detective/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2019-01-10-data-detective/index.html">
 <h3 class="no-anchor listing-title">
-Data Detective
+<a href="./talks/2019-01-10-data-detective/index.html" class="no-external">Data Detective</a>
 </h3>
 <div class="listing-subtitle">
-Florence Nightingale Day 2019
+<a href="./talks/2019-01-10-data-detective/index.html" class="no-external">Florence Nightingale Day 2019</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
@@ -962,33 +997,31 @@ outreach
 data science
 </div>
 </div>
-<a href="./talks/2019-01-10-data-detective/index.html">
 <div class="listing-description">
-<p>Stories showcasing the pitfalls that we as humans often struggle with when it comes to randomness.</p>
+<a href="./talks/2019-01-10-data-detective/index.html" class="no-external">Stories showcasing the pitfalls that we as humans often struggle with when it comes to randomness.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2019-01-10-data-detective/index.html">
+<a href="./talks/2019-01-10-data-detective/index.html" class="no-external">
 <div class="listing-date">
 Jan 10, 2019
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="meetup,rail" data-listing-date-sort="1540249200000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="22" data-categories="meetup,rail" data-listing-date-sort="1540249200000" data-listing-file-modified-sort="1709387385633" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <div class="thumbnail">
-<p><a href="./talks/2018-10-23-faster-safer-better/index.html"> <p class="card-img-top"><img src="talks/2018-10-23-faster-safer-better/featured.png" alt="Security camera footage of a train platform with coloured boxes highlighting people."  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external"></a></p><a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external">
+<p class="card-img-top"><img src="talks/2018-10-23-faster-safer-better/featured.png" alt="Security camera footage of a train platform with coloured boxes highlighting people."  class="thumbnail-image card-img"/></p>
+</a><p><a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2018-10-23-faster-safer-better/index.html">
 <h3 class="no-anchor listing-title">
-Faster, Safer, Better
+<a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external">Faster, Safer, Better</a>
 </h3>
 <div class="listing-subtitle">
-IMechE North West Railway Division
+<a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external">IMechE North West Railway Division</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -997,129 +1030,121 @@ meetup
 rail
 </div>
 </div>
-<a href="./talks/2018-10-23-faster-safer-better/index.html">
 <div class="listing-description">
-<p>A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI).</p>
+<a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external">A case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI).</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2018-10-23-faster-safer-better/index.html">
+<a href="./talks/2018-10-23-faster-safer-better/index.html" class="no-external">
 <div class="listing-date">
 Oct 23, 2018
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="outreach" data-listing-date-sort="1420070400000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="23" data-categories="outreach" data-listing-date-sort="1420070400000" data-listing-file-modified-sort="1709387385629" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
 <div class="thumbnail">
-<p><a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html"> <img src="./talks/2015-01-01-intro-to-dynamic-programming/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external"></a></p><a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external">
+<p><img src="./talks/2015-01-01-intro-to-dynamic-programming/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html">
 <h3 class="no-anchor listing-title">
-An Introduction to Dynamic Programming
+<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external">An Introduction to Dynamic Programming</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
 </div>
 </div>
-<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html">
 <div class="listing-description">
-<p>A short introduction to dynamic programming. Aimed at 16 - 18 year olds.</p>
+<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external">A short introduction to dynamic programming. Aimed at 16 - 18 year olds.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html">
+<a href="./talks/2015-01-01-intro-to-dynamic-programming/index.html" class="no-external">
 <div class="listing-date">
 Jan 1, 2015
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="outreach" data-listing-date-sort="1393632000000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="24" data-categories="outreach" data-listing-date-sort="1393632000000" data-listing-file-modified-sort="1709387385629" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
 <div class="thumbnail">
-<p><a href="./talks/2014-03-01-ri-master-class/index.html"> <img src="./talks/2014-03-01-ri-master-class/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external"></a></p><a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external">
+<p><img src="./talks/2014-03-01-ri-master-class/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2014-03-01-ri-master-class/index.html">
 <h3 class="no-anchor listing-title">
-RI Mathematics Masterclass on Group Theory
+<a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external">RI Mathematics Masterclass on Group Theory</a>
 </h3>
 <div class="listing-subtitle">
-Royal Institution Mathematics Masterclass
+<a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external">Royal Institution Mathematics Masterclass</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
 </div>
 </div>
-<a href="./talks/2014-03-01-ri-master-class/index.html">
 <div class="listing-description">
-<p>A Royal Institution Masterclass on Group Theory.</p>
+<a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external">A Royal Institution Masterclass on Group Theory.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2014-03-01-ri-master-class/index.html">
+<a href="./talks/2014-03-01-ri-master-class/index.html" class="no-external">
 <div class="listing-date">
 Mar 1, 2014
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="outreach" data-listing-date-sort="1391212800000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="25" data-categories="outreach" data-listing-date-sort="1391212800000" data-listing-file-modified-sort="1709387385629" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <div class="thumbnail">
-<p><a href="./talks/2014-02-01-tv-maths/index.html"> <img src="./talks/2014-02-01-tv-maths/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2014-02-01-tv-maths/index.html" class="no-external"></a></p><a href="./talks/2014-02-01-tv-maths/index.html" class="no-external">
+<p><img data-src="./talks/2014-02-01-tv-maths/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2014-02-01-tv-maths/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2014-02-01-tv-maths/index.html">
 <h3 class="no-anchor listing-title">
-Maths on T.V.
+<a href="./talks/2014-02-01-tv-maths/index.html" class="no-external">Maths on T.V.</a>
 </h3>
 <div class="listing-subtitle">
-Lancaster University Outreach
+<a href="./talks/2014-02-01-tv-maths/index.html" class="no-external">Lancaster University Outreach</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
 </div>
 </div>
-<a href="./talks/2014-02-01-tv-maths/index.html">
 <div class="listing-description">
-<p>Learn about the mathematics hidden in every day T.V shows.</p>
+<a href="./talks/2014-02-01-tv-maths/index.html" class="no-external">Learn about the mathematics hidden in every day T.V shows.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2014-02-01-tv-maths/index.html">
+<a href="./talks/2014-02-01-tv-maths/index.html" class="no-external">
 <div class="listing-date">
 Feb 1, 2014
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="meetup,compressive sensing" data-listing-date-sort="1383264000000" data-listing-file-modified-sort="1709074191684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="26" data-categories="meetup,compressive sensing" data-listing-date-sort="1383264000000" data-listing-file-modified-sort="1709387385625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail">
-<p><a href="./talks/2013-11-magic-syphilis-csi/index.html"> <img data-src="./talks/2013-11-magic-syphilis-csi/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external"></a></p><a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external">
+<p><img data-src="./talks/2013-11-magic-syphilis-csi/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2013-11-magic-syphilis-csi/index.html">
 <h3 class="no-anchor listing-title">
-Magic, Syphilis and C.S.I
+<a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external">Magic, Syphilis and C.S.I</a>
 </h3>
 <div class="listing-subtitle">
-STOR-i Forum
+<a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external">STOR-i Forum</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meetup'); return false;">
 meetup
@@ -1128,33 +1153,31 @@ meetup
 compressive sensing
 </div>
 </div>
-<a href="./talks/2013-11-magic-syphilis-csi/index.html">
 <div class="listing-description">
-<p>A friendly introduction to Compressive Sensing.</p>
+<a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external">A friendly introduction to Compressive Sensing.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2013-11-magic-syphilis-csi/index.html">
+<a href="./talks/2013-11-magic-syphilis-csi/index.html" class="no-external">
 <div class="listing-date">
 Nov 1, 2013
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="conference,compressive sensing" data-listing-date-sort="1381446000000" data-listing-file-modified-sort="1709074191680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="27" data-categories="conference,compressive sensing" data-listing-date-sort="1381446000000" data-listing-file-modified-sort="1709387385625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150">
 <div class="thumbnail">
-<p><a href="./talks/2013-10-sdf/index.html"> <img data-src="./talks/2013-10-sdf/featured.png" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2013-10-sdf/index.html" class="no-external"></a></p><a href="./talks/2013-10-sdf/index.html" class="no-external">
+<p><img data-src="./talks/2013-10-sdf/featured.png" class="thumbnail-image"></p>
+</a><p><a href="./talks/2013-10-sdf/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2013-10-sdf/index.html">
 <h3 class="no-anchor listing-title">
-The effect of recovery algorithms on compressive sensing background subtraction
+<a href="./talks/2013-10-sdf/index.html" class="no-external">The effect of recovery algorithms on compressive sensing background subtraction</a>
 </h3>
 <div class="listing-subtitle">
-2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)
+<a href="./talks/2013-10-sdf/index.html" class="no-external">2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('conference'); return false;">
 conference
@@ -1163,46 +1186,42 @@ conference
 compressive sensing
 </div>
 </div>
-<a href="./talks/2013-10-sdf/index.html">
 <div class="listing-description">
-<p>Background subtraction is a key method required to aid processing surveillance videos.</p>
+<a href="./talks/2013-10-sdf/index.html" class="no-external">Background subtraction is a key method required to aid processing surveillance videos.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2013-10-sdf/index.html">
+<a href="./talks/2013-10-sdf/index.html" class="no-external">
 <div class="listing-date">
 Oct 11, 2013
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="outreach" data-listing-date-sort="1360800000000" data-listing-file-modified-sort="1709074191680" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="28" data-categories="outreach" data-listing-date-sort="1360800000000" data-listing-file-modified-sort="1709387385625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <div class="thumbnail">
-<p><a href="./talks/2013-02-14-love-and-mathematics/index.html"> <img data-src="./talks/2013-02-14-love-and-mathematics/featured.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external"></a></p><a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external">
+<p><img data-src="./talks/2013-02-14-love-and-mathematics/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./talks/2013-02-14-love-and-mathematics/index.html">
 <h3 class="no-anchor listing-title">
-Love and Mathematics
+<a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external">Love and Mathematics</a>
 </h3>
 <div class="listing-subtitle">
-Lancaster University Outreach
+<a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external">Lancaster University Outreach</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('outreach'); return false;">
 outreach
 </div>
 </div>
-<a href="./talks/2013-02-14-love-and-mathematics/index.html">
 <div class="listing-description">
-<p>Learn about the mathematics behind love and dating with the stable matching algorithm.</p>
+<a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external">Learn about the mathematics behind love and dating with the stable matching algorithm.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./talks/2013-02-14-love-and-mathematics/index.html">
+<a href="./talks/2013-02-14-love-and-mathematics/index.html" class="no-external">
 <div class="listing-date">
 Feb 14, 2013
 </div>
@@ -1258,6 +1277,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -1326,13 +1372,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1411,10 +1459,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1424,8 +1471,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1438,6 +1494,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1481,6 +1656,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1506,6 +1682,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1566,6 +1768,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
