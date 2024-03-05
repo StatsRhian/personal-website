@@ -1,6 +1,6 @@
 ---
 title: "An introvert's guide to networking at a conference"
-description: "Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code."
+description: "Conferences present a great opportunity to meet other professionals working in your field and lay the foundations for future collaborations. But what should you do if the idea of meeting new people puts you well out of your comfort zone?"
 date: 2024-02-29
 categories: [conferences, meetups]
 image: "featured.jpg"
