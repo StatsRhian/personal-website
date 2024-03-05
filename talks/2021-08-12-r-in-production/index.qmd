@@ -1,0 +1,19 @@
+---
+title: "Practical Advice for R in Production"
+subtitle: "Workshop for Posit"
+description: "Hands on workshop where you will learn best practices for securely putting R in production."
+date: 2021-08-12
+categories: [R, workshop]
+image: "featured.png"
+img-alt: "Screenshot of a shiny app. Title is 'What cat are you' with a cute white fluffy cat."
+---
+
+## Abstract
+
+This will be a hands-on workshop where you will learn best practices for securely putting R in production in a way that your IT team would approve of. This includes administering RStudio products, version control with Git, CI/CD pipelines, and even working in containerized environments.
+
+Joint work with [Jack Walton](https://uk.linkedin.com/in/jwalton93)
+
+## Links
+
+[Recording](https://posit.co/resources/videos/practical-advice-for-r-in-production-2-how/)
