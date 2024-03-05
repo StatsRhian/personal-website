@@ -3,7 +3,7 @@ title: Dates and times with {lubridate}
 description: Beginner friendly workshop on {lubridate}
 date: "2019-11-06"
 subtitle: R-Ladies Lancaster
-categories: [meetup, R, R-Ladies, workshop, visualisation]
+categories: [meetup, R, R-Ladies, workshop]
 image: featured.png
 img-alt: "The words 'Dates and Times Graphics' on a background with a diary."
 ---
