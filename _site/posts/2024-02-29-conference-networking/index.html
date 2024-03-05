@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-02-29">
+<meta name="description" content="Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.">
 
-<title>Rhian Davies - Blog</title>
+<title>Rhian Davies - An introvert’s guide to networking at a conference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +70,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/letter-R.png" alt="A handwritten, blue, letter R" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/letter-R.png" alt="A handwritten, blue, letter R" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Rhian Davies</span>
     </a>
   </div>
@@ -153,19 +95,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -173,7 +115,7 @@ window.Quarto = {
 <span class="menu-text">C.V.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./now.html"> 
+    <a class="nav-link" href="../../now.html"> 
 <span class="menu-text">Now</span></a>
   </li>  
 </ul>
@@ -185,111 +127,171 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">An introvert’s guide to networking at a conference</h1>
+                  <div>
+        <div class="description">
+          Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">conferences</div>
+                <div class="quarto-category">meetups</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 29, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="conferences">conferences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meetups">meetups <span class="quarto-category-count">(1)</span></div><div class="category" data-category="refactoring">refactoring <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="uh-oh.-conferences.-ive-been-trying-not-to-think-about-them-but-i-cant-put-it-off-any-longer." class="level3">
+<h3 class="anchored" data-anchor-id="uh-oh.-conferences.-ive-been-trying-not-to-think-about-them-but-i-cant-put-it-off-any-longer.">Uh oh. Conferences. I’ve been trying not to think about them, but I can’t put it off any longer.</h3>
+<p>That’s okay! It might not be too late to book on to the conferences you want to attend. Some will even still have early bird offers available if you’re quick.</p>
+</section>
+<section id="oh-thats-not-a-problem.-im-already-booked-on-travel-is-arranged-my-talk-is-written.-its-just" class="level3">
+<h3 class="anchored" data-anchor-id="oh-thats-not-a-problem.-im-already-booked-on-travel-is-arranged-my-talk-is-written.-its-just">Oh that’s not a problem. I’m already booked on, travel is arranged, my talk is written. It’s just …</h3>
+<p>… just what?</p>
+</section>
+<section id="theres-so-many-people-and-events.-my-manager-said-theyre-great-networking-opportunities-so-i-think-shes-expecting-me-to-come-back-with-a-whole-list-of-new-contacts-too." class="level3">
+<h3 class="anchored" data-anchor-id="theres-so-many-people-and-events.-my-manager-said-theyre-great-networking-opportunities-so-i-think-shes-expecting-me-to-come-back-with-a-whole-list-of-new-contacts-too.">… there’s so many people and events. My manager said “they’re great networking opportunities” so I think she’s expecting me to come back with a whole list of new contacts too.</h3>
+<p>Oh! Well I love attending conferences. Spending time with interesting people, and meeting new folk leaves me all energised and buzzy. But conferences aren’t just for extroverts like me.</p>
+<p>Setting your manager’s possible expectations aside for a second, just focus on what you can benefit from when networking: Meeting the people behind interesting projects that could be helpful to you; encountering contacts with interesting job opportunities; finding like-minded people to attend the social events with.</p>
+<p>Maybe I can help you out with a few tips?</p>
+</section>
+<section id="that-would-be-great-how-should-i-prepare" class="level3">
+<h3 class="anchored" data-anchor-id="that-would-be-great-how-should-i-prepare">That would be great! How should I prepare?</h3>
+<p>Before you get there, you can use social media. Conferences often have #hashtags associated with them. If you use social media, posting about the event can be a great, low-stress way to engage with other attendees.</p>
+<p>I often post something like</p>
+<p>“Excited to be on my way to Seattle for #positconf2024 ️🛬 Anyone else there this year?”</p>
+<p>when I’m travelling.</p>
+<p>That way, if someone I already know is attending, we can make plans to meet up and hang out together.</p>
+</section>
+<section id="thats-a-nice-idea.-but-what-happens-if-i-dont-already-know-people-who-are-going" class="level3">
+<h3 class="anchored" data-anchor-id="thats-a-nice-idea.-but-what-happens-if-i-dont-already-know-people-who-are-going">That’s a nice idea. But what happens if I don’t already know people who are going?</h3>
+<p>Check the event schedule for the conference. There is often a welcome event aimed at people who are new to the conference.</p>
+<p>The day before the <a href="https://rss.org.uk/training-events/conference-2024/">RSS International Conference</a>, the Young Statisticians arrange a workshop to help early career statisticians get to know the organisers and make some conference friends before the main event starts.</p>
+</section>
+<section id="sounds-useful.-but-im-going-to-encounter-people-at-some-point-and-i-never-know-what-to-say." class="level3">
+<h3 class="anchored" data-anchor-id="sounds-useful.-but-im-going-to-encounter-people-at-some-point-and-i-never-know-what-to-say.">Sounds useful. But I’m going to encounter people at some point and I never know what to say.</h3>
+<p>First of all, people love talking about themselves, and they like you for taking an interest and listening to them. Think up and remember a few standard questions that can get the ball rolling and see where the conversation goes from there.</p>
+<ul>
+<li>Where do you work?</li>
+<li>What parts of the work do you enjoy?</li>
+<li>Did you travel far to get here?</li>
+<li>Did you go to University?</li>
+<li>Where did you study?</li>
+<li>What’s the funniest issue you’ve encountered in your work?</li>
+</ul>
+</section>
+<section id="oh-so-i-just-to-need-to-remember-some-questions-to-ask" class="level3">
+<h3 class="anchored" data-anchor-id="oh-so-i-just-to-need-to-remember-some-questions-to-ask">Oh so I just to need to remember some questions to ask?</h3>
+<p>Yes, and come up with some nice icebreakers if you can.</p>
+</section>
+<section id="or-nicebreakers.-see-what-i-did-there" class="level3">
+<h3 class="anchored" data-anchor-id="or-nicebreakers.-see-what-i-did-there">Or nicebreakers. See what I did there?</h3>
+<p>You must be very pleased with yourself.</p>
+</section>
+<section id="i-am-actually." class="level3">
+<h3 class="anchored" data-anchor-id="i-am-actually.">I am actually.</h3>
+<p>Well don’t forget the time will come where you have to introduce yourself in return. A little preparation goes a long way here.</p>
+<p>Prepare a short sentence explaining who you are, what you do and what you’re interested in. At networking events, you’ll constantly be asked these questions. Preparing a two-minute introduction and practicing it slowly out loud can help you feel more confident in the moment.</p>
+<p>And it might sound silly, but make a conscious effort to say your name and company slowly when you first introduce yourself. I find myself saying “Hi, I’m Rhian and I work for Jumping Rivers” so many times, that I naturally rush over the words, creating an awkward situation where the other person didn’t catch your name.</p>
+</section>
+<section id="so-i-should-rehearse-by-talking-to-myself-the-mirror-like-they-do-on-the-sims" class="level3">
+<h3 class="anchored" data-anchor-id="so-i-should-rehearse-by-talking-to-myself-the-mirror-like-they-do-on-the-sims">So I should rehearse by talking to myself the mirror like they do on The Sims?</h3>
+<p>If that helps you, sure. It doesn’t have to be perfectly scripted, but making a coherent introduction of yourself creates a good first impression.</p>
+</section>
+<section id="when-im-there-wont-everyone-already-know-each-other-already" class="level3">
+<h3 class="anchored" data-anchor-id="when-im-there-wont-everyone-already-know-each-other-already">When I’m there, won’t everyone already know each other already?</h3>
+<p>Remember, plenty of people go to conferences alone and don’t know anyone else attending. If there’s a pub quiz, or other team-based social activity, it’s okay to turn up by yourself. It’s the organisers’ job to make you feel welcome and help you find others to chat with.</p>
+<p>There’s also going to be events such as poster sessions and welcome drinks, where it’s entirely normal for anyone to be interacting with new people. The individuals you do meet may go on to introduce you to other people they know at the conference.</p>
+</section>
+<section id="oh-yeah-this-schedule-has-a-few-of-those-sessions-with-free-snacks-and-drinks." class="level3">
+<h3 class="anchored" data-anchor-id="oh-yeah-this-schedule-has-a-few-of-those-sessions-with-free-snacks-and-drinks.">Oh yeah, this schedule has a few of those sessions with free snacks and drinks.</h3>
+<p>Take it easy on the free wine and coffee. It’s easy to use alcohol and copious amounts of coffee to boost your networking bravery at the poster session. However, too much caffeine or alcohol can cause social anxiety and leave you feeling queasy the next morning.</p>
+</section>
+<section id="are-you-speaking-from-personal-experience-here" class="level3">
+<h3 class="anchored" data-anchor-id="are-you-speaking-from-personal-experience-here">Are you speaking from personal experience here?</h3>
+<p>Maybe 😳</p>
+</section>
+<section id="what-if-i-dont-drink-alcohol" class="level3">
+<h3 class="anchored" data-anchor-id="what-if-i-dont-drink-alcohol">What if I don’t drink alcohol?</h3>
+<p>There’s also no obligation to drink alcohol. Younger generations are increasingly becoming non-drinkers, and most events will have a decent selection of non-alcoholic drinks. Some conferences organise alcohol-free socials too, like an evening walking-tour or a morning run group.</p>
+</section>
+<section id="these-networking-events-sound-busy." class="level3">
+<h3 class="anchored" data-anchor-id="these-networking-events-sound-busy.">These networking events sound busy.</h3>
+<p>Yes, some of these events can be crowded and noisy. For some people, that can be a bit overwhelming. It’s perfectly okay to step outside for fresh air or to sit in a quieter corner to regain some energy. In fact, it can be a good idea because it’s unlikely that you’ll be the only person to do this—other like minded introverts will also have the same idea, giving you an opportunity to meet someone new in a quieter location.</p>
+</section>
+<section id="if-theres-alcohol-at-a-session-like-a-pub-quiz-or-a-poster-session-should-i-be-talking-about-business-or-avoiding-work-related-topics" class="level3">
+<h3 class="anchored" data-anchor-id="if-theres-alcohol-at-a-session-like-a-pub-quiz-or-a-poster-session-should-i-be-talking-about-business-or-avoiding-work-related-topics">If there’s alcohol at a session, like a pub quiz or a poster session, should I be talking about business or avoiding work-related topics?</h3>
+<p>This is a tricky one. Some people will be aiming to create business connections and opportunities, and some will be in a more relaxed and sociable mode. This is a situation where you have to read the intentions of the other person and adapt.</p>
+<p>It’s totally okay to talk about non-work topics at any point during the conference. Chatting about hobbies and finding common interests is a great way to connect with people. If someone wants to talk to you about a business opportunity, they will likely steer the conversation back to work, and move on if they don’t think you can help them. Don’t take this personally! People have different reasons for attending conferences.</p>
+<p>It can also depend on the conference. Some massive machine learning and AI expos can be very business focused, whilst smaller academic or programming conferences can have more of a community feel. If you aren’t sure about the vibe, you can always ask someone who has attended that conference before.</p>
+</section>
+<section id="how-do-i-maintain-contact-with-the-people-i-meet" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-i-maintain-contact-with-the-people-i-meet">How do I maintain contact with the people I meet?</h3>
+<p>Traditionally, you would exchange business cards. In Japan there’s even an etiquette for receiving a business card where you take a moment to admire and study the person’s details on the card you’ve just received—they’d never take a business card and rush it straight into their wallet alongside countless other business cards to be forgotten.</p>
+<p>But in this modern world, business cards are becoming less common. So if you don’t have cards to hand out, try connecting with them over LinkedIn—the LinkedIn app allows you to share a QR code to link straight to your profile. Or if either of you don’t use LinkedIn, you can exchange email addresses. If the other person agrees, consider taking a selfie with them and emailing it to their address straight away—not only have you exchanged details, but provided a visual memento and opened a conversation channel for further discussions after the conference.</p>
+</section>
+<section id="im-not-used-to-a-conference-this-big.-theres-multiple-talks-going-on-at-the-same-time.-whats-the-etiquette-if-i-want-to-be-in-different-sessions-for-different-talks" class="level3">
+<h3 class="anchored" data-anchor-id="im-not-used-to-a-conference-this-big.-theres-multiple-talks-going-on-at-the-same-time.-whats-the-etiquette-if-i-want-to-be-in-different-sessions-for-different-talks">I’m not used to a conference this big. There’s multiple talks going on at the same time. What’s the etiquette if I want to be in different sessions for different talks?</h3>
+<p>Look at the conference programme in advance to plan which talks you want to attend. Big conferences often have “streams” meaning multiple talks will be happening concurrently.</p>
+<p>The start and end times of the talks are often scheduled to match across sessions, so you can switch between streams during the sessions between each talk. It’s quite common to see a few people leave at the end of a talk to jump to the other stream. If you want to change session, go at the same time as this crowd—just move briskly and quietly so you cause minimal disruption, and sit strategically close to the exit for a quick escape.</p>
+<p>But sometimes it can be a bit awkward to sneak out of the back mid-session, especially if the room is small or talks are overrunning, so sometimes it’s easier just to commit yourself to a single stream per session.</p>
+</section>
+<section id="okay-gotcha.-plan-the-sessions-to-attend-in-advance.-while-im-doing-that-are-there-any-useful-sessions-i-should-consider" class="level3">
+<h3 class="anchored" data-anchor-id="okay-gotcha.-plan-the-sessions-to-attend-in-advance.-while-im-doing-that-are-there-any-useful-sessions-i-should-consider">Okay, gotcha. Plan the sessions to attend in advance. While I’m doing that, are there any useful sessions I should consider?</h3>
+<p>Some conferences have specific networking sessions for people that already have things in common like the “Birds of a Feather” sessions at Posit Conference. These are short, one-off meetups for people who have something in common, e.g. R educators, people working with R in insurance, R-Ladies or R users from Africa. These groups are often smaller and you already have something in common, making networking a little less daunting and the connections a little more relevant.</p>
+</section>
+<section id="right-ive-been-through-the-whole-schedule.-i-think-ive-picked-something-for-each-session-now-and-wow-im-going-to-be-busy" class="level3">
+<h3 class="anchored" data-anchor-id="right-ive-been-through-the-whole-schedule.-i-think-ive-picked-something-for-each-session-now-and-wow-im-going-to-be-busy">Right, I’ve been through the whole schedule. I think I’ve picked something for each session now, and wow, I’m going to be busy!</h3>
+<p>Great! Just remember that you don’t have to go to every session and social event. It’s totally okay to skip a session and recharge. Conferences can be exhausting, even I need a quiet minute to myself sometimes. Grab yourself a cup of tea and find a quiet corner to have a little break from the stimulus. Or head back to your hotel room for an afternoon nap. Then you’ll be refreshed for the next session. (Just remember to set an alarm… ⏰)</p>
+</section>
+<section id="well-thank-you-for-the-advice.-im-not-sure-i-can-think-of-any-more-questions." class="level3">
+<h3 class="anchored" data-anchor-id="well-thank-you-for-the-advice.-im-not-sure-i-can-think-of-any-more-questions.">Well thank you for the advice. I’m not sure I can think of any more questions.</h3>
+<p>Well on the topic of questions, I have one last tip. If you enjoyed someone’s talk, but don’t want to ask a question in the session, you can go and talk to them in the coffee break following their talk. From the speaker’s perspective, it’s nice to chat with people who got value from your talk, and you’ll have another friendly face in the lunch queue.</p>
+</section>
+<section id="do-you-have-any-suggestions-for-good-conferences-to-go-to" class="level3">
+<h3 class="anchored" data-anchor-id="do-you-have-any-suggestions-for-good-conferences-to-go-to">Do you have any suggestions for good conferences to go to?</h3>
+<p>How about SatRdays London in April or Shiny in Production in October? You can register to attend by visiting those websites. They’re being organised by Jumping Rivers.</p>
+</section>
+<section id="ill-take-a-look-thanks." class="level3">
+<h3 class="anchored" data-anchor-id="ill-take-a-look-thanks.">I’ll take a look, thanks.</h3>
+<p>And hey, if I see you there, you’ll have an extroverted friend who can introduce to you everyone at the conference.</p>
+</section>
+<section id="oh-no" class="level3">
+<h3 class="anchored" data-anchor-id="oh-no">oh no 😰</h3>
+<p>_This post first appeared at <a href="https://www.jumpingrivers.com/blog/an-introverts-guide-to-networking-at-a-conference/">jumpingrivers.com/blog</a> and was co-written with Keith Newman.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="conferences,meetups" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1709663574457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1729">
-<div class="thumbnail">
-<p><a href="./posts/2024-02-29-conference-networking/index.html" class="no-external"></a></p><a href="./posts/2024-02-29-conference-networking/index.html" class="no-external">
-<p><img src="./posts/2024-02-29-conference-networking/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-02-29-conference-networking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-02-29-conference-networking/index.html" class="no-external">An introvert’s guide to networking at a conference</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-02-29-conference-networking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conferences'); return false;">
-conferences
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
-meetups
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-02-29-conference-networking/index.html" class="no-external">Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-02-29-conference-networking/index.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="R,refactoring" data-listing-date-sort="1665010800000" data-listing-file-modified-sort="1709387385613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1402">
-<div class="thumbnail">
-<p><a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external"></a></p><a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external">
-<p><img src="./posts/2022-10-06_refactoring-russian-doll-code/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external">Refactoring Russian Doll Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('refactoring'); return false;">
-refactoring
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external">Have you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-10-06_refactoring-russian-doll-code/index.html" class="no-external">
-<div class="listing-date">
-Oct 6, 2022
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

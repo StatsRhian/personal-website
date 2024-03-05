@@ -3,7 +3,7 @@ title: Pretty Graphics with ggplot2
 description: Beginner friendly workshop on {ggplot2}
 date: "2019-06-01"
 subtitle: R-Ladies Lancaster
-categories: [meetup, R, R-Ladies, workshop, visualisation]
+categories: [meetup, R, R-Ladies, workshop, ggplot2]
 image: featured.png
 img-alt: "The words 'Pretty Graphics' on a background with mountains"
 ---
