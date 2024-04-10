@@ -1,9 +1,10 @@
 ---
 title: "Rhian Davies"
 image: img/rhian-davies.jpg
+image-alt: "A headshot of Rhian. She is wearing a purple t-shirt and glasses and smiing awkwardly at the camera :D"
 favicon: img/favicon.ico
 about:
-  template: trestles
+  template: broadside
   links:
   - icon: github
     text: GitHub
@@ -22,11 +23,11 @@ about:
     href: https://www.linkedin.com/in/statsrhian
 ---
 
-## Hello 👋
+Rhian is a data science leader, statistical consultant and R expert, based in the U.K. She is passionate about supporting others to make better data-driven decisions. 
 
-I'm a data science leader, statistical consultant and R expert, based in the U.K. I'm passionate about using statistics to help people make data driven decisions.
+She is a senior data scientist at the [Strategy Unit](https://www.strategyunitwm.nhs.uk/) where she builds open-source Reproducible Analytical Pipelines and provides public health analysts with the tools, skills, and confidence to develop their own reproducible analyses. 
 
+She is an R expert and regularly shares her knowledge in the [NHS-R](https://nhsrcommunity.com/) and [R-Ladies](https://rladies.org/) communities. 
 
-I’m an active communicator and a statistical ambassador for the [Royal Statistical Society](https://rss.org.uk/), helping journalists and the members of the public understand statistical concepts. 
+Rhian has a PhD in [Statistics and Operational Research](https://www.lancaster.ac.uk/stor-i/) and is a Statistical Ambassador for the [Royal Statistical Society](https://rss.org.uk/), engaging with the media, schools and wider public to improve statistical literacy. 
 
-When I’m not at a laptop, you’ll find me outdoors. I love cycling, sea kayaking, fell running and climbing.
