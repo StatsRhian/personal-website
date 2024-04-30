@@ -375,7 +375,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "An introvert’s guide to networking at a conference\n\n\n\n\n\n\nconferences\n\n\nmeetups\n\n\n\nConferences present a great opportunity to meet other professionals working in your field and lay the foundations for future collaborations. But what should you do if the idea of meeting new people puts you well out of your comfort zone?\n\n\n\n\n\nFeb 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nRefactoring Russian Doll Code\n\n\n\n\n\n\nR\n\n\nrefactoring\n\n\n\nHave you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.\n\n\n\n\n\nOct 6, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Did rough sleeping increase after the 2010 election?\n\n\n\n\n\n\nfact checking\n\n\ncommunicating statistics\n\n\n\nWhen making statistical comparisons, it’s important to compare like with like. \n\n\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAn introvert’s guide to networking at a conference\n\n\n\n\n\n\nconferences\n\n\nmeetups\n\n\n\nConferences present a great opportunity to meet other professionals working in your field and lay the foundations for future collaborations. But what should you do if the idea of meeting new people puts you well out of your comfort zone?\n\n\n\n\n\nFeb 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nRefactoring Russian Doll Code\n\n\n\n\n\n\nR\n\n\nrefactoring\n\n\n\nHave you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.\n\n\n\n\n\nOct 6, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2022-10-06_refactoring-russian-doll-code/index.html",
@@ -761,5 +761,33 @@
     "title": "On-demand overviews",
     "section": "Links",
     "text": "Links\n\n\n\n\n\nSlides\nData Innovation Showcase, National Innovation Centre for Data"
+  },
+  {
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "",
+    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
+  },
+  {
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "",
+    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
+  },
+  {
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nRough sleeping statistics are official statistics, published by the Department for Levelling Up, Housing and Communities. In 2010, the way that rough sleeping statistics were reported changed. The differences are described in this technical note.\nThere are a number of points highlighted in the technical guidance, but the two key ones for me are:\n\nthe definition of a rough sleeper was changed to include rough sleepers about to bed down (e.g. sitting or standing near their bedding but not actually lying down) and those in tents. Broadening the definition of what counts as “rough sleeping” will likely increase the counts.\nPrior to 2010, Local Authorities with more than ten rough sleepers had to perform and report a count of rough sleepers in their area. Local Authorities are now able to choose whether to report a count or an estimate. Estimates are made by consulting with local agencies and the community to compile and agree a figure. The technical guide provides a comparison of the statistics before and after the change (Table 1), the largest increase was seen in the local authorities that switched from a count to an estimate.\n\nThe report then states\n\nThe changes that have been made to the methodology and the definition of rough sleepers make it very difficult to make comparisons over time as we cannot separate the impact of these methodological changes from changes in the level of rough sleeping between autumn 2010 and earlier time periods. It is therefore not possible to determine accurately whether rough sleeping has increased as we cannot separate the differences resulting from methodological changes from changes in the level of rough sleeping between time periods."
+  },
+  {
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "So what?",
+    "text": "So what?\nWhen making statistical comparisons, it’s important to compare like with like. We can still say that rough sleeping figures did decrease from 1998 to 2010, during Labour’s time in power. However, it is not possible to determine accurately whether rough sleeping has increased after 2010, as we cannot separate the methodological differences from the changes in the number of people sleeping rough.\nThe two time series are not directly comparable, and this should be highlighted in the graphic if presenting the two series as one."
   }
 ]
