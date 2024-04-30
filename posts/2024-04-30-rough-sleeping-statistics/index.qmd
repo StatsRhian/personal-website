@@ -1,0 +1,39 @@
+---
+title: Did rough sleeping increase after the 2010 election?
+description: "When making statistical comparisons, it's important to compare like with like. "
+date: 2024-04-30
+categories: [fact checking, communicating statistics]
+image: "rough-sleeping-graph.jpeg"
+img-alt: "Screenshot of a post from Sadiq Khan's X account. Title is 'Labour came close to ending rough sleeping. Let's do it again.' The graph shows a sharp decrease in the number of rough sleepers from 1998 - 2010 (coloured red to indicate Labour in power), and then a gradual increase in the numbers  (coloured blue to indicate Conservatives in power.)"
+---
+
+## What's the stat?
+
+Sadiq Khan [shared a graph on his social media](https://twitter.com/SadiqKhan/status/1779786319972954588) titled "Labour came close to ending rough sleeping. Let's do it again".
+The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment.
+
+<img src="rough-sleeping-graph.jpeg" title="Post shared by Sadiq Khan" alt="Screenshot of a post from Sadiq Khan's X account. Title is 'Labour came close to ending rough sleeping. Let's do it again.' The graph shows a sharp decrease in the number of rough sleepers from 1998 - 2010 (coloured red to indicate Labour in power), and then a gradual increase in the numbers  (coloured blue to indicate Conservatives in power.)." style="display: block; width: 400px; margin-right: auto; margin-left: auto;" />
+
+## What's the problem?
+
+Rough sleeping statistics are [official statistics, published](https://www.gov.uk/government/collections/homelessness-statistics#rough-sleeping) by the 
+Department for Levelling Up, Housing and Communities. In 2010, the way that rough sleeping statistics were reported changed. The differences are described in this [technical note](https://assets.publishing.service.gov.uk/media/5a795681ed915d0422067906/1846366.pdf). 
+
+There are a number of points highlighted in the technical guidance, but the two key ones for me are:
+
+- the definition of a rough sleeper was changed to include rough sleepers about to bed down (e.g. sitting or standing near their bedding but not actually lying down) and those in tents. Broadening the definition of what counts as "rough sleeping" will likely increase the counts.
+
+- Prior to 2010, Local Authorities with more than ten rough sleepers had to perform and report a count of rough sleepers in their area. Local Authorities are now able to choose whether to report a count or an estimate. Estimates are made by consulting with local agencies and the community to compile and agree a figure. The technical guide provides a comparison of the statistics before and after the change (Table 1), the largest increase was seen in the local authorities that switched from a count to an estimate.
+
+The report then states
+
+> The changes that have been made to the methodology and the definition of rough sleepers make it very difficult to make comparisons over time as we cannot separate the impact of these methodological changes from changes in the level of rough sleeping between autumn 2010 and earlier time periods. It is therefore not possible to determine accurately whether rough sleeping has increased as we cannot separate the differences resulting from methodological changes from changes in the level of rough sleeping between time periods.
+
+## So what?
+
+When making statistical comparisons, it's important to compare like with like. We can still say that rough sleeping figures did decrease from 1998 to 2010, during Labour's time in power. However,  it is not possible to determine accurately whether rough sleeping has increased after 2010, as we cannot separate the methodological differences from the changes in the number of people sleeping rough.
+
+The two time series are not directly comparable, and this should be highlighted in the graphic if presenting the two series as one.
+
+ 
+
