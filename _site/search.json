@@ -1,136 +1,31 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
     "section": "",
-    "text": "A personal STOR-i\n\n\nSTOR-i annual conference\n\n\n\nconference\n\n\ncareer\n\n\n\nPersonal career and leadership talk aimed at postgraduate statisticians.\n\n\n\n\n\nJan 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOn-demand overviews\n\n\nData Innovation Showcase, National Innovation Centre for Data\n\n\n\nconference\n\n\nR\n\n\nquarto\n\n\n\nAutomatic reporting for managers.\n\n\n\n\n\nSep 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTaking the stress out of your code mess\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nprogramming\n\n\n\nActionable tips to help you refactor your code\n\n\n\n\n\nSep 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMaking Maps! Visualising spatial data in R\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nworkshop\n\n\nR\n\n\nspatial\n\n\n\nInteractive workshop introducing {sf} and {tmap}\n\n\n\n\n\nSep 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nShare your data story\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nworkshop\n\n\ncareer\n\n\n\nTips for getting started with a data science portfolio.\n\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nData Science without the Data\n\n\nRencontres R 2023\n\n\n\nconference\n\n\nkeynote\n\n\ndata science\n\n\n\nMaintaining flexibility and adaptability in the face of changing data requirements.\n\n\n\n\n\nJun 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nChanging the world with data\n\n\nSpeakers for Schools\n\n\n\noutreach\n\n\ndata science\n\n\n\nA taste of what it’s like to be a problem solver for a living\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nReproducible data reports with Quarto\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nworkshop\n\n\nquarto\n\n\n\nQuarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story.\n\n\n\n\n\nSep 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t Panic! The Ambassadors guide to communicating statistics\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nworkshop\n\n\ncommunication\n\n\n\nAdvice and guidance on communicating complex statistical ideas and concepts in plain language\n\n\n\n\n\nSep 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nShare your Models with R {plumber} APIs\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nR\n\n\nprogramming\n\n\n\nWhat is an API? And why would I make one?\n\n\n\n\n\nSep 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA Tale of Two Languages\n\n\nPyLadies Munich, PyLadies Tunis & R-Ladies Cologne\n\n\n\nmeetup\n\n\ncareer\n\n\nR-Ladies\n\n\nPyLadies\n\n\n\nThe challenges and opportunities of working within a bilingual team.\n\n\n\n\n\nJul 27, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPractical Advice for R in Production\n\n\nWorkshop for Posit\n\n\n\nR\n\n\nworkshop\n\n\n\nHands on workshop where you will learn best practices for securely putting R in production.\n\n\n\n\n\nAug 12, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nAutomating Bespoke Online Teaching\n\n\nUseR! 2021\n\n\n\nconference\n\n\nR\n\n\n\nUsing R to create a bespoke learning environment automatically.\n\n\n\n\n\nJul 8, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nThe varied life of a data scientist\n\n\nVarious University departments\n\n\n\ncareer\n\n\n\nCareer talk aimed at undergraduates considering data science careers.\n\n\n\n\n\nDec 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to {ggplot2}\n\n\nNHS R Conference 2020\n\n\n\nconference\n\n\nworkshop\n\n\nR\n\n\nggplot2\n\n\n\nA two hour workshop presented at the NHS R Conference.\n\n\n\n\n\nNov 3, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical consultancy: advice for going it alone\n\n\nRSS International Conference 2020\n\n\n\nconference\n\n\ncareer\n\n\n\nPanel session\n\n\n\n\n\nSep 9, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz for Better\n\n\nRSS Merseyside\n\n\n\nmeetup\n\n\nvisualisation\n\n\nggplot2\n\n\nR\n\n\n\nInvestigating Florence Nightingale’s Polar Area Diagram and discussing how she used them to argue a case for better hospital management.\n\n\n\n\n\nJul 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nStories from San Francisco\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\n\nWhat I learnt at RStudio Conference 2020\n\n\n\n\n\nFeb 5, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCleaner code with CI\n\n\nRStudio Conference 2020\n\n\n\nconference\n\n\nlightning-talk\n\n\ngit\n\n\nci/cd\n\n\n\nWhat is CI and how can it help me write awesome code?\n\n\n\n\n\nJan 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCan you trust your R package?\n\n\nSatRday Cardiff 2019\n\n\n\nmeetup\n\n\nprogramming\n\n\ngit\n\n\nci/cd\n\n\n\nI’ll explain what continuous integration is and tell stories of how we use it at Jumping Rivers.\n\n\n\n\n\nNov 16, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nDates and times with {lubridate}\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {lubridate}\n\n\n\n\n\nNov 6, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nSuper fun times with strings\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {stringr}\n\n\n\n\n\nOct 2, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nGetting the most out of Git\n\n\nuseR! 2019 Workshop\n\n\n\nconference\n\n\nworkshop\n\n\n\nWorkshop on Git & Continous Integration\n\n\n\n\n\nJul 9, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nData Transformation with Tidyverse\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {dplyr}\n\n\n\n\n\nJun 5, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nPretty Graphics with ggplot2\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\nggplot2\n\n\n\nBeginner friendly workshop on {ggplot2}\n\n\n\n\n\nJun 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nA day in the life with R\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\n\nA whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps.\n\n\n\n\n\nMay 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nData Detective\n\n\nFlorence Nightingale Day 2019\n\n\n\noutreach\n\n\ndata science\n\n\n\nStories showcasing the pitfalls that we as humans often struggle with when it comes to randomness.\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nFaster, Safer, Better\n\n\nIMechE North West Railway Division\n\n\n\nmeetup\n\n\nrail\n\n\n\nA case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI).\n\n\n\n\n\nOct 23, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nAn Introduction to Dynamic Programming\n\n\n\n\n\n\noutreach\n\n\n\nA short introduction to dynamic programming. Aimed at 16 - 18 year olds.\n\n\n\n\n\nJan 1, 2015\n\n\n\n\n\n\n\n\n\n\n\n\nRI Mathematics Masterclass on Group Theory\n\n\nRoyal Institution Mathematics Masterclass\n\n\n\noutreach\n\n\n\nA Royal Institution Masterclass on Group Theory.\n\n\n\n\n\nMar 1, 2014\n\n\n\n\n\n\n\n\n\n\n\n\nMaths on T.V.\n\n\nLancaster University Outreach\n\n\n\noutreach\n\n\n\nLearn about the mathematics hidden in every day T.V shows.\n\n\n\n\n\nFeb 1, 2014\n\n\n\n\n\n\n\n\n\n\n\n\nMagic, Syphilis and C.S.I\n\n\nSTOR-i Forum\n\n\n\nmeetup\n\n\ncompressive sensing\n\n\n\nA friendly introduction to Compressive Sensing.\n\n\n\n\n\nNov 1, 2013\n\n\n\n\n\n\n\n\n\n\n\n\nThe effect of recovery algorithms on compressive sensing background subtraction\n\n\n2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)\n\n\n\nconference\n\n\ncompressive sensing\n\n\n\nBackground subtraction is a key method required to aid processing surveillance videos.\n\n\n\n\n\nOct 11, 2013\n\n\n\n\n\n\n\n\n\n\n\n\nLove and Mathematics\n\n\nLancaster University Outreach\n\n\n\noutreach\n\n\n\nLearn about the mathematics behind love and dating with the stable matching algorithm.\n\n\n\n\n\nFeb 14, 2013\n\n\n\n\n\n\nNo matching items"
+    "text": "Did rough sleeping increase after the 2010 election?\n\n\n\n\n\n\nfact checking\n\n\ncommunicating statistics\n\n\n\nWhen making statistical comparisons, it’s important to compare like with like. \n\n\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAn introvert’s guide to networking at a conference\n\n\n\n\n\n\nconferences\n\n\nmeetups\n\n\n\nConferences present a great opportunity to meet other professionals working in your field and lay the foundations for future collaborations. But what should you do if the idea of meeting new people puts you well out of your comfort zone?\n\n\n\n\n\nFeb 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nRefactoring Russian Doll Code\n\n\n\n\n\n\nR\n\n\nrefactoring\n\n\n\nHave you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.\n\n\n\n\n\nOct 6, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "talks/2024-01-11-stori-career/index.html",
-    "href": "talks/2024-01-11-stori-career/index.html",
-    "title": "A personal STOR-i",
+    "objectID": "talks/2019-05-01-day-in-the-life/index.html",
+    "href": "talks/2019-05-01-day-in-the-life/index.html",
+    "title": "A day in the life with R",
     "section": "",
-    "text": "STOR-i is committed to developing and disseminating research of direct relevance to industry and government as well as to the academic community. We hold an annual conference to showcase STOR-i’s research progress and achievement.\nThe Annual Conference provides an opportunity to cement co-working within STOR-i and stimulate the pooling of ideas and the discussion of research opportunities within targeted areas. The annual conference is open to our industrial partners, to visiting PhD students, and to our external advisers.\nI’m presenting a career and leadership talk, reflecting on my jobs so far."
+    "text": "I’ve been using R for many years and at the moment it feels like I basically run my life in the medium of R. I’ll give an whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps - and hinders."
   },
   {
-    "objectID": "talks/2024-01-11-stori-career/index.html#abstract",
-    "href": "talks/2024-01-11-stori-career/index.html#abstract",
-    "title": "A personal STOR-i",
+    "objectID": "talks/2019-05-01-day-in-the-life/index.html#abstract",
+    "href": "talks/2019-05-01-day-in-the-life/index.html#abstract",
+    "title": "A day in the life with R",
     "section": "",
-    "text": "STOR-i is committed to developing and disseminating research of direct relevance to industry and government as well as to the academic community. We hold an annual conference to showcase STOR-i’s research progress and achievement.\nThe Annual Conference provides an opportunity to cement co-working within STOR-i and stimulate the pooling of ideas and the discussion of research opportunities within targeted areas. The annual conference is open to our industrial partners, to visiting PhD students, and to our external advisers.\nI’m presenting a career and leadership talk, reflecting on my jobs so far."
+    "text": "I’ve been using R for many years and at the moment it feels like I basically run my life in the medium of R. I’ll give an whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps - and hinders."
   },
   {
-    "objectID": "talks/2024-01-11-stori-career/index.html#links",
-    "href": "talks/2024-01-11-stori-career/index.html#links",
-    "title": "A personal STOR-i",
+    "objectID": "talks/2019-05-01-day-in-the-life/index.html#links",
+    "href": "talks/2019-05-01-day-in-the-life/index.html#links",
+    "title": "A day in the life with R",
     "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nSTOR-i Annual Conference"
-  },
-  {
-    "objectID": "talks/2023-09-06-code-mess/index.html",
-    "href": "talks/2023-09-06-code-mess/index.html",
-    "title": "Taking the stress out of your code mess",
-    "section": "",
-    "text": "Have you ever found yourself with a big pile of messy code? (I know the answer is yes, there’s no shame in that).\nYou know you need to clean it up but you just don’t know where to start.\nI recently helped a client completely refactor her R package. This short talk will give you actionable tips to help you refactor your code and make it easier for collaborators to work with it."
-  },
-  {
-    "objectID": "talks/2023-09-06-code-mess/index.html#abstract",
-    "href": "talks/2023-09-06-code-mess/index.html#abstract",
-    "title": "Taking the stress out of your code mess",
-    "section": "",
-    "text": "Have you ever found yourself with a big pile of messy code? (I know the answer is yes, there’s no shame in that).\nYou know you need to clean it up but you just don’t know where to start.\nI recently helped a client completely refactor her R package. This short talk will give you actionable tips to help you refactor your code and make it easier for collaborators to work with it."
-  },
-  {
-    "objectID": "talks/2023-09-06-code-mess/index.html#links",
-    "href": "talks/2023-09-06-code-mess/index.html#links",
-    "title": "Taking the stress out of your code mess",
-    "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nRSS International Conference 2023, Harrogate"
-  },
-  {
-    "objectID": "talks/2023-09-04-share-your-data-story/index.html",
-    "href": "talks/2023-09-04-share-your-data-story/index.html",
-    "title": "Share your data story",
-    "section": "",
-    "text": "A data science portfolio is a great way to showcase what makes you standout. In this workshop, I’ll convince you that you don’t have to have to have it all to get started with a professional portfolio.\nFor the pre-workshop for early career statisticians."
-  },
-  {
-    "objectID": "talks/2023-09-04-share-your-data-story/index.html#abstract",
-    "href": "talks/2023-09-04-share-your-data-story/index.html#abstract",
-    "title": "Share your data story",
-    "section": "",
-    "text": "A data science portfolio is a great way to showcase what makes you standout. In this workshop, I’ll convince you that you don’t have to have to have it all to get started with a professional portfolio.\nFor the pre-workshop for early career statisticians."
-  },
-  {
-    "objectID": "talks/2023-09-04-share-your-data-story/index.html#links",
-    "href": "talks/2023-09-04-share-your-data-story/index.html#links",
-    "title": "Share your data story",
-    "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nRSS International Conference 2023, Harrogate"
-  },
-  {
-    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html",
-    "href": "talks/2023-02-23-changing-the-world-with-data/index.html",
-    "title": "Changing the world with data",
-    "section": "",
-    "text": "Are you the type of person that likes creating order from chaos, using data, numbers and information, and don’t know what to do with that curiosity? Then read on, because this could be for you.\nYou might have heard of consultancy companies before, and you’ve probably noticed that that term can be a bit vague – and you’d be right! In our case, we’re a data science consultancy company – and that means that people come to us with problems involving data they’ve collected, and ask us to help them to come up with a solution. Sometimes we’ll build a solution for them, but sometimes they ask us to show them how to do it themselves, so that they don’t need us in the future – which we’re more than happy to do!\nThis activity aims to give you a taste of what it’s like to be a problem solver for a living. We’ll be showing you how to use some of the tools we use to make interactive websites and dashboards that people can use to see all that data that they’ve collected in a useful way. Then, we’ll become your clients! You’ll get the opportunity to design and build something yourself that can fix whatever problem we bring to you."
-  },
-  {
-    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html#abstract",
-    "href": "talks/2023-02-23-changing-the-world-with-data/index.html#abstract",
-    "title": "Changing the world with data",
-    "section": "",
-    "text": "Are you the type of person that likes creating order from chaos, using data, numbers and information, and don’t know what to do with that curiosity? Then read on, because this could be for you.\nYou might have heard of consultancy companies before, and you’ve probably noticed that that term can be a bit vague – and you’d be right! In our case, we’re a data science consultancy company – and that means that people come to us with problems involving data they’ve collected, and ask us to help them to come up with a solution. Sometimes we’ll build a solution for them, but sometimes they ask us to show them how to do it themselves, so that they don’t need us in the future – which we’re more than happy to do!\nThis activity aims to give you a taste of what it’s like to be a problem solver for a living. We’ll be showing you how to use some of the tools we use to make interactive websites and dashboards that people can use to see all that data that they’ve collected in a useful way. Then, we’ll become your clients! You’ll get the opportunity to design and build something yourself that can fix whatever problem we bring to you."
-  },
-  {
-    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html#links",
-    "href": "talks/2023-02-23-changing-the-world-with-data/index.html#links",
-    "title": "Changing the world with data",
-    "section": "Links",
-    "text": "Links\n\nSlides"
-  },
-  {
-    "objectID": "talks/2022-09-14-communicating-stats/index.html",
-    "href": "talks/2022-09-14-communicating-stats/index.html",
-    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
-    "section": "",
-    "text": "The RSS Statistical Ambassadors have been selected and trained by the Society to engage in statistical discussions with the media, schools and wider public.\nThis group session will actively engage the audience through a number of exercises to stretch attendees’ communication skills. The Ambassadors will provide advice and guidance to encourage attendees to communicate complex statistical ideas and concepts in plain language, and to consider alternative ways to communicate their own research.\nThe session aims to help statisticians prepare to give insightful comments, whether written, via social media, on radio, or in television interviews."
-  },
-  {
-    "objectID": "talks/2022-09-14-communicating-stats/index.html#abstract",
-    "href": "talks/2022-09-14-communicating-stats/index.html#abstract",
-    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
-    "section": "",
-    "text": "The RSS Statistical Ambassadors have been selected and trained by the Society to engage in statistical discussions with the media, schools and wider public.\nThis group session will actively engage the audience through a number of exercises to stretch attendees’ communication skills. The Ambassadors will provide advice and guidance to encourage attendees to communicate complex statistical ideas and concepts in plain language, and to consider alternative ways to communicate their own research.\nThe session aims to help statisticians prepare to give insightful comments, whether written, via social media, on radio, or in television interviews."
-  },
-  {
-    "objectID": "talks/2022-09-14-communicating-stats/index.html#links",
-    "href": "talks/2022-09-14-communicating-stats/index.html#links",
-    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
-    "section": "Links",
-    "text": "Links\n\nSlides\nRSS International Conference 2022, Aberdeen"
-  },
-  {
-    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html",
-    "href": "talks/2022-07-27-tale-of-two-languages/index.html",
-    "title": "A Tale of Two Languages",
-    "section": "",
-    "text": "In this talk, Rhian will share stories of how Jumping Rivers develop in both R and Python - often in the same project. Rhian will share how they write all of their Python training materials in R Markdown, and how they built the Diffify tool to analyse R packages in both Python and R. Rhian will also talk a little about the challenges and opportunities they have working within a bilingual team at Jumping Rivers."
-  },
-  {
-    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html#abstract",
-    "href": "talks/2022-07-27-tale-of-two-languages/index.html#abstract",
-    "title": "A Tale of Two Languages",
-    "section": "",
-    "text": "In this talk, Rhian will share stories of how Jumping Rivers develop in both R and Python - often in the same project. Rhian will share how they write all of their Python training materials in R Markdown, and how they built the Diffify tool to analyse R packages in both Python and R. Rhian will also talk a little about the challenges and opportunities they have working within a bilingual team at Jumping Rivers."
-  },
-  {
-    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html#links",
-    "href": "talks/2022-07-27-tale-of-two-languages/index.html#links",
-    "title": "A Tale of Two Languages",
-    "section": "Links",
-    "text": "Links\n\nRecording\nSlides\nPyLadies + R-Ladies — Bringing the communities together"
+    "text": "Links\n\nR-Ladies Lancaster\nSlides"
   },
   {
     "objectID": "talks/2021-07-08-automating-online-training/index.html",
@@ -147,32 +42,25 @@
     "text": "At Jumping Rivers we deliver over 100 R, Python and Stan training courses each year, engaging with thousands of new learners. The necessity to move to fully online training in March last year meant we quickly had to completely rethink how to deliver R training interactively online. We internally trialed running our usual in-person training just on Zoom - and it really doesn’t work trust us! We already used R & R Markdown to create all training materials including slides and notes. However, our new workflow uses R in every step of the way, from creating a bespoke learning environment, to collating feedback and generating certificates. This improves the learning experience as the small things are automated and allows the trainer to concentrate on actual training.\n\n\n\n\n\n\n\nSlides\nuseR! 2021, Virtual"
   },
   {
-    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html",
-    "href": "talks/2020-11-03-graphics-with-ggplot/index.html",
-    "title": "Introduction to {ggplot2}",
+    "objectID": "talks/2019-01-10-data-detective/index.html",
+    "href": "talks/2019-01-10-data-detective/index.html",
+    "title": "Data Detective",
     "section": "",
-    "text": "One reason to learn R is that it can be used to produce publication quality graphics. In this tutorial we’ll introduce you to the fantastic ggplot2 package and help you create many different types of plots. We’ll explain “geoms” and “aesthetics” and give you a flavour of the different ways you can adapt the look of your plots. This workshop will be very hands-on and no previous knowledge of {ggplot2} is necessary."
+    "text": "Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it’s Rhian’s job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness."
   },
   {
-    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#abstract",
-    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#abstract",
-    "title": "Introduction to {ggplot2}",
+    "objectID": "talks/2019-01-10-data-detective/index.html#abstract",
+    "href": "talks/2019-01-10-data-detective/index.html#abstract",
+    "title": "Data Detective",
     "section": "",
-    "text": "One reason to learn R is that it can be used to produce publication quality graphics. In this tutorial we’ll introduce you to the fantastic ggplot2 package and help you create many different types of plots. We’ll explain “geoms” and “aesthetics” and give you a flavour of the different ways you can adapt the look of your plots. This workshop will be very hands-on and no previous knowledge of {ggplot2} is necessary."
+    "text": "Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it’s Rhian’s job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness."
   },
   {
-    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#recording",
-    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#recording",
-    "title": "Introduction to {ggplot2}",
-    "section": "Recording",
-    "text": "Recording"
-  },
-  {
-    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#links",
-    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#links",
-    "title": "Introduction to {ggplot2}",
+    "objectID": "talks/2019-01-10-data-detective/index.html#links",
+    "href": "talks/2019-01-10-data-detective/index.html#links",
+    "title": "Data Detective",
     "section": "Links",
-    "text": "Links\n\nSlides\nNHS R Conference 2020"
+    "text": "Links\n\nSlides\nFlorence Nightingale Day 2019"
   },
   {
     "objectID": "talks/2020-07-01-data-viz-for-better/index.html",
@@ -203,6 +91,111 @@
     "text": "Links\n\nSlides\nRSS Merseyside"
   },
   {
+    "objectID": "talks/2023-06-22-data-science-without-data/index.html",
+    "href": "talks/2023-06-22-data-science-without-data/index.html",
+    "title": "Data Science without the Data",
+    "section": "",
+    "text": "As data scientists, we sometimes find ourselves faced with the daunting task of writing code without actually seeing the data we are working with. Whether it’s due to data privacy concerns, limited access, or simply data that has not yet been collected, we often have to rely on incomplete or synthetic data to develop and test our code.\nIn a recent project, we worked on patient-level data. As such, the controls around the data and analysis (were rightfully) tightly controlled. We’ll share how we used dummy data and mock-ups to inform code development, maintaining flexibility and adaptability in the face of changing data requirements. We’ll also discuss the importance of and collaboration between developers and subject experts to ensure that code is developed with a deep understanding of the data domain\nBy understanding these challenges and developing effective strategies for overcoming them, we can ensure that our code is robust, reliable, and effective, even in the absence of direct data access."
+  },
+  {
+    "objectID": "talks/2023-06-22-data-science-without-data/index.html#abstract",
+    "href": "talks/2023-06-22-data-science-without-data/index.html#abstract",
+    "title": "Data Science without the Data",
+    "section": "",
+    "text": "As data scientists, we sometimes find ourselves faced with the daunting task of writing code without actually seeing the data we are working with. Whether it’s due to data privacy concerns, limited access, or simply data that has not yet been collected, we often have to rely on incomplete or synthetic data to develop and test our code.\nIn a recent project, we worked on patient-level data. As such, the controls around the data and analysis (were rightfully) tightly controlled. We’ll share how we used dummy data and mock-ups to inform code development, maintaining flexibility and adaptability in the face of changing data requirements. We’ll also discuss the importance of and collaboration between developers and subject experts to ensure that code is developed with a deep understanding of the data domain\nBy understanding these challenges and developing effective strategies for overcoming them, we can ensure that our code is robust, reliable, and effective, even in the absence of direct data access."
+  },
+  {
+    "objectID": "talks/2023-06-22-data-science-without-data/index.html#links",
+    "href": "talks/2023-06-22-data-science-without-data/index.html#links",
+    "title": "Data Science without the Data",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nRecording\nRencontres R 2023, Avignon"
+  },
+  {
+    "objectID": "talks/2023-09-06-code-mess/index.html",
+    "href": "talks/2023-09-06-code-mess/index.html",
+    "title": "Taking the stress out of your code mess",
+    "section": "",
+    "text": "Have you ever found yourself with a big pile of messy code? (I know the answer is yes, there’s no shame in that).\nYou know you need to clean it up but you just don’t know where to start.\nI recently helped a client completely refactor her R package. This short talk will give you actionable tips to help you refactor your code and make it easier for collaborators to work with it."
+  },
+  {
+    "objectID": "talks/2023-09-06-code-mess/index.html#abstract",
+    "href": "talks/2023-09-06-code-mess/index.html#abstract",
+    "title": "Taking the stress out of your code mess",
+    "section": "",
+    "text": "Have you ever found yourself with a big pile of messy code? (I know the answer is yes, there’s no shame in that).\nYou know you need to clean it up but you just don’t know where to start.\nI recently helped a client completely refactor her R package. This short talk will give you actionable tips to help you refactor your code and make it easier for collaborators to work with it."
+  },
+  {
+    "objectID": "talks/2023-09-06-code-mess/index.html#links",
+    "href": "talks/2023-09-06-code-mess/index.html#links",
+    "title": "Taking the stress out of your code mess",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nRSS International Conference 2023, Harrogate"
+  },
+  {
+    "objectID": "talks/2024-01-11-stori-career/index.html",
+    "href": "talks/2024-01-11-stori-career/index.html",
+    "title": "A personal STOR-i",
+    "section": "",
+    "text": "STOR-i is committed to developing and disseminating research of direct relevance to industry and government as well as to the academic community. We hold an annual conference to showcase STOR-i’s research progress and achievement.\nThe Annual Conference provides an opportunity to cement co-working within STOR-i and stimulate the pooling of ideas and the discussion of research opportunities within targeted areas. The annual conference is open to our industrial partners, to visiting PhD students, and to our external advisers.\nI’m presenting a career and leadership talk, reflecting on my jobs so far."
+  },
+  {
+    "objectID": "talks/2024-01-11-stori-career/index.html#abstract",
+    "href": "talks/2024-01-11-stori-career/index.html#abstract",
+    "title": "A personal STOR-i",
+    "section": "",
+    "text": "STOR-i is committed to developing and disseminating research of direct relevance to industry and government as well as to the academic community. We hold an annual conference to showcase STOR-i’s research progress and achievement.\nThe Annual Conference provides an opportunity to cement co-working within STOR-i and stimulate the pooling of ideas and the discussion of research opportunities within targeted areas. The annual conference is open to our industrial partners, to visiting PhD students, and to our external advisers.\nI’m presenting a career and leadership talk, reflecting on my jobs so far."
+  },
+  {
+    "objectID": "talks/2024-01-11-stori-career/index.html#links",
+    "href": "talks/2024-01-11-stori-career/index.html#links",
+    "title": "A personal STOR-i",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nSTOR-i Annual Conference"
+  },
+  {
+    "objectID": "talks/2019-10-02-strings/index.html",
+    "href": "talks/2019-10-02-strings/index.html",
+    "title": "Super fun times with strings",
+    "section": "",
+    "text": "This is a beginner friendly session. We’ll be working through Chapter 14 of the R for Data Science book, which deals with manipulating strings (text). This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together.\nAfterwards, we will try these out on our own data. So please, if you can, bring along some of your own data. You could be working on this data at the moment, or it could be something you have used in the past. If you don’t have any data, this would be a good learning opportunity to try and find some open source data from the internet."
+  },
+  {
+    "objectID": "talks/2019-10-02-strings/index.html#abstract",
+    "href": "talks/2019-10-02-strings/index.html#abstract",
+    "title": "Super fun times with strings",
+    "section": "",
+    "text": "This is a beginner friendly session. We’ll be working through Chapter 14 of the R for Data Science book, which deals with manipulating strings (text). This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together.\nAfterwards, we will try these out on our own data. So please, if you can, bring along some of your own data. You could be working on this data at the moment, or it could be something you have used in the past. If you don’t have any data, this would be a good learning opportunity to try and find some open source data from the internet."
+  },
+  {
+    "objectID": "talks/2019-10-02-strings/index.html#links",
+    "href": "talks/2019-10-02-strings/index.html#links",
+    "title": "Super fun times with strings",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
+  },
+  {
+    "objectID": "talks/2022-09-14-communicating-stats/index.html",
+    "href": "talks/2022-09-14-communicating-stats/index.html",
+    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
+    "section": "",
+    "text": "The RSS Statistical Ambassadors have been selected and trained by the Society to engage in statistical discussions with the media, schools and wider public.\nThis group session will actively engage the audience through a number of exercises to stretch attendees’ communication skills. The Ambassadors will provide advice and guidance to encourage attendees to communicate complex statistical ideas and concepts in plain language, and to consider alternative ways to communicate their own research.\nThe session aims to help statisticians prepare to give insightful comments, whether written, via social media, on radio, or in television interviews."
+  },
+  {
+    "objectID": "talks/2022-09-14-communicating-stats/index.html#abstract",
+    "href": "talks/2022-09-14-communicating-stats/index.html#abstract",
+    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
+    "section": "",
+    "text": "The RSS Statistical Ambassadors have been selected and trained by the Society to engage in statistical discussions with the media, schools and wider public.\nThis group session will actively engage the audience through a number of exercises to stretch attendees’ communication skills. The Ambassadors will provide advice and guidance to encourage attendees to communicate complex statistical ideas and concepts in plain language, and to consider alternative ways to communicate their own research.\nThe session aims to help statisticians prepare to give insightful comments, whether written, via social media, on radio, or in television interviews."
+  },
+  {
+    "objectID": "talks/2022-09-14-communicating-stats/index.html#links",
+    "href": "talks/2022-09-14-communicating-stats/index.html#links",
+    "title": "Don’t Panic! The Ambassadors guide to communicating statistics",
+    "section": "Links",
+    "text": "Links\n\nSlides\nRSS International Conference 2022, Aberdeen"
+  },
+  {
     "objectID": "talks/2020-01-29-cleaner-code-with-CI/index.html",
     "href": "talks/2020-01-29-cleaner-code-with-CI/index.html",
     "title": "Cleaner code with CI",
@@ -231,6 +224,76 @@
     "text": "Links\n\nSlides\nSpeaker notes"
   },
   {
+    "objectID": "talks/2022-09-15-quarto/index.html",
+    "href": "talks/2022-09-15-quarto/index.html",
+    "title": "Reproducible data reports with Quarto",
+    "section": "",
+    "text": "Abstract\nQuarto is an open-source scientific and technical publishing system. Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story. When the underlying data inevitably changes, a click of a button will update the document like magic – automatically updating plots, tables and text. This style of automated reporting makes data analysis more efficient and reproducible. Quarto supports dozens of static and dynamic output formats including HTML, PDF, MS Word, slides, dashboards, scientific articles and more.\nBy the end of the workshop you will be able to:\n\nuse Markdown formatting to customise a document\nembed R code into a Quarto report\ndynamically embed plots and tables\n\nThe resources for this workshop are available on GitHub.\nJoint work with Nicola Rennie\nCover Image: Duke Lemur Center."
+  },
+  {
+    "objectID": "talks/2022-09-13-plumber/index.html",
+    "href": "talks/2022-09-13-plumber/index.html",
+    "title": "Share your Models with R {plumber} APIs",
+    "section": "",
+    "text": "So you’ve developed a statistical model, and now you want to share it with the world. You’ve heard that APIs make it easy to scale the reach of your work. But what is an API? How do you make one? And how difficult is it to do?\nAt some point, you may want to share your statistical models with other people. If they are not R users, they may not be able to use your work without translating it into their language of choice. However, if your model is available in the form of an API, then anybody can import your results without this difficult translation step.\nMaking your models available through an API reduces the handoff between R and other tools or technologies. More people can access your results and use them to make data-driven decisions.\nThe {plumber} package makes it easy to convert your R functions into API endpoints using just a few special comments.\nIn this talk I’ll introduce what an API is, how the {plumber} package works and give an example of sharing a statistical model to a wider audience."
+  },
+  {
+    "objectID": "talks/2022-09-13-plumber/index.html#abstract",
+    "href": "talks/2022-09-13-plumber/index.html#abstract",
+    "title": "Share your Models with R {plumber} APIs",
+    "section": "",
+    "text": "So you’ve developed a statistical model, and now you want to share it with the world. You’ve heard that APIs make it easy to scale the reach of your work. But what is an API? How do you make one? And how difficult is it to do?\nAt some point, you may want to share your statistical models with other people. If they are not R users, they may not be able to use your work without translating it into their language of choice. However, if your model is available in the form of an API, then anybody can import your results without this difficult translation step.\nMaking your models available through an API reduces the handoff between R and other tools or technologies. More people can access your results and use them to make data-driven decisions.\nThe {plumber} package makes it easy to convert your R functions into API endpoints using just a few special comments.\nIn this talk I’ll introduce what an API is, how the {plumber} package works and give an example of sharing a statistical model to a wider audience."
+  },
+  {
+    "objectID": "talks/2022-09-13-plumber/index.html#materials",
+    "href": "talks/2022-09-13-plumber/index.html#materials",
+    "title": "Share your Models with R {plumber} APIs",
+    "section": "Materials",
+    "text": "Materials\n\n\n\n\n\nSlides\nRSS International Conference 2022, Aberdeen"
+  },
+  {
+    "objectID": "talks/2023-09-05-making-maps/index.html",
+    "href": "talks/2023-09-05-making-maps/index.html",
+    "title": "Making Maps! Visualising spatial data in R",
+    "section": "",
+    "text": "Maps can be a powerful way to communicate your research to wider audiences. Traditionally, you would need to use a specific geographic information system (GIS) tool for mapping. R is now a widely used open source software platform for working with spatial data thanks to its powerful analysis and visualisation packages.\nIn this workshop, you’ll learn the fundamentals of working with geospatial data in R. You’ll create high-quality, informative maps - that look great too!\nIf you want to participate in the exercises, please bring a laptop to the session. There is no need to install anything in advance. Some basic prior knowledge is helpful but not essential for attending this session."
+  },
+  {
+    "objectID": "talks/2023-09-05-making-maps/index.html#abstract",
+    "href": "talks/2023-09-05-making-maps/index.html#abstract",
+    "title": "Making Maps! Visualising spatial data in R",
+    "section": "",
+    "text": "Maps can be a powerful way to communicate your research to wider audiences. Traditionally, you would need to use a specific geographic information system (GIS) tool for mapping. R is now a widely used open source software platform for working with spatial data thanks to its powerful analysis and visualisation packages.\nIn this workshop, you’ll learn the fundamentals of working with geospatial data in R. You’ll create high-quality, informative maps - that look great too!\nIf you want to participate in the exercises, please bring a laptop to the session. There is no need to install anything in advance. Some basic prior knowledge is helpful but not essential for attending this session."
+  },
+  {
+    "objectID": "talks/2023-09-05-making-maps/index.html#links",
+    "href": "talks/2023-09-05-making-maps/index.html#links",
+    "title": "Making Maps! Visualising spatial data in R",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nWorkshop materials\nRSS International Conference 2023, Harrogate"
+  },
+  {
+    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html",
+    "href": "talks/2023-02-23-changing-the-world-with-data/index.html",
+    "title": "Changing the world with data",
+    "section": "",
+    "text": "Are you the type of person that likes creating order from chaos, using data, numbers and information, and don’t know what to do with that curiosity? Then read on, because this could be for you.\nYou might have heard of consultancy companies before, and you’ve probably noticed that that term can be a bit vague – and you’d be right! In our case, we’re a data science consultancy company – and that means that people come to us with problems involving data they’ve collected, and ask us to help them to come up with a solution. Sometimes we’ll build a solution for them, but sometimes they ask us to show them how to do it themselves, so that they don’t need us in the future – which we’re more than happy to do!\nThis activity aims to give you a taste of what it’s like to be a problem solver for a living. We’ll be showing you how to use some of the tools we use to make interactive websites and dashboards that people can use to see all that data that they’ve collected in a useful way. Then, we’ll become your clients! You’ll get the opportunity to design and build something yourself that can fix whatever problem we bring to you."
+  },
+  {
+    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html#abstract",
+    "href": "talks/2023-02-23-changing-the-world-with-data/index.html#abstract",
+    "title": "Changing the world with data",
+    "section": "",
+    "text": "Are you the type of person that likes creating order from chaos, using data, numbers and information, and don’t know what to do with that curiosity? Then read on, because this could be for you.\nYou might have heard of consultancy companies before, and you’ve probably noticed that that term can be a bit vague – and you’d be right! In our case, we’re a data science consultancy company – and that means that people come to us with problems involving data they’ve collected, and ask us to help them to come up with a solution. Sometimes we’ll build a solution for them, but sometimes they ask us to show them how to do it themselves, so that they don’t need us in the future – which we’re more than happy to do!\nThis activity aims to give you a taste of what it’s like to be a problem solver for a living. We’ll be showing you how to use some of the tools we use to make interactive websites and dashboards that people can use to see all that data that they’ve collected in a useful way. Then, we’ll become your clients! You’ll get the opportunity to design and build something yourself that can fix whatever problem we bring to you."
+  },
+  {
+    "objectID": "talks/2023-02-23-changing-the-world-with-data/index.html#links",
+    "href": "talks/2023-02-23-changing-the-world-with-data/index.html#links",
+    "title": "Changing the world with data",
+    "section": "Links",
+    "text": "Links\n\nSlides"
+  },
+  {
     "objectID": "talks/2019-11-06-dates-and-times/index.html",
     "href": "talks/2019-11-06-dates-and-times/index.html",
     "title": "Dates and times with {lubridate}",
@@ -252,102 +315,81 @@
     "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
   },
   {
-    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html",
-    "href": "talks/2019-07-09-getting-the-most-with-git/index.html",
-    "title": "Getting the most out of Git",
+    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html",
+    "href": "talks/2020-02-05-stories-from-sanfran/index.html",
+    "title": "Stories from San Francisco",
     "section": "",
-    "text": "Do you wonder what a pull request is? Do you browse GitHub and see lots of repositories with fancy looking badges, and think, I would like some of them? And what is a git-hook and why should you care? In this tutorial, we’ll look at how we can leverage external tools, such as travis, covr, and Docker hub."
+    "text": "I’m lucky to be attending the RStudio Conference this year. I’ll give a talk summarising some of the new and exciting things I learnt at the conference to share with you all!"
   },
   {
-    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html#abstract",
-    "href": "talks/2019-07-09-getting-the-most-with-git/index.html#abstract",
-    "title": "Getting the most out of Git",
+    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html#abstract",
+    "href": "talks/2020-02-05-stories-from-sanfran/index.html#abstract",
+    "title": "Stories from San Francisco",
     "section": "",
-    "text": "Do you wonder what a pull request is? Do you browse GitHub and see lots of repositories with fancy looking badges, and think, I would like some of them? And what is a git-hook and why should you care? In this tutorial, we’ll look at how we can leverage external tools, such as travis, covr, and Docker hub."
+    "text": "I’m lucky to be attending the RStudio Conference this year. I’ll give a talk summarising some of the new and exciting things I learnt at the conference to share with you all!"
   },
   {
-    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html#links",
-    "href": "talks/2019-07-09-getting-the-most-with-git/index.html#links",
-    "title": "Getting the most out of Git",
+    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html#links",
+    "href": "talks/2020-02-05-stories-from-sanfran/index.html#links",
+    "title": "Stories from San Francisco",
     "section": "Links",
-    "text": "Links\n\nSlides\nUseR! 2019"
+    "text": "Links\n\n\n\n\n\nSlides\nMeetup"
   },
   {
-    "objectID": "talks/2019-06-05-data-transformation/index.html",
-    "href": "talks/2019-06-05-data-transformation/index.html",
-    "title": "Data Transformation with Tidyverse",
+    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html",
+    "href": "talks/2020-11-03-graphics-with-ggplot/index.html",
+    "title": "Introduction to {ggplot2}",
     "section": "",
-    "text": "This will be a beginner friendly session where we will learn how to access and transform data. Even if you’ve never used R before, you’ll be able to take part and do some coding.\nWe’ll be working through Chapter 5 of the R for Data Science book. This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together."
+    "text": "One reason to learn R is that it can be used to produce publication quality graphics. In this tutorial we’ll introduce you to the fantastic ggplot2 package and help you create many different types of plots. We’ll explain “geoms” and “aesthetics” and give you a flavour of the different ways you can adapt the look of your plots. This workshop will be very hands-on and no previous knowledge of {ggplot2} is necessary."
   },
   {
-    "objectID": "talks/2019-06-05-data-transformation/index.html#abstract",
-    "href": "talks/2019-06-05-data-transformation/index.html#abstract",
-    "title": "Data Transformation with Tidyverse",
+    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#abstract",
+    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#abstract",
+    "title": "Introduction to {ggplot2}",
     "section": "",
-    "text": "This will be a beginner friendly session where we will learn how to access and transform data. Even if you’ve never used R before, you’ll be able to take part and do some coding.\nWe’ll be working through Chapter 5 of the R for Data Science book. This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together."
+    "text": "One reason to learn R is that it can be used to produce publication quality graphics. In this tutorial we’ll introduce you to the fantastic ggplot2 package and help you create many different types of plots. We’ll explain “geoms” and “aesthetics” and give you a flavour of the different ways you can adapt the look of your plots. This workshop will be very hands-on and no previous knowledge of {ggplot2} is necessary."
   },
   {
-    "objectID": "talks/2019-06-05-data-transformation/index.html#links",
-    "href": "talks/2019-06-05-data-transformation/index.html#links",
-    "title": "Data Transformation with Tidyverse",
+    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#recording",
+    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#recording",
+    "title": "Introduction to {ggplot2}",
+    "section": "Recording",
+    "text": "Recording"
+  },
+  {
+    "objectID": "talks/2020-11-03-graphics-with-ggplot/index.html#links",
+    "href": "talks/2020-11-03-graphics-with-ggplot/index.html#links",
+    "title": "Introduction to {ggplot2}",
     "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
+    "text": "Links\n\nSlides\nNHS R Conference 2020"
   },
   {
-    "objectID": "talks/2019-01-10-data-detective/index.html",
-    "href": "talks/2019-01-10-data-detective/index.html",
-    "title": "Data Detective",
+    "objectID": "talks/2013-02-14-love-and-mathematics/index.html",
+    "href": "talks/2013-02-14-love-and-mathematics/index.html",
+    "title": "Love and Mathematics",
     "section": "",
-    "text": "Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it’s Rhian’s job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness."
+    "text": "An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples."
   },
   {
-    "objectID": "talks/2019-01-10-data-detective/index.html#abstract",
-    "href": "talks/2019-01-10-data-detective/index.html#abstract",
-    "title": "Data Detective",
+    "objectID": "talks/2013-02-14-love-and-mathematics/index.html#abstract",
+    "href": "talks/2013-02-14-love-and-mathematics/index.html#abstract",
+    "title": "Love and Mathematics",
     "section": "",
-    "text": "Humans are notoriously bad at dealing with randomness and probabilities - we ignore the obvious and see patterns in the ordinary. As a statistician, it’s Rhian’s job to decide whether differences in data are due to chance or a real underlying cause. Rhian will tell stories of real projects she has worked on from predicting your personality to analysing your deodorant and discuss the pitfalls that we as humans often struggle with when it comes to randomness."
+    "text": "An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples."
   },
   {
-    "objectID": "talks/2019-01-10-data-detective/index.html#links",
-    "href": "talks/2019-01-10-data-detective/index.html#links",
-    "title": "Data Detective",
-    "section": "Links",
-    "text": "Links\n\nSlides\nFlorence Nightingale Day 2019"
-  },
-  {
-    "objectID": "talks/2015-01-01-intro-to-dynamic-programming/index.html",
-    "href": "talks/2015-01-01-intro-to-dynamic-programming/index.html",
-    "title": "An Introduction to Dynamic Programming",
+    "objectID": "projects/hill-climbs/index.html",
+    "href": "projects/hill-climbs/index.html",
+    "title": "Hill climbs",
     "section": "",
-    "text": "Introducing the knapsack problem and travel routing.\n\n\nCode Repo"
+    "text": "I like cycling. I’m not great at going fast, but I quite enjoy puffing my way to the top of a hill.\nWhen I first started playing with the {leaflet}, I mapped the local hill climbs.\n\nlibrary(magrittr)\nlancashire = sf::st_read(\"lancashire_climbs/lancashire_climbs.shp\", quiet = TRUE)\n\nleaflet::leaflet() %&gt;%\n  leaflet::addTiles() %&gt;%\n  leaflet::addPolylines(data = lancashire, col = ~col, label = ~name)"
   },
   {
-    "objectID": "talks/2014-02-01-tv-maths/index.html",
-    "href": "talks/2014-02-01-tv-maths/index.html",
-    "title": "Maths on T.V.",
+    "objectID": "projects/paddle-blog/index.html",
+    "href": "projects/paddle-blog/index.html",
+    "title": "Rhi on the Sea",
     "section": "",
-    "text": "An outreach talk highlighting some of the mathematical concepts hidden in T.V shows.\n\nMaterials"
-  },
-  {
-    "objectID": "talks/2013-10-sdf/index.html",
-    "href": "talks/2013-10-sdf/index.html",
-    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
-    "section": "",
-    "text": "Background subtraction is a key method required to aid processing surveillance videos. Current methods require storing each pixel of every video frame, which can be wasteful as most of this information refers to the uninteresting background. Compressive sensing can offer an efficient solution by using the fact that foreground is often sparse in the spatial domain. By making this assumption and applying a specific recovery algorithm to a trained background, it is possible to reconstruct the foreground, using only a low dimensional representation of the difference between the current frame and the estimated background scene. Although new compressive sensing background subtraction algorithms are being created, no study has been made of the effect of recovery algorithms on performance of background subtraction. This is considered by applying both Basis Pursuit and Orthogonal Matching Pursuit (OMP) to a standard test video, and comparing their accuracy."
-  },
-  {
-    "objectID": "talks/2013-10-sdf/index.html#abstract",
-    "href": "talks/2013-10-sdf/index.html#abstract",
-    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
-    "section": "",
-    "text": "Background subtraction is a key method required to aid processing surveillance videos. Current methods require storing each pixel of every video frame, which can be wasteful as most of this information refers to the uninteresting background. Compressive sensing can offer an efficient solution by using the fact that foreground is often sparse in the spatial domain. By making this assumption and applying a specific recovery algorithm to a trained background, it is possible to reconstruct the foreground, using only a low dimensional representation of the difference between the current frame and the estimated background scene. Although new compressive sensing background subtraction algorithms are being created, no study has been made of the effect of recovery algorithms on performance of background subtraction. This is considered by applying both Basis Pursuit and Orthogonal Matching Pursuit (OMP) to a standard test video, and comparing their accuracy."
-  },
-  {
-    "objectID": "talks/2013-10-sdf/index.html#links",
-    "href": "talks/2013-10-sdf/index.html#links",
-    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
-    "section": "Links",
-    "text": "Links\nSlides"
+    "text": "As I work towards my sea kayaking leadership award, I’ll need to track and reflect on my paddling. I’m doing this via a {distill} website because I have an addiction to building static sites in #RStats."
   },
   {
     "objectID": "projects.html",
@@ -357,25 +399,11 @@
     "text": "Hill climbs\n\n\nMapping the top Lancashire cycle hill climbs in leaflet.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLevel Up\n\n\nAn R package for managing CPD data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecipes\n\n\nCreating a personal recipe book to learn the {bookdown} package.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRhi on the Sea\n\n\nDocumenting and mapping my paddles.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese are my rivers\n\n\nMaking poster art of the local rivers.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/recipes/index.html",
-    "href": "projects/recipes/index.html",
-    "title": "Recipes",
+    "objectID": "posts/2024-02-29-conference-networking/index.html",
+    "href": "posts/2024-02-29-conference-networking/index.html",
+    "title": "An introvert’s guide to networking at a conference",
     "section": "",
-    "text": "I don’t particularly enjoy cooking. But I do enjoy making irrelevant websites. When I do cook, I like having a tried and tested recipe to follow. I decided to use {bookdown} to put all of my standard recipes into a nice, searchable, version controlled, online book."
-  },
-  {
-    "objectID": "projects/levelup/index.html",
-    "href": "projects/levelup/index.html",
-    "title": "Level Up",
-    "section": "",
-    "text": "I keep detailed CPD records for my professional development. I store each activity as a YAML file, allowing me to pull in data and write annual reports in R Markdown. The {levelup} R package contains helper functions for me to create and manage those YAML files.\nGitHub\nI’d like to update this to a quarto report."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Did rough sleeping increase after the 2010 election?\n\n\n\n\n\n\nfact checking\n\n\ncommunicating statistics\n\n\n\nWhen making statistical comparisons, it’s important to compare like with like. \n\n\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAn introvert’s guide to networking at a conference\n\n\n\n\n\n\nconferences\n\n\nmeetups\n\n\n\nConferences present a great opportunity to meet other professionals working in your field and lay the foundations for future collaborations. But what should you do if the idea of meeting new people puts you well out of your comfort zone?\n\n\n\n\n\nFeb 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nRefactoring Russian Doll Code\n\n\n\n\n\n\nR\n\n\nrefactoring\n\n\n\nHave you ever inherited a pile of messy code? Or perhaps you wrote some code a long time ago and it needs some TLC? Here are a couple of my tips for refactoring messy code.\n\n\n\n\n\nOct 6, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Uh oh. Conferences. I’ve been trying not to think about them, but I can’t put it off any longer.\nThat’s okay! It might not be too late to book on to the conferences you want to attend. Some will even still have early bird offers available if you’re quick.\n\n\nOh that’s not a problem. I’m already booked on, travel is arranged, my talk is written. It’s just …\n… just what?\n\n\n… there’s so many people and events. My manager said “they’re great networking opportunities” so I think she’s expecting me to come back with a whole list of new contacts too.\nOh! Well I love attending conferences. Spending time with interesting people, and meeting new folk leaves me all energised and buzzy. But conferences aren’t just for extroverts like me.\nSetting your manager’s possible expectations aside for a second, just focus on what you can benefit from when networking: Meeting the people behind interesting projects that could be helpful to you; encountering contacts with interesting job opportunities; finding like-minded people to attend the social events with.\nMaybe I can help you out with a few tips?\n\n\nThat would be great! How should I prepare?\nBefore you get there, you can use social media. Conferences often have #hashtags associated with them. If you use social media, posting about the event can be a great, low-stress way to engage with other attendees.\nI often post something like\n“Excited to be on my way to Seattle for #positconf2024 ️🛬 Anyone else there this year?”\nwhen I’m travelling.\nThat way, if someone I already know is attending, we can make plans to meet up and hang out together.\n\n\nThat’s a nice idea. But what happens if I don’t already know people who are going?\nCheck the event schedule for the conference. There is often a welcome event aimed at people who are new to the conference.\nThe day before the RSS International Conference, the Young Statisticians arrange a workshop to help early career statisticians get to know the organisers and make some conference friends before the main event starts.\n\n\nSounds useful. But I’m going to encounter people at some point and I never know what to say.\nFirst of all, people love talking about themselves, and they like you for taking an interest and listening to them. Think up and remember a few standard questions that can get the ball rolling and see where the conversation goes from there.\n\nWhere do you work?\nWhat parts of the work do you enjoy?\nDid you travel far to get here?\nDid you go to University?\nWhere did you study?\nWhat’s the funniest issue you’ve encountered in your work?\n\n\n\nOh so I just to need to remember some questions to ask?\nYes, and come up with some nice icebreakers if you can.\n\n\nOr nicebreakers. See what I did there?\nYou must be very pleased with yourself.\n\n\nI am actually.\nWell don’t forget the time will come where you have to introduce yourself in return. A little preparation goes a long way here.\nPrepare a short sentence explaining who you are, what you do and what you’re interested in. At networking events, you’ll constantly be asked these questions. Preparing a two-minute introduction and practicing it slowly out loud can help you feel more confident in the moment.\nAnd it might sound silly, but make a conscious effort to say your name and company slowly when you first introduce yourself. I find myself saying “Hi, I’m Rhian and I work for Jumping Rivers” so many times, that I naturally rush over the words, creating an awkward situation where the other person didn’t catch your name.\n\n\nSo I should rehearse by talking to myself the mirror like they do on The Sims?\nIf that helps you, sure. It doesn’t have to be perfectly scripted, but making a coherent introduction of yourself creates a good first impression.\n\n\nWhen I’m there, won’t everyone already know each other already?\nRemember, plenty of people go to conferences alone and don’t know anyone else attending. If there’s a pub quiz, or other team-based social activity, it’s okay to turn up by yourself. It’s the organisers’ job to make you feel welcome and help you find others to chat with.\nThere’s also going to be events such as poster sessions and welcome drinks, where it’s entirely normal for anyone to be interacting with new people. The individuals you do meet may go on to introduce you to other people they know at the conference.\n\n\nOh yeah, this schedule has a few of those sessions with free snacks and drinks.\nTake it easy on the free wine and coffee. It’s easy to use alcohol and copious amounts of coffee to boost your networking bravery at the poster session. However, too much caffeine or alcohol can cause social anxiety and leave you feeling queasy the next morning.\n\n\nAre you speaking from personal experience here?\nMaybe 😳\n\n\nWhat if I don’t drink alcohol?\nThere’s also no obligation to drink alcohol. Younger generations are increasingly becoming non-drinkers, and most events will have a decent selection of non-alcoholic drinks. Some conferences organise alcohol-free socials too, like an evening walking-tour or a morning run group.\n\n\nThese networking events sound busy.\nYes, some of these events can be crowded and noisy. For some people, that can be a bit overwhelming. It’s perfectly okay to step outside for fresh air or to sit in a quieter corner to regain some energy. In fact, it can be a good idea because it’s unlikely that you’ll be the only person to do this—other like minded introverts will also have the same idea, giving you an opportunity to meet someone new in a quieter location.\n\n\nIf there’s alcohol at a session, like a pub quiz or a poster session, should I be talking about business or avoiding work-related topics?\nThis is a tricky one. Some people will be aiming to create business connections and opportunities, and some will be in a more relaxed and sociable mode. This is a situation where you have to read the intentions of the other person and adapt.\nIt’s totally okay to talk about non-work topics at any point during the conference. Chatting about hobbies and finding common interests is a great way to connect with people. If someone wants to talk to you about a business opportunity, they will likely steer the conversation back to work, and move on if they don’t think you can help them. Don’t take this personally! People have different reasons for attending conferences.\nIt can also depend on the conference. Some massive machine learning and AI expos can be very business focused, whilst smaller academic or programming conferences can have more of a community feel. If you aren’t sure about the vibe, you can always ask someone who has attended that conference before.\n\n\nHow do I maintain contact with the people I meet?\nTraditionally, you would exchange business cards. In Japan there’s even an etiquette for receiving a business card where you take a moment to admire and study the person’s details on the card you’ve just received—they’d never take a business card and rush it straight into their wallet alongside countless other business cards to be forgotten.\nBut in this modern world, business cards are becoming less common. So if you don’t have cards to hand out, try connecting with them over LinkedIn—the LinkedIn app allows you to share a QR code to link straight to your profile. Or if either of you don’t use LinkedIn, you can exchange email addresses. If the other person agrees, consider taking a selfie with them and emailing it to their address straight away—not only have you exchanged details, but provided a visual memento and opened a conversation channel for further discussions after the conference.\n\n\nI’m not used to a conference this big. There’s multiple talks going on at the same time. What’s the etiquette if I want to be in different sessions for different talks?\nLook at the conference programme in advance to plan which talks you want to attend. Big conferences often have “streams” meaning multiple talks will be happening concurrently.\nThe start and end times of the talks are often scheduled to match across sessions, so you can switch between streams during the sessions between each talk. It’s quite common to see a few people leave at the end of a talk to jump to the other stream. If you want to change session, go at the same time as this crowd—just move briskly and quietly so you cause minimal disruption, and sit strategically close to the exit for a quick escape.\nBut sometimes it can be a bit awkward to sneak out of the back mid-session, especially if the room is small or talks are overrunning, so sometimes it’s easier just to commit yourself to a single stream per session.\n\n\nOkay, gotcha. Plan the sessions to attend in advance. While I’m doing that, are there any useful sessions I should consider?\nSome conferences have specific networking sessions for people that already have things in common like the “Birds of a Feather” sessions at Posit Conference. These are short, one-off meetups for people who have something in common, e.g. R educators, people working with R in insurance, R-Ladies or R users from Africa. These groups are often smaller and you already have something in common, making networking a little less daunting and the connections a little more relevant.\n\n\nRight, I’ve been through the whole schedule. I think I’ve picked something for each session now, and wow, I’m going to be busy!\nGreat! Just remember that you don’t have to go to every session and social event. It’s totally okay to skip a session and recharge. Conferences can be exhausting, even I need a quiet minute to myself sometimes. Grab yourself a cup of tea and find a quiet corner to have a little break from the stimulus. Or head back to your hotel room for an afternoon nap. Then you’ll be refreshed for the next session. (Just remember to set an alarm… ⏰)\n\n\nWell thank you for the advice. I’m not sure I can think of any more questions.\nWell on the topic of questions, I have one last tip. If you enjoyed someone’s talk, but don’t want to ask a question in the session, you can go and talk to them in the coffee break following their talk. From the speaker’s perspective, it’s nice to chat with people who got value from your talk, and you’ll have another friendly face in the lunch queue.\n\n\nDo you have any suggestions for good conferences to go to?\nHow about SatRdays London in April or Shiny in Production in October? You can register to attend by visiting those websites. They’re being organised by Jumping Rivers.\n\n\nI’ll take a look, thanks.\nAnd hey, if I see you there, you’ll have an extroverted friend who can introduce to you everyone at the conference.\n\n\noh no 😰\n_This post first appeared at jumpingrivers.com/blog and was co-written with Keith Newman."
   },
   {
     "objectID": "posts/2022-10-06_refactoring-russian-doll-code/index.html",
@@ -406,25 +434,53 @@
     "text": "Updated 2024-01-09. Inspired by Derek Sivers.\nAfter five years, I’m moving on from Jumping Rivers and starting a new job in March. I’ve been reflecting on my time at JR, and preparing for the transition to a new role. I’m trying to get more involved in the North East tech scene, and find online communities of people working with UK health data.\nI’ve begun converting my van into a campervan. It’s a very much a slow, learning project and I’m hoping to be ready for adventures when spring comes around again. I’m enjoying learning new skills, and having the support of friends.\nI’m currently working four days a week, and I’m spending my Fridays paddling, cycling and walking the North East coastline. I’m hoping to keep regain some fitness over winter so that I’m ready to play in the summer."
   },
   {
-    "objectID": "posts/2024-02-29-conference-networking/index.html",
-    "href": "posts/2024-02-29-conference-networking/index.html",
-    "title": "An introvert’s guide to networking at a conference",
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html",
+    "title": "Did rough sleeping increase after the 2010 election?",
     "section": "",
-    "text": "Uh oh. Conferences. I’ve been trying not to think about them, but I can’t put it off any longer.\nThat’s okay! It might not be too late to book on to the conferences you want to attend. Some will even still have early bird offers available if you’re quick.\n\n\nOh that’s not a problem. I’m already booked on, travel is arranged, my talk is written. It’s just …\n… just what?\n\n\n… there’s so many people and events. My manager said “they’re great networking opportunities” so I think she’s expecting me to come back with a whole list of new contacts too.\nOh! Well I love attending conferences. Spending time with interesting people, and meeting new folk leaves me all energised and buzzy. But conferences aren’t just for extroverts like me.\nSetting your manager’s possible expectations aside for a second, just focus on what you can benefit from when networking: Meeting the people behind interesting projects that could be helpful to you; encountering contacts with interesting job opportunities; finding like-minded people to attend the social events with.\nMaybe I can help you out with a few tips?\n\n\nThat would be great! How should I prepare?\nBefore you get there, you can use social media. Conferences often have #hashtags associated with them. If you use social media, posting about the event can be a great, low-stress way to engage with other attendees.\nI often post something like\n“Excited to be on my way to Seattle for #positconf2024 ️🛬 Anyone else there this year?”\nwhen I’m travelling.\nThat way, if someone I already know is attending, we can make plans to meet up and hang out together.\n\n\nThat’s a nice idea. But what happens if I don’t already know people who are going?\nCheck the event schedule for the conference. There is often a welcome event aimed at people who are new to the conference.\nThe day before the RSS International Conference, the Young Statisticians arrange a workshop to help early career statisticians get to know the organisers and make some conference friends before the main event starts.\n\n\nSounds useful. But I’m going to encounter people at some point and I never know what to say.\nFirst of all, people love talking about themselves, and they like you for taking an interest and listening to them. Think up and remember a few standard questions that can get the ball rolling and see where the conversation goes from there.\n\nWhere do you work?\nWhat parts of the work do you enjoy?\nDid you travel far to get here?\nDid you go to University?\nWhere did you study?\nWhat’s the funniest issue you’ve encountered in your work?\n\n\n\nOh so I just to need to remember some questions to ask?\nYes, and come up with some nice icebreakers if you can.\n\n\nOr nicebreakers. See what I did there?\nYou must be very pleased with yourself.\n\n\nI am actually.\nWell don’t forget the time will come where you have to introduce yourself in return. A little preparation goes a long way here.\nPrepare a short sentence explaining who you are, what you do and what you’re interested in. At networking events, you’ll constantly be asked these questions. Preparing a two-minute introduction and practicing it slowly out loud can help you feel more confident in the moment.\nAnd it might sound silly, but make a conscious effort to say your name and company slowly when you first introduce yourself. I find myself saying “Hi, I’m Rhian and I work for Jumping Rivers” so many times, that I naturally rush over the words, creating an awkward situation where the other person didn’t catch your name.\n\n\nSo I should rehearse by talking to myself the mirror like they do on The Sims?\nIf that helps you, sure. It doesn’t have to be perfectly scripted, but making a coherent introduction of yourself creates a good first impression.\n\n\nWhen I’m there, won’t everyone already know each other already?\nRemember, plenty of people go to conferences alone and don’t know anyone else attending. If there’s a pub quiz, or other team-based social activity, it’s okay to turn up by yourself. It’s the organisers’ job to make you feel welcome and help you find others to chat with.\nThere’s also going to be events such as poster sessions and welcome drinks, where it’s entirely normal for anyone to be interacting with new people. The individuals you do meet may go on to introduce you to other people they know at the conference.\n\n\nOh yeah, this schedule has a few of those sessions with free snacks and drinks.\nTake it easy on the free wine and coffee. It’s easy to use alcohol and copious amounts of coffee to boost your networking bravery at the poster session. However, too much caffeine or alcohol can cause social anxiety and leave you feeling queasy the next morning.\n\n\nAre you speaking from personal experience here?\nMaybe 😳\n\n\nWhat if I don’t drink alcohol?\nThere’s also no obligation to drink alcohol. Younger generations are increasingly becoming non-drinkers, and most events will have a decent selection of non-alcoholic drinks. Some conferences organise alcohol-free socials too, like an evening walking-tour or a morning run group.\n\n\nThese networking events sound busy.\nYes, some of these events can be crowded and noisy. For some people, that can be a bit overwhelming. It’s perfectly okay to step outside for fresh air or to sit in a quieter corner to regain some energy. In fact, it can be a good idea because it’s unlikely that you’ll be the only person to do this—other like minded introverts will also have the same idea, giving you an opportunity to meet someone new in a quieter location.\n\n\nIf there’s alcohol at a session, like a pub quiz or a poster session, should I be talking about business or avoiding work-related topics?\nThis is a tricky one. Some people will be aiming to create business connections and opportunities, and some will be in a more relaxed and sociable mode. This is a situation where you have to read the intentions of the other person and adapt.\nIt’s totally okay to talk about non-work topics at any point during the conference. Chatting about hobbies and finding common interests is a great way to connect with people. If someone wants to talk to you about a business opportunity, they will likely steer the conversation back to work, and move on if they don’t think you can help them. Don’t take this personally! People have different reasons for attending conferences.\nIt can also depend on the conference. Some massive machine learning and AI expos can be very business focused, whilst smaller academic or programming conferences can have more of a community feel. If you aren’t sure about the vibe, you can always ask someone who has attended that conference before.\n\n\nHow do I maintain contact with the people I meet?\nTraditionally, you would exchange business cards. In Japan there’s even an etiquette for receiving a business card where you take a moment to admire and study the person’s details on the card you’ve just received—they’d never take a business card and rush it straight into their wallet alongside countless other business cards to be forgotten.\nBut in this modern world, business cards are becoming less common. So if you don’t have cards to hand out, try connecting with them over LinkedIn—the LinkedIn app allows you to share a QR code to link straight to your profile. Or if either of you don’t use LinkedIn, you can exchange email addresses. If the other person agrees, consider taking a selfie with them and emailing it to their address straight away—not only have you exchanged details, but provided a visual memento and opened a conversation channel for further discussions after the conference.\n\n\nI’m not used to a conference this big. There’s multiple talks going on at the same time. What’s the etiquette if I want to be in different sessions for different talks?\nLook at the conference programme in advance to plan which talks you want to attend. Big conferences often have “streams” meaning multiple talks will be happening concurrently.\nThe start and end times of the talks are often scheduled to match across sessions, so you can switch between streams during the sessions between each talk. It’s quite common to see a few people leave at the end of a talk to jump to the other stream. If you want to change session, go at the same time as this crowd—just move briskly and quietly so you cause minimal disruption, and sit strategically close to the exit for a quick escape.\nBut sometimes it can be a bit awkward to sneak out of the back mid-session, especially if the room is small or talks are overrunning, so sometimes it’s easier just to commit yourself to a single stream per session.\n\n\nOkay, gotcha. Plan the sessions to attend in advance. While I’m doing that, are there any useful sessions I should consider?\nSome conferences have specific networking sessions for people that already have things in common like the “Birds of a Feather” sessions at Posit Conference. These are short, one-off meetups for people who have something in common, e.g. R educators, people working with R in insurance, R-Ladies or R users from Africa. These groups are often smaller and you already have something in common, making networking a little less daunting and the connections a little more relevant.\n\n\nRight, I’ve been through the whole schedule. I think I’ve picked something for each session now, and wow, I’m going to be busy!\nGreat! Just remember that you don’t have to go to every session and social event. It’s totally okay to skip a session and recharge. Conferences can be exhausting, even I need a quiet minute to myself sometimes. Grab yourself a cup of tea and find a quiet corner to have a little break from the stimulus. Or head back to your hotel room for an afternoon nap. Then you’ll be refreshed for the next session. (Just remember to set an alarm… ⏰)\n\n\nWell thank you for the advice. I’m not sure I can think of any more questions.\nWell on the topic of questions, I have one last tip. If you enjoyed someone’s talk, but don’t want to ask a question in the session, you can go and talk to them in the coffee break following their talk. From the speaker’s perspective, it’s nice to chat with people who got value from your talk, and you’ll have another friendly face in the lunch queue.\n\n\nDo you have any suggestions for good conferences to go to?\nHow about SatRdays London in April or Shiny in Production in October? You can register to attend by visiting those websites. They’re being organised by Jumping Rivers.\n\n\nI’ll take a look, thanks.\nAnd hey, if I see you there, you’ll have an extroverted friend who can introduce to you everyone at the conference.\n\n\noh no 😰\n_This post first appeared at jumpingrivers.com/blog and was co-written with Keith Newman."
+    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
   },
   {
-    "objectID": "projects/hill-climbs/index.html",
-    "href": "projects/hill-climbs/index.html",
-    "title": "Hill climbs",
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
+    "title": "Did rough sleeping increase after the 2010 election?",
     "section": "",
-    "text": "I like cycling. I’m not great at going fast, but I quite enjoy puffing my way to the top of a hill.\nWhen I first started playing with the {leaflet}, I mapped the local hill climbs.\n\nlibrary(magrittr)\nlancashire = sf::st_read(\"lancashire_climbs/lancashire_climbs.shp\", quiet = TRUE)\n\nleaflet::leaflet() %&gt;%\n  leaflet::addTiles() %&gt;%\n  leaflet::addPolylines(data = lancashire, col = ~col, label = ~name)"
+    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
   },
   {
-    "objectID": "projects/paddle-blog/index.html",
-    "href": "projects/paddle-blog/index.html",
-    "title": "Rhi on the Sea",
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\nRough sleeping statistics are official statistics, published by the Department for Levelling Up, Housing and Communities. In 2010, the way that rough sleeping statistics were reported changed. The differences are described in this technical note.\nThere are a number of points highlighted in the technical guidance, but the two key ones for me are:\n\nthe definition of a rough sleeper was changed to include rough sleepers about to bed down (e.g. sitting or standing near their bedding but not actually lying down) and those in tents. Broadening the definition of what counts as “rough sleeping” will likely increase the counts.\nPrior to 2010, Local Authorities with more than ten rough sleepers had to perform and report a count of rough sleepers in their area. Local Authorities are now able to choose whether to report a count or an estimate. Estimates are made by consulting with local agencies and the community to compile and agree a figure. The technical guide provides a comparison of the statistics before and after the change (Table 1), the largest increase was seen in the local authorities that switched from a count to an estimate.\n\nThe report then states\n\nThe changes that have been made to the methodology and the definition of rough sleepers make it very difficult to make comparisons over time as we cannot separate the impact of these methodological changes from changes in the level of rough sleeping between autumn 2010 and earlier time periods. It is therefore not possible to determine accurately whether rough sleeping has increased as we cannot separate the differences resulting from methodological changes from changes in the level of rough sleeping between time periods."
+  },
+  {
+    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
+    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
+    "title": "Did rough sleeping increase after the 2010 election?",
+    "section": "So what?",
+    "text": "So what?\nWhen making statistical comparisons, it’s important to compare like with like. We can still say that rough sleeping figures did decrease from 1998 to 2010, during Labour’s time in power. However, it is not possible to determine accurately whether rough sleeping has increased after 2010, as we cannot separate the methodological differences from the changes in the number of people sleeping rough.\nThe two time series are not directly comparable, and this should be highlighted in the graphic if presenting the two series as one."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
     "section": "",
-    "text": "As I work towards my sea kayaking leadership award, I’ll need to track and reflect on my paddling. I’m doing this via a {distill} website because I have an addiction to building static sites in #RStats."
+    "text": "What is a Data Scientist?\n\n\nThe Institute of Mathematics and its Applications\n\n\n\ncareer\n\n\npanel\n\n\n\nPanel discussion on a career as a data scientist\n\n\n\n\n\nJun 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA personal STOR-i\n\n\nSTOR-i annual conference\n\n\n\nconference\n\n\ncareer\n\n\n\nPersonal career and leadership talk aimed at postgraduate statisticians.\n\n\n\n\n\nJan 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOn-demand overviews\n\n\nData Innovation Showcase, National Innovation Centre for Data\n\n\n\nconference\n\n\nR\n\n\nquarto\n\n\n\nAutomatic reporting for managers.\n\n\n\n\n\nSep 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTaking the stress out of your code mess\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nprogramming\n\n\n\nActionable tips to help you refactor your code\n\n\n\n\n\nSep 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMaking Maps! Visualising spatial data in R\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nworkshop\n\n\nR\n\n\nspatial\n\n\n\nInteractive workshop introducing {sf} and {tmap}\n\n\n\n\n\nSep 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nShare your data story\n\n\nRSS International Conference 2023\n\n\n\nconference\n\n\nworkshop\n\n\ncareer\n\n\n\nTips for getting started with a data science portfolio.\n\n\n\n\n\nSep 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nData Science without the Data\n\n\nRencontres R 2023\n\n\n\nconference\n\n\nkeynote\n\n\ndata science\n\n\n\nMaintaining flexibility and adaptability in the face of changing data requirements.\n\n\n\n\n\nJun 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nChanging the world with data\n\n\nSpeakers for Schools\n\n\n\noutreach\n\n\ndata science\n\n\n\nA taste of what it’s like to be a problem solver for a living\n\n\n\n\n\nFeb 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nReproducible data reports with Quarto\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nworkshop\n\n\nquarto\n\n\n\nQuarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story.\n\n\n\n\n\nSep 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDon’t Panic! The Ambassadors guide to communicating statistics\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nworkshop\n\n\ncommunication\n\n\n\nAdvice and guidance on communicating complex statistical ideas and concepts in plain language\n\n\n\n\n\nSep 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nShare your Models with R {plumber} APIs\n\n\nRSS International Conference 2022\n\n\n\nconference\n\n\nR\n\n\nprogramming\n\n\n\nWhat is an API? And why would I make one?\n\n\n\n\n\nSep 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA Tale of Two Languages\n\n\nPyLadies Munich, PyLadies Tunis & R-Ladies Cologne\n\n\n\nmeetup\n\n\ncareer\n\n\nR-Ladies\n\n\nPyLadies\n\n\n\nThe challenges and opportunities of working within a bilingual team.\n\n\n\n\n\nJul 27, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nPractical Advice for R in Production\n\n\nWorkshop for Posit\n\n\n\nR\n\n\nworkshop\n\n\n\nHands on workshop where you will learn best practices for securely putting R in production.\n\n\n\n\n\nAug 12, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nAutomating Bespoke Online Teaching\n\n\nUseR! 2021\n\n\n\nconference\n\n\nR\n\n\n\nUsing R to create a bespoke learning environment automatically.\n\n\n\n\n\nJul 8, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nThe varied life of a data scientist\n\n\nVarious University departments\n\n\n\ncareer\n\n\n\nCareer talk aimed at undergraduates considering data science careers.\n\n\n\n\n\nDec 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to {ggplot2}\n\n\nNHS R Conference 2020\n\n\n\nconference\n\n\nworkshop\n\n\nR\n\n\nggplot2\n\n\n\nA two hour workshop presented at the NHS R Conference.\n\n\n\n\n\nNov 3, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical consultancy: advice for going it alone\n\n\nRSS International Conference 2020\n\n\n\nconference\n\n\ncareer\n\n\npanel\n\n\n\nPanel discussion on working as a statistical consultant\n\n\n\n\n\nSep 9, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nData Viz for Better\n\n\nRSS Merseyside\n\n\n\nmeetup\n\n\nvisualisation\n\n\nggplot2\n\n\nR\n\n\n\nInvestigating Florence Nightingale’s Polar Area Diagram and discussing how she used them to argue a case for better hospital management.\n\n\n\n\n\nJul 1, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nStories from San Francisco\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\n\nWhat I learnt at RStudio Conference 2020\n\n\n\n\n\nFeb 5, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCleaner code with CI\n\n\nRStudio Conference 2020\n\n\n\nconference\n\n\nlightning-talk\n\n\ngit\n\n\nci/cd\n\n\n\nWhat is CI and how can it help me write awesome code?\n\n\n\n\n\nJan 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCan you trust your R package?\n\n\nSatRday Cardiff 2019\n\n\n\nmeetup\n\n\nprogramming\n\n\ngit\n\n\nci/cd\n\n\n\nI’ll explain what continuous integration is and tell stories of how we use it at Jumping Rivers.\n\n\n\n\n\nNov 16, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nDates and times with {lubridate}\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {lubridate}\n\n\n\n\n\nNov 6, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nSuper fun times with strings\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {stringr}\n\n\n\n\n\nOct 2, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nGetting the most out of Git\n\n\nuseR! 2019 Workshop\n\n\n\nconference\n\n\nworkshop\n\n\n\nWorkshop on Git & Continous Integration\n\n\n\n\n\nJul 9, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nData Transformation with Tidyverse\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\n\nBeginner friendly workshop on {dplyr}\n\n\n\n\n\nJun 5, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nPretty Graphics with ggplot2\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\nworkshop\n\n\nggplot2\n\n\n\nBeginner friendly workshop on {ggplot2}\n\n\n\n\n\nJun 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nA day in the life with R\n\n\nR-Ladies Lancaster\n\n\n\nmeetup\n\n\nR\n\n\nR-Ladies\n\n\n\nA whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps.\n\n\n\n\n\nMay 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nData Detective\n\n\nFlorence Nightingale Day 2019\n\n\n\noutreach\n\n\ndata science\n\n\n\nStories showcasing the pitfalls that we as humans often struggle with when it comes to randomness.\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nFaster, Safer, Better\n\n\nIMechE North West Railway Division\n\n\n\nmeetup\n\n\nrail\n\n\n\nA case study demonstrating the development within Digital Rail to improve the passenger experience at the Platform Train Interface (PTI).\n\n\n\n\n\nOct 23, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nAn Introduction to Dynamic Programming\n\n\n\n\n\n\noutreach\n\n\n\nA short introduction to dynamic programming. Aimed at 16 - 18 year olds.\n\n\n\n\n\nJan 1, 2015\n\n\n\n\n\n\n\n\n\n\n\n\nRI Mathematics Masterclass on Group Theory\n\n\nRoyal Institution Mathematics Masterclass\n\n\n\noutreach\n\n\n\nA Royal Institution Masterclass on Group Theory.\n\n\n\n\n\nMar 1, 2014\n\n\n\n\n\n\n\n\n\n\n\n\nMaths on T.V.\n\n\nLancaster University Outreach\n\n\n\noutreach\n\n\n\nLearn about the mathematics hidden in every day T.V shows.\n\n\n\n\n\nFeb 1, 2014\n\n\n\n\n\n\n\n\n\n\n\n\nMagic, Syphilis and C.S.I\n\n\nSTOR-i Forum\n\n\n\nmeetup\n\n\ncompressive sensing\n\n\n\nA friendly introduction to Compressive Sensing.\n\n\n\n\n\nNov 1, 2013\n\n\n\n\n\n\n\n\n\n\n\n\nThe effect of recovery algorithms on compressive sensing background subtraction\n\n\n2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)\n\n\n\nconference\n\n\ncompressive sensing\n\n\n\nBackground subtraction is a key method required to aid processing surveillance videos.\n\n\n\n\n\nOct 11, 2013\n\n\n\n\n\n\n\n\n\n\n\n\nLove and Mathematics\n\n\nLancaster University Outreach\n\n\n\noutreach\n\n\n\nLearn about the mathematics behind love and dating with the stable matching algorithm.\n\n\n\n\n\nFeb 14, 2013\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/recipes/index.html",
+    "href": "projects/recipes/index.html",
+    "title": "Recipes",
+    "section": "",
+    "text": "I don’t particularly enjoy cooking. But I do enjoy making irrelevant websites. When I do cook, I like having a tried and tested recipe to follow. I decided to use {bookdown} to put all of my standard recipes into a nice, searchable, version controlled, online book."
+  },
+  {
+    "objectID": "projects/levelup/index.html",
+    "href": "projects/levelup/index.html",
+    "title": "Level Up",
+    "section": "",
+    "text": "I keep detailed CPD records for my professional development. I store each activity as a YAML file, allowing me to pull in data and write annual reports in R Markdown. The {levelup} R package contains helper functions for me to create and manage those YAML files.\nGitHub\nI’d like to update this to a quarto report."
   },
   {
     "objectID": "projects/these-are-my-rivers/index.html",
@@ -434,46 +490,81 @@
     "text": "I’d like to make some art for my home, filling in the local rivers that I paddle. I’m still not sure exactly what I’d like the finished poster to look like."
   },
   {
-    "objectID": "talks/2013-02-14-love-and-mathematics/index.html",
-    "href": "talks/2013-02-14-love-and-mathematics/index.html",
-    "title": "Love and Mathematics",
+    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html",
+    "href": "talks/2019-07-09-getting-the-most-with-git/index.html",
+    "title": "Getting the most out of Git",
     "section": "",
-    "text": "An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples."
+    "text": "Do you wonder what a pull request is? Do you browse GitHub and see lots of repositories with fancy looking badges, and think, I would like some of them? And what is a git-hook and why should you care? In this tutorial, we’ll look at how we can leverage external tools, such as travis, covr, and Docker hub."
   },
   {
-    "objectID": "talks/2013-02-14-love-and-mathematics/index.html#abstract",
-    "href": "talks/2013-02-14-love-and-mathematics/index.html#abstract",
-    "title": "Love and Mathematics",
+    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html#abstract",
+    "href": "talks/2019-07-09-getting-the-most-with-git/index.html#abstract",
+    "title": "Getting the most out of Git",
     "section": "",
-    "text": "An outreach talk introducing the stable matching algorithm and how it can be applied to real-life examples."
+    "text": "Do you wonder what a pull request is? Do you browse GitHub and see lots of repositories with fancy looking badges, and think, I would like some of them? And what is a git-hook and why should you care? In this tutorial, we’ll look at how we can leverage external tools, such as travis, covr, and Docker hub."
   },
   {
-    "objectID": "talks/2013-11-magic-syphilis-csi/index.html",
-    "href": "talks/2013-11-magic-syphilis-csi/index.html",
-    "title": "Magic, Syphilis and C.S.I",
-    "section": "",
-    "text": "Introducing Compressive Sensing through examples of statistical pooling."
-  },
-  {
-    "objectID": "talks/2013-11-magic-syphilis-csi/index.html#abstract",
-    "href": "talks/2013-11-magic-syphilis-csi/index.html#abstract",
-    "title": "Magic, Syphilis and C.S.I",
-    "section": "",
-    "text": "Introducing Compressive Sensing through examples of statistical pooling."
-  },
-  {
-    "objectID": "talks/2013-11-magic-syphilis-csi/index.html#links",
-    "href": "talks/2013-11-magic-syphilis-csi/index.html#links",
-    "title": "Magic, Syphilis and C.S.I",
+    "objectID": "talks/2019-07-09-getting-the-most-with-git/index.html#links",
+    "href": "talks/2019-07-09-getting-the-most-with-git/index.html#links",
+    "title": "Getting the most out of Git",
     "section": "Links",
-    "text": "Links\nSlides"
+    "text": "Links\n\nSlides\nUseR! 2019"
   },
   {
-    "objectID": "talks/2014-03-01-ri-master-class/index.html",
-    "href": "talks/2014-03-01-ri-master-class/index.html",
-    "title": "RI Mathematics Masterclass on Group Theory",
+    "objectID": "talks/2015-01-01-intro-to-dynamic-programming/index.html",
+    "href": "talks/2015-01-01-intro-to-dynamic-programming/index.html",
+    "title": "An Introduction to Dynamic Programming",
     "section": "",
-    "text": "A workshop aimed at bright 14-16 year olds introducing some group theory concepts. Delivered as an invited Royal Institution Masterclass.\n\n\nMaterials\nRoyal Institution Mathematics Masterclass"
+    "text": "Introducing the knapsack problem and travel routing.\n\n\nCode Repo"
+  },
+  {
+    "objectID": "talks/2014-02-01-tv-maths/index.html",
+    "href": "talks/2014-02-01-tv-maths/index.html",
+    "title": "Maths on T.V.",
+    "section": "",
+    "text": "An outreach talk highlighting some of the mathematical concepts hidden in T.V shows.\n\nMaterials"
+  },
+  {
+    "objectID": "talks/2019-06-05-data-transformation/index.html",
+    "href": "talks/2019-06-05-data-transformation/index.html",
+    "title": "Data Transformation with Tidyverse",
+    "section": "",
+    "text": "This will be a beginner friendly session where we will learn how to access and transform data. Even if you’ve never used R before, you’ll be able to take part and do some coding.\nWe’ll be working through Chapter 5 of the R for Data Science book. This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together."
+  },
+  {
+    "objectID": "talks/2019-06-05-data-transformation/index.html#abstract",
+    "href": "talks/2019-06-05-data-transformation/index.html#abstract",
+    "title": "Data Transformation with Tidyverse",
+    "section": "",
+    "text": "This will be a beginner friendly session where we will learn how to access and transform data. Even if you’ve never used R before, you’ll be able to take part and do some coding.\nWe’ll be working through Chapter 5 of the R for Data Science book. This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together."
+  },
+  {
+    "objectID": "talks/2019-06-05-data-transformation/index.html#links",
+    "href": "talks/2019-06-05-data-transformation/index.html#links",
+    "title": "Data Transformation with Tidyverse",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
+  },
+  {
+    "objectID": "talks/2020-12-01-career/index.html",
+    "href": "talks/2020-12-01-career/index.html",
+    "title": "The varied life of a data scientist",
+    "section": "",
+    "text": "Career talk given at a different departments at Lancaster and Newcastle University."
+  },
+  {
+    "objectID": "talks/2020-12-01-career/index.html#abstract",
+    "href": "talks/2020-12-01-career/index.html#abstract",
+    "title": "The varied life of a data scientist",
+    "section": "",
+    "text": "Career talk given at a different departments at Lancaster and Newcastle University."
+  },
+  {
+    "objectID": "talks/2020-12-01-career/index.html#links",
+    "href": "talks/2020-12-01-career/index.html#links",
+    "title": "The varied life of a data scientist",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides"
   },
   {
     "objectID": "talks/2018-10-23-faster-safer-better/index.html",
@@ -497,25 +588,46 @@
     "text": "Links\n\nSlides\nIMechE North West Railway Division"
   },
   {
-    "objectID": "talks/2019-05-01-day-in-the-life/index.html",
-    "href": "talks/2019-05-01-day-in-the-life/index.html",
-    "title": "A day in the life with R",
+    "objectID": "talks/2013-10-sdf/index.html",
+    "href": "talks/2013-10-sdf/index.html",
+    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
     "section": "",
-    "text": "I’ve been using R for many years and at the moment it feels like I basically run my life in the medium of R. I’ll give an whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps - and hinders."
+    "text": "Background subtraction is a key method required to aid processing surveillance videos. Current methods require storing each pixel of every video frame, which can be wasteful as most of this information refers to the uninteresting background. Compressive sensing can offer an efficient solution by using the fact that foreground is often sparse in the spatial domain. By making this assumption and applying a specific recovery algorithm to a trained background, it is possible to reconstruct the foreground, using only a low dimensional representation of the difference between the current frame and the estimated background scene. Although new compressive sensing background subtraction algorithms are being created, no study has been made of the effect of recovery algorithms on performance of background subtraction. This is considered by applying both Basis Pursuit and Orthogonal Matching Pursuit (OMP) to a standard test video, and comparing their accuracy."
   },
   {
-    "objectID": "talks/2019-05-01-day-in-the-life/index.html#abstract",
-    "href": "talks/2019-05-01-day-in-the-life/index.html#abstract",
-    "title": "A day in the life with R",
+    "objectID": "talks/2013-10-sdf/index.html#abstract",
+    "href": "talks/2013-10-sdf/index.html#abstract",
+    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
     "section": "",
-    "text": "I’ve been using R for many years and at the moment it feels like I basically run my life in the medium of R. I’ll give an whirlwind tour of a day in my life as an analyst and all the weird and wonderful ways R helps - and hinders."
+    "text": "Background subtraction is a key method required to aid processing surveillance videos. Current methods require storing each pixel of every video frame, which can be wasteful as most of this information refers to the uninteresting background. Compressive sensing can offer an efficient solution by using the fact that foreground is often sparse in the spatial domain. By making this assumption and applying a specific recovery algorithm to a trained background, it is possible to reconstruct the foreground, using only a low dimensional representation of the difference between the current frame and the estimated background scene. Although new compressive sensing background subtraction algorithms are being created, no study has been made of the effect of recovery algorithms on performance of background subtraction. This is considered by applying both Basis Pursuit and Orthogonal Matching Pursuit (OMP) to a standard test video, and comparing their accuracy."
   },
   {
-    "objectID": "talks/2019-05-01-day-in-the-life/index.html#links",
-    "href": "talks/2019-05-01-day-in-the-life/index.html#links",
-    "title": "A day in the life with R",
+    "objectID": "talks/2013-10-sdf/index.html#links",
+    "href": "talks/2013-10-sdf/index.html#links",
+    "title": "The effect of recovery algorithms on compressive sensing background subtraction",
     "section": "Links",
-    "text": "Links\n\nR-Ladies Lancaster\nSlides"
+    "text": "Links\nSlides"
+  },
+  {
+    "objectID": "talks/2023-09-27-reporting-for-managers/index.html",
+    "href": "talks/2023-09-27-reporting-for-managers/index.html",
+    "title": "On-demand overviews",
+    "section": "",
+    "text": "Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don’t miss out on this opportunity to innovate!"
+  },
+  {
+    "objectID": "talks/2023-09-27-reporting-for-managers/index.html#abstract",
+    "href": "talks/2023-09-27-reporting-for-managers/index.html#abstract",
+    "title": "On-demand overviews",
+    "section": "",
+    "text": "Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don’t miss out on this opportunity to innovate!"
+  },
+  {
+    "objectID": "talks/2023-09-27-reporting-for-managers/index.html#links",
+    "href": "talks/2023-09-27-reporting-for-managers/index.html#links",
+    "title": "On-demand overviews",
+    "section": "Links",
+    "text": "Links\n\n\n\n\n\nSlides\nData Innovation Showcase, National Innovation Centre for Data"
   },
   {
     "objectID": "talks/2019-07-03-pretty-graphics/index.html",
@@ -535,27 +647,6 @@
     "objectID": "talks/2019-07-03-pretty-graphics/index.html#links",
     "href": "talks/2019-07-03-pretty-graphics/index.html#links",
     "title": "Pretty Graphics with ggplot2",
-    "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
-  },
-  {
-    "objectID": "talks/2019-10-02-strings/index.html",
-    "href": "talks/2019-10-02-strings/index.html",
-    "title": "Super fun times with strings",
-    "section": "",
-    "text": "This is a beginner friendly session. We’ll be working through Chapter 14 of the R for Data Science book, which deals with manipulating strings (text). This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together.\nAfterwards, we will try these out on our own data. So please, if you can, bring along some of your own data. You could be working on this data at the moment, or it could be something you have used in the past. If you don’t have any data, this would be a good learning opportunity to try and find some open source data from the internet."
-  },
-  {
-    "objectID": "talks/2019-10-02-strings/index.html#abstract",
-    "href": "talks/2019-10-02-strings/index.html#abstract",
-    "title": "Super fun times with strings",
-    "section": "",
-    "text": "This is a beginner friendly session. We’ll be working through Chapter 14 of the R for Data Science book, which deals with manipulating strings (text). This is available freely online at http://r4ds.had.co.nz . There will be a short presentation and then we’ll work through some exercises together.\nAfterwards, we will try these out on our own data. So please, if you can, bring along some of your own data. You could be working on this data at the moment, or it could be something you have used in the past. If you don’t have any data, this would be a good learning opportunity to try and find some open source data from the internet."
-  },
-  {
-    "objectID": "talks/2019-10-02-strings/index.html#links",
-    "href": "talks/2019-10-02-strings/index.html#links",
-    "title": "Super fun times with strings",
     "section": "Links",
     "text": "Links\n\n\n\n\n\nSlides\nR-Ladies Lancaster"
   },
@@ -581,25 +672,46 @@
     "text": "Links\n\nSlides\nSatRday Cardiff"
   },
   {
-    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html",
-    "href": "talks/2020-02-05-stories-from-sanfran/index.html",
-    "title": "Stories from San Francisco",
+    "objectID": "talks/2024-06-19-what-is-a-data-scientist/index.html",
+    "href": "talks/2024-06-19-what-is-a-data-scientist/index.html",
+    "title": "What is a Data Scientist?",
     "section": "",
-    "text": "I’m lucky to be attending the RStudio Conference this year. I’ll give a talk summarising some of the new and exciting things I learnt at the conference to share with you all!"
+    "text": "Join the IMA ECM community in hosting 5 speakers to discuss ‘What is a Data Scientist?’. This will be a 2 hour event where we hear from data scientists in different organisations about their careers and learn more about the Alliance for Data Science Professionals.\nWe will be joined by Yousuf Mohammed (MSci Student & Incoming Lloyds Banking Group), Rhian Davies (Senior Data Scientist, The Strategy Unit (NHS), Thom Kirwan-Evans (Co-founder, Origami Labs) and Duncan Wotherspoon (Junior Data Scientist, Investment Manager in London) in a panel session. Each panellist will give an introduction to themselves and then we’ll open the virtual floor up for a Q&A session."
   },
   {
-    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html#abstract",
-    "href": "talks/2020-02-05-stories-from-sanfran/index.html#abstract",
-    "title": "Stories from San Francisco",
+    "objectID": "talks/2024-06-19-what-is-a-data-scientist/index.html#abstract",
+    "href": "talks/2024-06-19-what-is-a-data-scientist/index.html#abstract",
+    "title": "What is a Data Scientist?",
     "section": "",
-    "text": "I’m lucky to be attending the RStudio Conference this year. I’ll give a talk summarising some of the new and exciting things I learnt at the conference to share with you all!"
+    "text": "Join the IMA ECM community in hosting 5 speakers to discuss ‘What is a Data Scientist?’. This will be a 2 hour event where we hear from data scientists in different organisations about their careers and learn more about the Alliance for Data Science Professionals.\nWe will be joined by Yousuf Mohammed (MSci Student & Incoming Lloyds Banking Group), Rhian Davies (Senior Data Scientist, The Strategy Unit (NHS), Thom Kirwan-Evans (Co-founder, Origami Labs) and Duncan Wotherspoon (Junior Data Scientist, Investment Manager in London) in a panel session. Each panellist will give an introduction to themselves and then we’ll open the virtual floor up for a Q&A session."
   },
   {
-    "objectID": "talks/2020-02-05-stories-from-sanfran/index.html#links",
-    "href": "talks/2020-02-05-stories-from-sanfran/index.html#links",
-    "title": "Stories from San Francisco",
+    "objectID": "talks/2024-06-19-what-is-a-data-scientist/index.html#notes",
+    "href": "talks/2024-06-19-what-is-a-data-scientist/index.html#notes",
+    "title": "What is a Data Scientist?",
+    "section": "Notes",
+    "text": "Notes\nMy notes for the panel session are on GitHub."
+  },
+  {
+    "objectID": "talks/2023-09-04-share-your-data-story/index.html",
+    "href": "talks/2023-09-04-share-your-data-story/index.html",
+    "title": "Share your data story",
+    "section": "",
+    "text": "A data science portfolio is a great way to showcase what makes you standout. In this workshop, I’ll convince you that you don’t have to have to have it all to get started with a professional portfolio.\nFor the pre-workshop for early career statisticians."
+  },
+  {
+    "objectID": "talks/2023-09-04-share-your-data-story/index.html#abstract",
+    "href": "talks/2023-09-04-share-your-data-story/index.html#abstract",
+    "title": "Share your data story",
+    "section": "",
+    "text": "A data science portfolio is a great way to showcase what makes you standout. In this workshop, I’ll convince you that you don’t have to have to have it all to get started with a professional portfolio.\nFor the pre-workshop for early career statisticians."
+  },
+  {
+    "objectID": "talks/2023-09-04-share-your-data-story/index.html#links",
+    "href": "talks/2023-09-04-share-your-data-story/index.html#links",
+    "title": "Share your data story",
     "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nMeetup"
+    "text": "Links\n\n\n\n\n\nSlides\nRSS International Conference 2023, Harrogate"
   },
   {
     "objectID": "talks/2020-09-09-stats-consultancy/index.html",
@@ -630,27 +742,6 @@
     "text": "Notes\nMy notes for the panel session are on GitHub."
   },
   {
-    "objectID": "talks/2020-12-01-career/index.html",
-    "href": "talks/2020-12-01-career/index.html",
-    "title": "The varied life of a data scientist",
-    "section": "",
-    "text": "Career talk given at a different departments at Lancaster and Newcastle University."
-  },
-  {
-    "objectID": "talks/2020-12-01-career/index.html#abstract",
-    "href": "talks/2020-12-01-career/index.html#abstract",
-    "title": "The varied life of a data scientist",
-    "section": "",
-    "text": "Career talk given at a different departments at Lancaster and Newcastle University."
-  },
-  {
-    "objectID": "talks/2020-12-01-career/index.html#links",
-    "href": "talks/2020-12-01-career/index.html#links",
-    "title": "The varied life of a data scientist",
-    "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides"
-  },
-  {
     "objectID": "talks/2021-08-12-r-in-production/index.html",
     "href": "talks/2021-08-12-r-in-production/index.html",
     "title": "Practical Advice for R in Production",
@@ -672,122 +763,52 @@
     "text": "Links\nRecording"
   },
   {
-    "objectID": "talks/2022-09-13-plumber/index.html",
-    "href": "talks/2022-09-13-plumber/index.html",
-    "title": "Share your Models with R {plumber} APIs",
+    "objectID": "talks/2013-11-magic-syphilis-csi/index.html",
+    "href": "talks/2013-11-magic-syphilis-csi/index.html",
+    "title": "Magic, Syphilis and C.S.I",
     "section": "",
-    "text": "So you’ve developed a statistical model, and now you want to share it with the world. You’ve heard that APIs make it easy to scale the reach of your work. But what is an API? How do you make one? And how difficult is it to do?\nAt some point, you may want to share your statistical models with other people. If they are not R users, they may not be able to use your work without translating it into their language of choice. However, if your model is available in the form of an API, then anybody can import your results without this difficult translation step.\nMaking your models available through an API reduces the handoff between R and other tools or technologies. More people can access your results and use them to make data-driven decisions.\nThe {plumber} package makes it easy to convert your R functions into API endpoints using just a few special comments.\nIn this talk I’ll introduce what an API is, how the {plumber} package works and give an example of sharing a statistical model to a wider audience."
+    "text": "Introducing Compressive Sensing through examples of statistical pooling."
   },
   {
-    "objectID": "talks/2022-09-13-plumber/index.html#abstract",
-    "href": "talks/2022-09-13-plumber/index.html#abstract",
-    "title": "Share your Models with R {plumber} APIs",
+    "objectID": "talks/2013-11-magic-syphilis-csi/index.html#abstract",
+    "href": "talks/2013-11-magic-syphilis-csi/index.html#abstract",
+    "title": "Magic, Syphilis and C.S.I",
     "section": "",
-    "text": "So you’ve developed a statistical model, and now you want to share it with the world. You’ve heard that APIs make it easy to scale the reach of your work. But what is an API? How do you make one? And how difficult is it to do?\nAt some point, you may want to share your statistical models with other people. If they are not R users, they may not be able to use your work without translating it into their language of choice. However, if your model is available in the form of an API, then anybody can import your results without this difficult translation step.\nMaking your models available through an API reduces the handoff between R and other tools or technologies. More people can access your results and use them to make data-driven decisions.\nThe {plumber} package makes it easy to convert your R functions into API endpoints using just a few special comments.\nIn this talk I’ll introduce what an API is, how the {plumber} package works and give an example of sharing a statistical model to a wider audience."
+    "text": "Introducing Compressive Sensing through examples of statistical pooling."
   },
   {
-    "objectID": "talks/2022-09-13-plumber/index.html#materials",
-    "href": "talks/2022-09-13-plumber/index.html#materials",
-    "title": "Share your Models with R {plumber} APIs",
-    "section": "Materials",
-    "text": "Materials\n\n\n\n\n\nSlides\nRSS International Conference 2022, Aberdeen"
-  },
-  {
-    "objectID": "talks/2022-09-15-quarto/index.html",
-    "href": "talks/2022-09-15-quarto/index.html",
-    "title": "Reproducible data reports with Quarto",
-    "section": "",
-    "text": "Abstract\nQuarto is an open-source scientific and technical publishing system. Quarto allows you to weave together narrative text and code to produce elegantly formatted output and tell a story. When the underlying data inevitably changes, a click of a button will update the document like magic – automatically updating plots, tables and text. This style of automated reporting makes data analysis more efficient and reproducible. Quarto supports dozens of static and dynamic output formats including HTML, PDF, MS Word, slides, dashboards, scientific articles and more.\nBy the end of the workshop you will be able to:\n\nuse Markdown formatting to customise a document\nembed R code into a Quarto report\ndynamically embed plots and tables\n\nThe resources for this workshop are available on GitHub.\nJoint work with Nicola Rennie\nCover Image: Duke Lemur Center."
-  },
-  {
-    "objectID": "talks/2023-06-22-data-science-without-data/index.html",
-    "href": "talks/2023-06-22-data-science-without-data/index.html",
-    "title": "Data Science without the Data",
-    "section": "",
-    "text": "As data scientists, we sometimes find ourselves faced with the daunting task of writing code without actually seeing the data we are working with. Whether it’s due to data privacy concerns, limited access, or simply data that has not yet been collected, we often have to rely on incomplete or synthetic data to develop and test our code.\nIn a recent project, we worked on patient-level data. As such, the controls around the data and analysis (were rightfully) tightly controlled. We’ll share how we used dummy data and mock-ups to inform code development, maintaining flexibility and adaptability in the face of changing data requirements. We’ll also discuss the importance of and collaboration between developers and subject experts to ensure that code is developed with a deep understanding of the data domain\nBy understanding these challenges and developing effective strategies for overcoming them, we can ensure that our code is robust, reliable, and effective, even in the absence of direct data access."
-  },
-  {
-    "objectID": "talks/2023-06-22-data-science-without-data/index.html#abstract",
-    "href": "talks/2023-06-22-data-science-without-data/index.html#abstract",
-    "title": "Data Science without the Data",
-    "section": "",
-    "text": "As data scientists, we sometimes find ourselves faced with the daunting task of writing code without actually seeing the data we are working with. Whether it’s due to data privacy concerns, limited access, or simply data that has not yet been collected, we often have to rely on incomplete or synthetic data to develop and test our code.\nIn a recent project, we worked on patient-level data. As such, the controls around the data and analysis (were rightfully) tightly controlled. We’ll share how we used dummy data and mock-ups to inform code development, maintaining flexibility and adaptability in the face of changing data requirements. We’ll also discuss the importance of and collaboration between developers and subject experts to ensure that code is developed with a deep understanding of the data domain\nBy understanding these challenges and developing effective strategies for overcoming them, we can ensure that our code is robust, reliable, and effective, even in the absence of direct data access."
-  },
-  {
-    "objectID": "talks/2023-06-22-data-science-without-data/index.html#links",
-    "href": "talks/2023-06-22-data-science-without-data/index.html#links",
-    "title": "Data Science without the Data",
+    "objectID": "talks/2013-11-magic-syphilis-csi/index.html#links",
+    "href": "talks/2013-11-magic-syphilis-csi/index.html#links",
+    "title": "Magic, Syphilis and C.S.I",
     "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nRecording\nRencontres R 2023, Avignon"
+    "text": "Links\nSlides"
   },
   {
-    "objectID": "talks/2023-09-05-making-maps/index.html",
-    "href": "talks/2023-09-05-making-maps/index.html",
-    "title": "Making Maps! Visualising spatial data in R",
+    "objectID": "talks/2014-03-01-ri-master-class/index.html",
+    "href": "talks/2014-03-01-ri-master-class/index.html",
+    "title": "RI Mathematics Masterclass on Group Theory",
     "section": "",
-    "text": "Maps can be a powerful way to communicate your research to wider audiences. Traditionally, you would need to use a specific geographic information system (GIS) tool for mapping. R is now a widely used open source software platform for working with spatial data thanks to its powerful analysis and visualisation packages.\nIn this workshop, you’ll learn the fundamentals of working with geospatial data in R. You’ll create high-quality, informative maps - that look great too!\nIf you want to participate in the exercises, please bring a laptop to the session. There is no need to install anything in advance. Some basic prior knowledge is helpful but not essential for attending this session."
+    "text": "A workshop aimed at bright 14-16 year olds introducing some group theory concepts. Delivered as an invited Royal Institution Masterclass.\n\n\nMaterials\nRoyal Institution Mathematics Masterclass"
   },
   {
-    "objectID": "talks/2023-09-05-making-maps/index.html#abstract",
-    "href": "talks/2023-09-05-making-maps/index.html#abstract",
-    "title": "Making Maps! Visualising spatial data in R",
+    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html",
+    "href": "talks/2022-07-27-tale-of-two-languages/index.html",
+    "title": "A Tale of Two Languages",
     "section": "",
-    "text": "Maps can be a powerful way to communicate your research to wider audiences. Traditionally, you would need to use a specific geographic information system (GIS) tool for mapping. R is now a widely used open source software platform for working with spatial data thanks to its powerful analysis and visualisation packages.\nIn this workshop, you’ll learn the fundamentals of working with geospatial data in R. You’ll create high-quality, informative maps - that look great too!\nIf you want to participate in the exercises, please bring a laptop to the session. There is no need to install anything in advance. Some basic prior knowledge is helpful but not essential for attending this session."
+    "text": "In this talk, Rhian will share stories of how Jumping Rivers develop in both R and Python - often in the same project. Rhian will share how they write all of their Python training materials in R Markdown, and how they built the Diffify tool to analyse R packages in both Python and R. Rhian will also talk a little about the challenges and opportunities they have working within a bilingual team at Jumping Rivers."
   },
   {
-    "objectID": "talks/2023-09-05-making-maps/index.html#links",
-    "href": "talks/2023-09-05-making-maps/index.html#links",
-    "title": "Making Maps! Visualising spatial data in R",
+    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html#abstract",
+    "href": "talks/2022-07-27-tale-of-two-languages/index.html#abstract",
+    "title": "A Tale of Two Languages",
+    "section": "",
+    "text": "In this talk, Rhian will share stories of how Jumping Rivers develop in both R and Python - often in the same project. Rhian will share how they write all of their Python training materials in R Markdown, and how they built the Diffify tool to analyse R packages in both Python and R. Rhian will also talk a little about the challenges and opportunities they have working within a bilingual team at Jumping Rivers."
+  },
+  {
+    "objectID": "talks/2022-07-27-tale-of-two-languages/index.html#links",
+    "href": "talks/2022-07-27-tale-of-two-languages/index.html#links",
+    "title": "A Tale of Two Languages",
     "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nWorkshop materials\nRSS International Conference 2023, Harrogate"
-  },
-  {
-    "objectID": "talks/2023-09-27-reporting-for-managers/index.html",
-    "href": "talks/2023-09-27-reporting-for-managers/index.html",
-    "title": "On-demand overviews",
-    "section": "",
-    "text": "Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don’t miss out on this opportunity to innovate!"
-  },
-  {
-    "objectID": "talks/2023-09-27-reporting-for-managers/index.html#abstract",
-    "href": "talks/2023-09-27-reporting-for-managers/index.html#abstract",
-    "title": "On-demand overviews",
-    "section": "",
-    "text": "Ignite your data science journey with this insightful session. Discover the fundamentals of data science, empowering your organisation to drive innovation and make informed decisions. Our expert speakers break down complex concepts, providing an introduction to data science. Gain valuable insights on harnessing the power of data, from understanding principles to practical implementation strategies. Don’t miss out on this opportunity to innovate!"
-  },
-  {
-    "objectID": "talks/2023-09-27-reporting-for-managers/index.html#links",
-    "href": "talks/2023-09-27-reporting-for-managers/index.html#links",
-    "title": "On-demand overviews",
-    "section": "Links",
-    "text": "Links\n\n\n\n\n\nSlides\nData Innovation Showcase, National Innovation Centre for Data"
-  },
-  {
-    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html",
-    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html",
-    "title": "Did rough sleeping increase after the 2010 election?",
-    "section": "",
-    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
-  },
-  {
-    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
-    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-stat",
-    "title": "Did rough sleeping increase after the 2010 election?",
-    "section": "",
-    "text": "Sadiq Khan shared a graph on his social media titled “Labour came close to ending rough sleeping. Let’s do it again”. The graph shows a sharp decrease in the number of people sleeping rough from 1998 to 2010, and then an gradual from 2010 onwards. The post is implying that the increase in people sleeping rough is due to the change in goverment."
-  },
-  {
-    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
-    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#whats-the-problem",
-    "title": "Did rough sleeping increase after the 2010 election?",
-    "section": "What’s the problem?",
-    "text": "What’s the problem?\nRough sleeping statistics are official statistics, published by the Department for Levelling Up, Housing and Communities. In 2010, the way that rough sleeping statistics were reported changed. The differences are described in this technical note.\nThere are a number of points highlighted in the technical guidance, but the two key ones for me are:\n\nthe definition of a rough sleeper was changed to include rough sleepers about to bed down (e.g. sitting or standing near their bedding but not actually lying down) and those in tents. Broadening the definition of what counts as “rough sleeping” will likely increase the counts.\nPrior to 2010, Local Authorities with more than ten rough sleepers had to perform and report a count of rough sleepers in their area. Local Authorities are now able to choose whether to report a count or an estimate. Estimates are made by consulting with local agencies and the community to compile and agree a figure. The technical guide provides a comparison of the statistics before and after the change (Table 1), the largest increase was seen in the local authorities that switched from a count to an estimate.\n\nThe report then states\n\nThe changes that have been made to the methodology and the definition of rough sleepers make it very difficult to make comparisons over time as we cannot separate the impact of these methodological changes from changes in the level of rough sleeping between autumn 2010 and earlier time periods. It is therefore not possible to determine accurately whether rough sleeping has increased as we cannot separate the differences resulting from methodological changes from changes in the level of rough sleeping between time periods."
-  },
-  {
-    "objectID": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
-    "href": "posts/2024-04-30-rough-sleeping-statistics/index.html#so-what",
-    "title": "Did rough sleeping increase after the 2010 election?",
-    "section": "So what?",
-    "text": "So what?\nWhen making statistical comparisons, it’s important to compare like with like. We can still say that rough sleeping figures did decrease from 1998 to 2010, during Labour’s time in power. However, it is not possible to determine accurately whether rough sleeping has increased after 2010, as we cannot separate the methodological differences from the changes in the number of people sleeping rough.\nThe two time series are not directly comparable, and this should be highlighted in the graphic if presenting the two series as one."
+    "text": "Links\n\nRecording\nSlides\nPyLadies + R-Ladies — Bringing the communities together"
   }
 ]
