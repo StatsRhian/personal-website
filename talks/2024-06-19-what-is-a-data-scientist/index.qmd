@@ -1,0 +1,19 @@
+---
+title: "What is a Data Scientist?"
+subtitle: "The Institute of Mathematics and its Applications"
+description: "Panel discussion on a career as a data scientist"
+date: 2024-06-19
+categories: [career, panel]
+image: "featured.png"
+img-alt: "We hear from data scientists in different organisations about their careers and learn more about the Alliance for Data Science Professionals."
+---
+
+## Abstract
+
+Join the IMA ECM community in hosting 5 speakers to discuss ‘What is a Data Scientist?’. This will be a 2 hour event where we hear from data scientists in different organisations about their careers and learn more about the Alliance for Data Science Professionals.
+
+We will be joined by Yousuf Mohammed (MSci Student & Incoming Lloyds Banking Group), Rhian Davies (Senior Data Scientist, The Strategy Unit (NHS), Thom Kirwan-Evans (Co-founder, Origami Labs) and Duncan Wotherspoon (Junior Data Scientist, Investment Manager in London) in a panel session. Each panellist will give an introduction to themselves and then we’ll open the virtual floor up for a Q&A session.
+
+## Notes
+
+My notes for the panel session are on [GitHub](https://github.com/StatsRhian/talks/blob/main/2024/2024-06-19-what-is-a-data-scientist/notes.md).
