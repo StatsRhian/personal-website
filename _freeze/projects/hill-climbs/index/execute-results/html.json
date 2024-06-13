@@ -1,0 +1,15 @@
+{
+  "hash": "53224502389203aca4f54d19ccbbc735",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Hill climbs\"\ndescription: \"Mapping the top Lancashire cycle hill climbs in leaflet.\"\nimage: featured.png\n---\n\n\nI like cycling. I'm not great at going fast, but I quite enjoy puffing my way to the top of a hill.\n\nWhen I first started playing with the {leaflet}, I mapped the [local hill climbs.](https://github.com/statsrhian/hill-climbs)\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(magrittr)\nlancashire = sf::st_read(\"lancashire_climbs/lancashire_climbs.shp\", quiet = TRUE)\n\nleaflet::leaflet() %>%\n  leaflet::addTiles() %>%\n  leaflet::addPolylines(data = lancashire, col = ~col, label = ~name)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

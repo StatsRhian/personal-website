@@ -22,3 +22,6 @@ format:
     theme:
        light: [flatly, theme-light.scss]
        dark: darkly
+
+execute: 
+  freeze: auto
