@@ -16,4 +16,4 @@ We will be joined by Yousuf Mohammed (MSci Student & Incoming Lloyds Banking Gro
 
 ## Notes
 
-My notes for the panel session are on [GitHub](https://github.com/StatsRhian/talks/blob/main/2024/2024-06-19-what-is-a-data-scientist/notes.md).
+My notes for the panel session are on [GitHub](https://github.com/StatsRhian/talks/blob/main/2024/2024-06-what-is-a-data-scientist/notes.md).
