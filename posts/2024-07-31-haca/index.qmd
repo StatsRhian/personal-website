@@ -1,0 +1,20 @@
+---
+title: The great duplication crisis of healthcare analytics
+description: "Why does no-one want to steal my code?"
+date: 2024-04-30
+categories: [healthcare, RAP]
+draft: true
+image: ""
+img-alt: ""
+---
+
+Last week I was at #HACA2024 - a great conference bringing together health and social care analysts around the U.K 
+
+It was really inspiring to see lots of projects on their #RAP journey and #RStats and #Python code being shared openly 🥳 
+
+What I didn't hear was analysts telling stories of how they implemented else's open-source project successfully on their own data. So why not?
+
+Are we building tools that aren't modular enough? Or user-friendly? Is re-usability not valued highly enough? Or is the difficulty getting the word out to the right people? Are we just too polite?
+
+A conversation to continue at NHS RPySOC?
+
