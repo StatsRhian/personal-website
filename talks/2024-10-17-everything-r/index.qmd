@@ -1,0 +1,33 @@
+---
+title: "Everything you wanted to know about R and Quarto (but were too afraid to ask!)"
+subtitle: "Data and Analytics Centre of Excellence"
+description: "Why would I use R? What can it do?"
+date: 2024-10-17
+categories: [meetup, R, Quarto]
+image: "featured.jpg"
+img-alt: "Two women engage in a productive session, working together on a laptop with code on the screen. From #WOCinTech Chat"
+---
+
+## Abstract
+
+R and Quarto are open-source programming languages used widely across health and social care. Together they empower analysts to explore their data and share their knowledge through reproducible reports and dashboards.
+
+The emphasis of this session is to give you an understanding of what R is, and what it can do, rather than teach you how to program. We'll demonstrate a full data science flow, reading and cleaning data, calculating summary statistics, making plots and writing automated reports. We will signpost to materials and courses available to help you on your learning journey, and introduce you to the supportive NHS-R Community for R learners.
+We'll help answer questions such as
+
+- What is R and Quarto? And why should I learn it?
+- What do I need to get started?
+- Who uses R in the NHS?
+
+Perfect for the R-curious analysts, managers and support staff staff. No prior knowledge of R or programming is required for this session.
+
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/dacoe-everything-r" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/dacoe-everything-r)
+
+- [Data and Analytics Centre of Excellence](https://ourdorset.org.uk/dacoe/)
