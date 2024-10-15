@@ -3,7 +3,7 @@ title: "Everything you wanted to know about R and Quarto (but were too afraid to
 subtitle: "Data and Analytics Centre of Excellence"
 description: "Why would I use R? What can it do?"
 date: 2024-10-17
-categories: [meetup, R, Quarto]
+categories: [meetup, R, quarto]
 image: "featured.jpg"
 img-alt: "Two women engage in a productive session, working together on a laptop with code on the screen. From #WOCinTech Chat"
 ---
