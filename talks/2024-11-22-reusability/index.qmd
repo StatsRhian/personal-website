@@ -1,0 +1,32 @@
+---
+title: "The Reusability Crisis in Healthcare Analytics"
+subtitle: "NHS RPySOC"
+description: "Why and how to put the reusable into RAP"
+date: 2024-11-22
+categories: [conference, rap, data science]
+image: "featured.png"
+img-alt: "PYSOC conference 2024 banner."
+draft: false
+---
+
+## Abstract
+
+The rise of open-source projects in healthcare is inspiring, with analysts increasingly adopting Reproducible Analytical Pipelines (RAP) and sharing their code openly with pride. However, despite this, the reuse of code across organisations remains surprisingly low. Many valuable scripts and packages stagnate in GitHub repositories, while teams reinvent the wheel, starting their analyses from scratch.
+
+
+This raises critical questions: Are we creating tools that are insufficiently modular or user-friendly? Is the importance of reusability underappreciated? Or is the challenge simply in discovering existing code and recognising its relevance?
+
+
+As a newcomer to the NHS, I've engaged in conversations with analysts and data scientists to better understand these challenges and to promote the reuse of code across teams and organisations. In this talk, I will share insights from these discussions and offer practical tips on how to put the reusable into RAP.
+
+## Links
+
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/nhsrpysoc-reusability" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/nhsrpysoc-reusability)
+
+- [NHS-R Community](https://nhsrcommunity.com/)
+
