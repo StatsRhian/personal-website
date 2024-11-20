@@ -1,10 +1,10 @@
 ---
-title: "The Reusability Crisis in Healthcare Analytics"
+title: "From Reproducible to Reusable"
 subtitle: "NHS RPySOC"
-description: "Why and how to put the reusable into RAP"
+description: "Maybe code utopia isn't too far away"
 date: 2024-11-22
 categories: [conference, rap, data science]
-image: "featured.png"
+image: "featured.svg"
 img-alt: "PYSOC conference 2024 banner."
 draft: false
 ---
@@ -23,10 +23,10 @@ As a newcomer to the NHS, I've engaged in conversations with analysts and data s
 
 
 <p align="center">
-<iframe src="https://statsrhian.github.io/nhsrpysoc-reusability" width="100%" height = "400px"></iframe>
+<iframe src="https://statsrhian.github.io/nhsrpysoc-reusable" width="100%" height = "400px"></iframe>
 </p>
 
-- [Slides](https://statsrhian.github.io/nhsrpysoc-reusability)
+- [Slides](https://statsrhian.github.io/nhsrpysoc-reusable)
 
 - [NHS-R Community](https://nhsrcommunity.com/)
 
