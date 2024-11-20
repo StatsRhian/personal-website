@@ -1,0 +1,96 @@
+---
+title: Spring clean your R packages
+description: "Give your R packages a spring clean with these helper functions from the usethis package."
+date: 2024-03-07
+categories: [R, packages, usethis, ci/cd]
+image: "featured.jpg"
+img-alt: "Jumping Rivers robot using a vacuum cleaner to tidy up a large mess of data and numbers on the floor."
+execute:
+  eval: false
+---
+
+Last year I inherited a couple of R packages from [Stephanie Locke](https://www.linkedin.com/in/stephanielocke/) including the fabulous [{datasauRus}](https://github.com/jumpingrivers/datasauRus). Some of these packages were developed a long time ago and hadn't been updated. Since then, the standards in R package development have changed a little and I thought it was time to have a little spring clean.
+
+In this blog post, I'll be using functions from the [{usethis} package](https://usethis.r-lib.org/) to spruce up some of these old packages. I've chosen five quick improvements which you should be able to implement in 15 minutes or less. Grab your duster and come along.
+
+### Rename master to main
+
+There are many [good reasons](https://www.jumpingrivers.com/blog/git-moving-master-to-main/) to move the default branch name from `master` to the more neutral name, `main`. Luckily, renaming a single repository is straightforward and this one command will basically do everything for you.
+
+```{r}
+usethis::git_default_branch_rename()
+```
+
+### Tidy your description file
+
+Your `DESCRIPTION` file is argubly the most important file in your R package as it defines the purpose of your code and contains important metadata. Take a minute to check that the key fields are still correct, in particular the contact email address, description and any URLs.
+
+You can then run
+
+```{r}
+usethis::use_tidy_description()
+```
+
+which will put the fields in a standard order and alphabetise the dependencies. It's looking tidier already. 😌
+
+### Migrate to GitHub Actions
+
+TravisCI used to be the most popular tool for continuous integration in the #RStats community. In recent years, many R package developers have moved away from [Travis CI](https://ropensci.org/blog/2020/11/19/moving-away-travis/) to [GitHub Actions](https://docs.github.com/en/actions). Dean Attali wrote a [detailed guide](https://deanattali.com/blog/migrating-travis-to-github/) explaining the migration process in full. However, for most simple packages, all we need to do is delete the existing `travis.yml` file, and then run 
+
+```{r}
+usethis::use_github_action("check-standard")
+```
+
+to set up the standard GitHub action. This action will run `R CMD check` using R-latest on Linux, Mac, and Windows. This is a good baseline if you plan on submitting your package to CRAN. It will also add a lovely badge to your `README.md` that will show users that your package is passing the check.
+
+If your R package has tests, you might also want to run 
+
+```{r}
+usethis::use_github_action("code-coverage")
+```
+
+which will calculate your test coverage and report to [codecov.io](https://about.codecov.io).
+
+### Create a hex sticker
+
+We all know that the most important part of any R package is the hex sticker. If you don't already have one, you easily can create one in R with [{hexSticker}](https://github.com/GuangchuangYu/hexSticker).
+
+You can choose any image or plot to position on your sticker. You can then customise it by changing the colours, fonts and adding a url.
+
+```{r}
+sticker(subplot = "hoover.png", s_x=1, s_y=.75,
+        h_fill = "#4898a8", h_color = "#516e7a",
+        package = "springClean", p_size=20,
+        url = "jumpingrivers.com", u_color = "#FFFFFF", u_size = 6,
+        filename = "sticker.png")
+```
+
+<img src="sticker.png" alt="A hexsticker with for a fictional package springClean. There is a robot with a vacuum in the middle." style="display: block; margin-left: auto; margin-right: auto; width: 200px"/>
+
+You can add the hex sticker as a logo to your package with another helpful {usethis} function.
+
+```{r}
+usethis::use_logo("sticker.png")
+```
+
+### Contributing and Code of Conduct
+
+One of the great things about R package developement is that it's a team effort. If you want people to contribute to the development of your R packages, you need to tell them _how_ to contribute. It's also a good idea to add a code of conduct, to set an example of how we should work together.
+
+I like the standard contributing and CoC guides that the tidyverse developers use. Again, {usethis} provides functions that make adding these files to your package really easy.
+
+```{r}
+usethis::use_tidy_contributing()
+usethis::use_coc(contact = "hello@jumpingrivers.com")
+```
+
+### Get involved
+
+That's it for our quick spring clean. Hopefully I've inspired you get your duster out and have a tidy too! 🧹
+
+---
+
+A version of this post first appeared at [jumpingrivers.com/blog](https://www.jumpingrivers.com/blog/spring-clean-r-package-usethis/).
+
+
+

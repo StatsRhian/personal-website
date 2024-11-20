@@ -194,4 +194,6 @@ And hey, if I see you there, you’ll have an extroverted friend who can introdu
 
 ### oh no 😰
 
-\_This post first appeared at [jumpingrivers.com/blog](https://www.jumpingrivers.com/blog/an-introverts-guide-to-networking-at-a-conference/) and was co-written with Keith Newman.
+---
+
+This post first appeared at [jumpingrivers.com/blog](https://www.jumpingrivers.com/blog/an-introverts-guide-to-networking-at-a-conference/) and was co-written with [Keith Newman](https://github.com/keithnewman).
