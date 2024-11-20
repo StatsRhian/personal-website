@@ -96,5 +96,6 @@ Refactoring code properly takes time, and sometimes it can be hard to justify th
 1. Why rather than How
 1. Do it with a friend  
 
+---
 
-_This post first appeared at [jumpingrivers.com/blog](https://www.jumpingrivers.com/blog/refactoring-russian-doll-code/)_
+This post first appeared at [jumpingrivers.com/blog](https://www.jumpingrivers.com/blog/refactoring-russian-doll-code/)
