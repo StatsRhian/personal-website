@@ -7,19 +7,14 @@ about:
   template: broadside
   links:
   - icon: github
-    text: GitHub
     href: https://github.com/statsrhian    
+  - text: "{{< iconify fa6-brands bluesky >}}"
+    href: https://bsky.app/profile/statsrhian.bsky.social
   - icon: mastodon
-    text: Mastodon
     href: https://fosstodon.org/@statsrhian
-  - icon: twitter
-    text: Twitter
-    href: https://twitter.com/statsrhian
   - icon: strava
-    text: Strava
     href: https://www.strava.com/athletes/5412155  
   - icon: linkedin
-    text: LinkedIn
     href: https://www.linkedin.com/in/statsrhian
 ---
 
