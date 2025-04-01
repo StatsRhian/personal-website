@@ -22,7 +22,7 @@ Rhian is a data science leader, statistical consultant and R expert, based in th
 
 She is a senior data scientist at the [Strategy Unit](https://www.strategyunitwm.nhs.uk/) where she builds open-source Reproducible Analytical Pipelines and provides public health analysts with the tools, skills, and confidence to develop their own reproducible analyses. 
 
-She is an R expert and regularly shares her knowledge in the [NHS-R](https://nhsrcommunity.com/) and [R-Ladies](https://rladies.org/) communities. 
+She is an R expert and regularly shares her knowledge in the [NHS-R](https://nhsrcommunity.com/), [R-Ladies](https://rladies.org/) and [rainbowR](https://rainbowr.org/) communities. 
 
 Rhian has a PhD in [Statistics and Operational Research](https://www.lancaster.ac.uk/stor-i/) and is a Statistical Ambassador for the [Royal Statistical Society](https://rss.org.uk/), engaging with the media, schools and wider public to improve statistical literacy. 
 
