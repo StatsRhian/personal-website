@@ -4,7 +4,6 @@ project:
 website:
   title: "Rhian Davies"
   navbar:
-    background: secondary
     logo: "img/letter-R.png"
     logo-alt: "A handwritten, blue, letter R"
     right:
@@ -17,11 +16,7 @@ website:
         href: https://statsrhian.github.io/CV/davies-rhian.pdf
       - now.qmd
 
-format:
-  html:
-    theme:
-       light: [flatly, theme-light.scss]
-       dark: darkly
+format: html
 
 execute: 
   freeze: auto
