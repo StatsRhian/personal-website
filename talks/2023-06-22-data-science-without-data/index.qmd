@@ -3,7 +3,7 @@ title: "Data Science without the Data"
 subtitle: "Rencontres R 2023"
 description: "Maintaining flexibility and adaptability in the face of changing data requirements."
 date: 2023-06-22
-categories: [conference, keynote, data science]
+categories: [conference, keynote, data-science]
 image: "featured.png"
 img-alt: "Hex sticker for Recontres R 2023. The three arch old bridge of Avignon is in the centre in block yellow."
 ---

@@ -2,7 +2,7 @@
 title: Spring clean your R packages
 description: "Give your R packages a spring clean with these helper functions from the usethis package."
 date: 2024-03-07
-categories: [R, packages, usethis, ci/cd]
+categories: [R, packages, usethis, ci-cd]
 image: "featured.jpg"
 img-alt: "Jumping Rivers robot using a vacuum cleaner to tidy up a large mess of data and numbers on the floor."
 execute:

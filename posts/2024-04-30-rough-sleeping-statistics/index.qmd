@@ -2,7 +2,7 @@
 title: Did rough sleeping increase after the 2010 election?
 description: "When making statistical comparisons, it's important to compare like with like. "
 date: 2024-04-30
-categories: [fact checking, communicating statistics]
+categories: [fact checking, communicating-statistics]
 image: "rough-sleeping-graph.jpeg"
 img-alt: "Screenshot of a post from Sadiq Khan's X account. Title is 'Labour came close to ending rough sleeping. Let's do it again.' The graph shows a sharp decrease in the number of rough sleepers from 1998 - 2010 (coloured red to indicate Labour in power), and then a gradual increase in the numbers  (coloured blue to indicate Conservatives in power.)"
 ---
