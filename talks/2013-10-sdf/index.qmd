@@ -3,7 +3,7 @@ title: "The effect of recovery algorithms on compressive sensing background subt
 subtitle: "2013 Workshop on Sensor Data Fusion: Trends, Solutions, Applications (SDF)"
 description: "Background subtraction is a key method required to aid processing surveillance videos."
 date: 2013-10-11
-categories: [conference, compressive sensing]
+categories: [conference, compressive-sensing]
 image: "featured.png"
 img-alt: "A man starting into an old cine camera"
 ---

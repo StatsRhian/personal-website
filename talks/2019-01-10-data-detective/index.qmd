@@ -4,7 +4,7 @@ description: "Stories showcasing the pitfalls that we as humans often struggle w
 date: "2019-01-10"
 subtitle: "Florence Nightingale Day 2019"
 image: featured.jpg
-categories: [outreach, data science]
+categories: [outreach, data-science]
 img-alt: "Three cartoon heads sharing the same thought bubble."
 ---
 

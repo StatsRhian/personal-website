@@ -3,9 +3,9 @@ title: "From Reproducible to Reusable"
 subtitle: "NHS RPySOC"
 description: "Maybe code utopia isn't too far away"
 date: 2024-11-22
-categories: [conference, rap, data science]
+categories: [conference, rap, data-science]
 image: "featured.svg"
-img-alt: "PYSOC conference 2024 banner."
+img-alt: "RPYSOC conference 2024 banner."
 draft: false
 ---
 

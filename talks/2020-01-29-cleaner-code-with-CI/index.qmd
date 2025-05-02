@@ -3,7 +3,7 @@ title: "Cleaner code with CI"
 subtitle: RStudio Conference 2020
 description: "What is CI and how can it help me write awesome code?"
 date: 2020-01-29
-categories: [conference, lightning-talk, git, ci/cd]
+categories: [conference, lightning-talk, git, ci-cd]
 image: "featured.jpg"
 img-alt: "Rhian, Ian, Seb and Theo stood at the Jumping Rivers stand at Posit conference 2020."
 ---

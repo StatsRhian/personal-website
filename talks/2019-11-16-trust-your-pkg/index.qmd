@@ -2,7 +2,7 @@
 title: Can you trust your R package?
 subtitle: "SatRday Cardiff 2019"
 description: "I'll explain what continuous integration is and tell stories of how we use it at Jumping Rivers."
-categories: [meetup, programming, git, ci/cd]
+categories: [meetup, programming, git, ci-cd]
 date: "2019-11-16"
 image: featured.png
 img-alt: "Cartoon woman with a hardhat and glasses. The colouring is pride rainbow."
