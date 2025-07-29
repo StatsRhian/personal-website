@@ -1,0 +1,26 @@
+---
+title: "The Accidental Engineers"
+subtitle: "Shiny in Production"
+description: "Managing Shiny Apps, Pipelines, and Tech Debt in the NHS."
+date: 2025-10-09
+categories: [conference, shiny]
+image: "featured.jpg"
+img-alt: "Woman stares at a mess of wires at the back of a large computer."
+---
+
+## Abstract
+
+The Accidental Engineers: Managing Shiny Apps, Pipelines, and Tech Debt in the NHS
+
+How big should the hospitals of the future be? That’s the question we’re trying to answer. Our team has built a complex statistical model with over 100 parameters, using 140 million rows of patient data to help healthcare leaders plan for future demand. The model incorporates uncertainty, allowing users to explore different policy scenarios and compare their hospital against national benchmarks. But while the maths is complicated, the hardest part isn’t the modelling, it’s making sure everything keeps running smoothly.
+
+What started as a small data science project has grown into a sprawling web of interconnected tools, and some days, it feels like we’ve become accidental software engineers. Maintaining multiple Shiny apps, APIs, and pipelines across R, Python, and PySpark means we’re now juggling Databricks workflows, GitHub Actions, Azure Blob Storage, and Posit Connect deployments. Every month, we release a new version of the model while ensuring legacy versions are maintained and compatible. And with technical debt piling up, we’re starting to ask: do we keep patching things, or should we tear it all down and start again?
+
+This talk is an honest reflection on the challenges of managing large-scale Shiny apps in a high-pressure environment, how we balance new development with maintenance, and what we’ve learned along the way.
+The code for all our tools is available [publicly on GitHub](https://github.com/The-Strategy-Unit/nhp_model).
+
+## Links
+
+- [Shiny in Production conference](https://shiny-in-production.jumpingrivers.com/)
+
+
