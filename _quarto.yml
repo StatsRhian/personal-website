@@ -7,11 +7,16 @@ website:
     logo: "img/letter-R.png"
     logo-alt: "A handwritten, blue, letter R"
     right:
-      - text: "About"
+      - text: "👋🏻 About"
         file: index.qmd
-      - talks.qmd
-      - posts.qmd
-      - now.qmd
+      - text: "👩🏻‍🏫 Talks"
+        file: talks.qmd
+      - text: "✍🏻 Blog"
+        file: posts.qmd
+      - text: "🌱 Thoughts"
+        href: https://statsrhian-garden.netlify.app/
+      - text: "✨ Now"
+        file: now.qmd
 
 format: html
 
