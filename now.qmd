@@ -1,18 +1,23 @@
 ---
-title: "Now"
+title: "What I’m doing now"
 ---
 
-## What I’m doing now
+_Updated 2025-08-29. Inspired by [Derek Sivers](https://nownownow.com/about)._
 
-_Updated 2024-01-09. Inspired by [Derek Sivers](https://nownownow.com/about)._
+I’ve had a lovely summer travelling around Scotland in my campervan and spending plenty of time on the water kayaking. Now, I’m looking forward to a cosy autumn, contributing to community projects and playing [games](https://steamcommunity.com/id/thetrianglegirl/).
 
-After five years, I'm moving on from Jumping Rivers and starting a new job in March. 
-I've been reflecting on my time at JR, and preparing for the transition to a new role. 
-I'm trying to get more involved in the North East tech scene, and find online communities of people working with UK health data. 
+This season I want to give more energy to community work. I’ve recently joined the leadership team for [rainbowR](https://rainbowr.org), and we’re meeting in person to think about how to grow the community and shape our first conference. I’m also hoping to spend more time supporting the [NHS-R Community](https://nhsrcommunity.com/conference.html).
 
-I've begun converting my van into a campervan. It's a very much a slow, learning project and I'm hoping to be ready for adventures when spring comes around again. I'm enjoying learning new skills, and having the support of friends. 
+Outside of work, I’ve started a small community paddling group, Canny Paddlers, and we’re organising a kayak symposium in Northumberland next May.
 
-I'm currently working four days a week, and I'm spending my Fridays paddling, cycling and walking the North East coastline. I'm hoping to keep regain some fitness over winter so that I'm ready to play in the summer.
+In work, I’d like to settle into a routine, prioritising morning beach walks and some weekly time for reflection. I’m also aiming to complete my [Advanced Data Science Professional](https://rss.org.uk/membership/professional-development/advanced-data-science-professional/) award. I’ve got a handful of conferences ahead. I’m looking forward to catching up with awesome, inspiring folk, in person. If you’re at any of these, come say hi 👋
+
+- Sept: [RSS Conference](https://rss.org.uk/training-events/conference-2025/)
+- Oct: [Shiny in Production](https://shiny-in-production.jumpingrivers.com/)
+- Nov: [NHS-R conference](https://nhsrcommunity.com/conference.html)
+- Dec: [HACA conference](https://haca-conference.nhs.uk/) (online)
+
+
 
 
 
