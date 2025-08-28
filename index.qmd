@@ -4,7 +4,7 @@ image: img/rhian-davies.jpg
 image-alt: "A headshot of Rhian. She is has messy long brown hair and a big smile. She is stood in green woodland."
 favicon: img/favicon.ico
 about:
-  template: broadside
+  template: trestles
   links:
   - icon: github
     href: https://github.com/statsrhian    
