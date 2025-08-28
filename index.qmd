@@ -1,7 +1,7 @@
 ---
 title: "Rhian Davies"
 image: img/rhian-davies.jpg
-image-alt: "A headshot of Rhian. She is has messy long brown hair and glasses. She is stood in front of an OS Map of the river Tyne."
+image-alt: "A headshot of Rhian. She is has messy long brown hair and a big smile. She is stood in green woodland."
 favicon: img/favicon.ico
 about:
   template: broadside
