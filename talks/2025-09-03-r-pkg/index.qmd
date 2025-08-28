@@ -28,5 +28,14 @@ Attendees are expected to have a basic knowledge of R, and will have ideally wri
 
 ## Links
 
-- [Session info](https://virtual.oxfordabstracts.com/event/40660/program?session=103050&program&date=%222025-9-3%22)
+<p align="center">
+<iframe src="https://statsrhian.github.io/build-r-pkg/slides/index.html" width="100%" height = "400px"></iframe>
+</p>
+
+- [Workshop site](https://statsrhian.github.io/build-r-pkg/)
+
+- [Slides](https://statsrhian.github.io/build-r-pkg/slides/index.html)
+
+
+
 
