@@ -1,0 +1,17 @@
+---
+title: "Building QA into everyday workflows with GitHub"
+subtitle: "NHS-R conference"
+description: "Making QA practical, reproducible, and part of everyday work using GitHub"
+date: 2025-11-13
+categories: [conference, github, qa]
+image: "featured.png"
+img-alt: "Drake Nah-Yeah meme. Nah is a colourful spreadsheet, Yeah is a number of QA tasks in GitHub."
+---
+
+## Abstract
+
+Quality assurance is vital for trust in analytical models. Resources like the Aqua Book, the Duck Book, and NAO guidance give useful principles, but they can feel a bit abstract when you’re actually trying to apply them. I didn’t want to be stuck updating another colour-coded spreadsheet, so we took a different approach. In this talk, I’ll show how our team has made QA practical, reproducible, and part of everyday work using GitHub.
+
+## Links
+
+
