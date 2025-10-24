@@ -1,7 +1,7 @@
 ---
 title: "Quarto for Managers: Smarter Automated Reporting"
 subtitle: "HACA conference"
-description: "Making QA practical, reproducible, and part of everyday work using GitHub"
+description: "Learn how to transform manual reporting into efficient, reproducible workflows with Quarto"
 date: 2025-12-03
 categories: [conference, workshop, quarto]
 image: "featured.png"
