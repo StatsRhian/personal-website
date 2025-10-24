@@ -1,0 +1,80 @@
+---
+title: "My First Contribution to base R"
+description: "How an R Dev Day helped me go from feeling intimidated by base R to making my first small contribution."
+author: "Rhian Davies"
+date: "2025-10-31"
+categories: [R, learning]
+---
+
+
+I’ve been an R developer for years, building packages for clients, submitting PRs to open-source packages, and helping some make it to [CRAN](https://cran.r-project.org/). But one part of the R ecosystem I had never touched was base R itself. Honestly, it's always seemed a bit intimidating, and I didn’t feel like I was _good enough_ to contribute to base R.
+
+Earlier this month, I got the chance to attend an [R Dev Day](https://contributor.r-project.org/events/r-dev-days/) in Newcastle. R Dev Days are welcoming, one-day events for novice and experienced contributors to work collaboratively on contributions to base R. The organisers, [Heather](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner/) and [Ella](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/kaye) sent some [guidance](https://contributor.r-project.org/) and suggestions for what we might like to work on beforehand. I didn’t have time to go through everything, but I did peek around the [R contributors Slack](https://contributor.r-project.org/slack.html) and [GitHub organisation](https://github.com/r-devel/). Sitting on the metro into Newcastle that morning, I wasn’t sure what I’d end up working on or exactly what to expect, but I knew I’d be in safe hands.
+
+## Picking an issue
+
+After coffee and a natter with some friendly faces old and new, Heather and Ella talked us through some of the more [beginner-friendly open issues](https://github.com/r-devel/r-dev-day/issues/).
+
+One of the R-core contributors [Sebastian Meyer](https://github.com/bastistician) had raised a [documentation issue](https://github.com/r-devel/r-dev-day/issues/125). My colleague Claire and I figured that working on R documentation would be a good first way to try contributing to base R without getting stuck into a gritty programming problem. 
+
+![](issue-125.png)
+ 
+A new system Rd macro `\manual{name}{node}` was introduced in R v4.5.2. This macro allows developers to refer to a specific section of one of the [R manuals](https://cran.r-project.org/manuals.html).
+
+ Our task was to scan the `.Rd` files of base packages for references to the manuals R-admin, R-exts, and R-ints, and update the references to use the new macro.
+
+
+## Getting set up 
+
+So how do you start developing on R core? We used the [R Dev Container](https://contributor.r-project.org/r-dev-env/).
+
+Normally, the R Core workflow involves making changes to the source code, rebuilding R, and testing those changes. Setting that up locally can be tricky, as it can means dealing with compilers, dependencies, and the risk of overwriting your existing R installation. 
+
+The [R Dev Container](https://contributor.r-project.org/r-dev-env/) makes that much easier. It provides a ready-to-go environment with everything preconfigured, so you can start experimenting right away without worrying about breaking your local setup.
+
+I used [GitHub Codespaces](https://github.com/features/codespaces) to spin up the container in the browser. Then it was a matter of running `make` to build R, and I was ready to start coding.
+
+
+## Working through the issue  
+
+Codespaces supports collaboration with live share, but since our task involved editing many files, we reverted to the old school pair programming approach of sitting next to each other and... talking.
+
+We replaced references like:
+
+```bash
+\code{\link{RShowDoc}("R-exts#Bibliographic-citations-and-references")}
+```
+
+with
+
+```bash
+\manual{R-exts}{Bibliographic citations and references}
+```
+
+We _could_ have written a complex regex to find and replace everything automatically.  But some subtle rewriting was needed, and we wanted to get it right. So we used "Find in files" and worked through them one at a time.
+
+
+## Submitting our patch
+
+Once we were happy with our edits, we ran `make` and `make check` to ensure everything passed.
+
+`make check` flagged a couple of syntax errors, which we fixed before creating our diff file. I’d never used svn before, but thankfully it was simple enough:
+
+``` bash
+svn diff > link-manuals.diff
+```
+
+Since I don’t have a [Bugzilla](https://bugs.r-project.org/) account, Ella kindly submitted [the patch for us](https://bugs.r-project.org/show_bug.cgi?id=18956).
+
+Later that day, Sebastian reviewed and committed a revised version.
+Our changes were [merged into base R](https://github.com/r-devel/r-svn/commit/9cf5344966bb2d4cfa9d686c5ac51060c5fe67c1) and will appear in R 4.5.2 ([Not] Part in a Rumble) — released October 31, 2025. 🎉
+
+![](featured.jpg){fig-alt = "Claire and I smiling at the R-dev day. Claire is wearing an excellent dinosaur jumper."}
+
+## What I Learned
+
+Contributing to base R was much more approachable than I expected. The [R Dev Container](https://contributor.r-project.org/r-dev-env/) and [GitHub Codespaces](https://github.com/features/codespaces) made setup straightforward, and I didn’t have to worry about breaking my local R install.
+
+I got to dabble with with svn, poke around some of the base R packages and scripts, and learned how to build and check R inside the dev container. 
+
+Mostly, I came away feeling more confident about getting involved in R Core. It was great to spend a day developing and working with other R nerds. And it felt pretty special to leave a small mark on base R.
