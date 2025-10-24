@@ -1,0 +1,21 @@
+---
+title: "Better Together: Supporting Analysts and Managers with RAP"
+subtitle: "HACA conference"
+description: "Sharing findings and tips from running NHS RAP drop-ins"
+date: 2025-12-04
+categories: [conference, rap]
+image: "featured.svg"
+img-alt: "Illustration of two people sat at a laptop pair programming"
+---
+
+## Abstract
+
+Implementing reproducible analytical pipelines (RAP) can feel daunting for both analysts and managers. The Strategy Unit runs regular RAP drop-ins, open sessions where teams can ask questions, share challenges, and learn from each other in a supportive space.
+
+Topics often include navigating IT restrictions, learning Git, and managing patient-identifiable data safely. The sessions work not because we have all the answers, but because they connect people and surface practical solutions.
+
+In this talk, I’ll share common questions, key lessons, and tips from the drop-ins, showing how collaborative, inclusive spaces help teams adopt RAP more confidently and strengthen analytical capability across health and care systems.
+
+## Links
+
+- [Health and Care Analytics Conference 2025](https://haca-conference.nhs.uk/)
