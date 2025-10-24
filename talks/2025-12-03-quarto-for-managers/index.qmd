@@ -1,0 +1,22 @@
+---
+title: "Quarto for Managers: Smarter Automated Reporting"
+subtitle: "HACA conference"
+description: "Learn how to transform manual reporting into efficient, reproducible workflows with Quarto"
+date: 2025-12-03
+categories: [conference, workshop, quarto]
+image: "featured.png"
+img-alt: "Flowchart illustrating quarto development: Programming languages like R, Python feed into Quarto, producing outputs as HTML, PDF, Word documents."
+---
+
+## Abstract
+
+Meet Maria, a public health analyst who produces monthly NHS workforce reports. She crunches data in Excel, writes reports in Word, and spends hours formatting tables and charts. When the data changes or her manager requests a new region, she has to start over again.
+
+In this hands-on workshop, we’ll show how Quarto and parameterised, template-based reporting can transform workflows like Maria’s. Participants will see how analysts can interweave text and code to produce reproducible, automated reports that are easier to update, reduce mistakes, and free up time for insight and decision-making.
+
+Through a short practical exercise, managers will get a glimpse of the technology, see its benefits in action, and understand how investing in reproducible reporting can improve efficiency, consistency, and the impact of analytical work across health and care teams.
+
+## Links
+
+- [Health and Care Analytics Conference 2025](https://haca-conference.nhs.uk/)
+
