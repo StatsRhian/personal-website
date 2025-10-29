@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Rhian Davies"
+  site-url: https://rhian.rbind.io 
+  description: "A personal tech blog"
   navbar:
     logo: "img/letter-R.png"
     logo-alt: "A handwritten, blue, letter R"
