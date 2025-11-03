@@ -2,7 +2,7 @@
 title: "My First Contribution to base R"
 description: "How an R Dev Day helped me go from feeling intimidated by base R to making my first small contribution."
 author: "Rhian Davies"
-date: "2025-10-31"
+date: "2025-11-03"
 categories: [R, learning]
 ---
 
@@ -17,7 +17,7 @@ After coffee and a natter with some friendly faces old and new, Heather and Ella
 
 One of the R-core contributors [Sebastian Meyer](https://github.com/bastistician) had raised a [documentation issue](https://github.com/r-devel/r-dev-day/issues/125). My colleague Claire and I figured that working on R documentation would be a good first way to try contributing to base R without getting stuck into a gritty programming problem. 
 
-![](issue-125.png)
+![](issue-125.png){fig-alt="Screenshot of GitHub issue. Contents described in the blog text."}
  
 A new system Rd macro `\manual{name}{node}` was introduced in R v4.5.2. This macro allows developers to refer to a specific section of one of the [R manuals](https://cran.r-project.org/manuals.html).
 
@@ -41,13 +41,13 @@ Codespaces supports collaboration with live share, but since our task involved e
 
 We replaced references like:
 
-```bash
+```latex
 \code{\link{RShowDoc}("R-exts#Bibliographic-citations-and-references")}
 ```
 
 with
 
-```bash
+```latex
 \manual{R-exts}{Bibliographic citations and references}
 ```
 
@@ -69,7 +69,7 @@ Since I don’t have a [Bugzilla](https://bugs.r-project.org/) account, Ella kin
 Later that day, Sebastian reviewed and committed a revised version.
 Our changes were [merged into base R](https://github.com/r-devel/r-svn/commit/9cf5344966bb2d4cfa9d686c5ac51060c5fe67c1) and will appear in R 4.5.2 ([Not] Part in a Rumble) — released October 31, 2025. 🎉
 
-![](featured.jpg){fig-alt = "Claire and I smiling at the R-dev day. Claire is wearing an excellent dinosaur jumper."}
+![](featured.jpg){fig-alt="Claire and I smiling at the R-dev day. Claire is wearing an excellent dinosaur jumper."}
 
 ## What I Learned
 
