@@ -10,11 +10,11 @@ img-alt: "Illustration of two people sat at a laptop pair programming"
 
 ## Abstract
 
-Implementing reproducible analytical pipelines (RAP) can feel daunting for both analysts and managers. The Strategy Unit runs regular RAP drop-ins, open sessions where teams can ask questions, share challenges, and learn from each other in a supportive space.
+Many health and care analysts work alone, trying to implement reproducible analytical pipelines (RAP) without much local support. To help, The Strategy Unit has been running regular RAP drop-ins. These sessions provide a supportive space where both analysts and managers can share challenges, swap tips, and ask the “silly” questions without judgement.
 
-Topics often include navigating IT restrictions, learning Git, and managing patient-identifiable data safely. The sessions work not because we have all the answers, but because they connect people and surface practical solutions.
+Questions often repeat, from convincing IT to allow new tools, to learning Git, to handling concerns about patient-identifiable data. What makes the sessions work is not having all the answers, but connecting people and learning together.
 
-In this talk, I’ll share common questions, key lessons, and tips from the drop-ins, showing how collaborative, inclusive spaces help teams adopt RAP more confidently and strengthen analytical capability across health and care systems.
+This talk will share the common themes we’ve heard so far, the lessons that have emerged, and how creating open, welcoming spaces helps make RAP more sustainable across the NHS.
 
 ## Links
 
