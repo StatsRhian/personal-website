@@ -17,4 +17,4 @@ I've been using R for many years and at the moment it feels like I basically run
 ## Links
 
 -   [R-Ladies Lancaster](https://www.meetup.com/rladies-lancaster/events/260217938/)
--   [Slides](https://statsrhian.github.io/presentations/2019-05-01-day-in-the-life/day-in-the-life.html#1)
+-   [Slides](https://statsrhian.github.io/talks/2019/2019-05-01-day-in-the-life/day-in-the-life.html#1)

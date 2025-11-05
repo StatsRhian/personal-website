@@ -16,6 +16,6 @@ Humans are notoriously bad at dealing with randomness and probabilities - we ign
 
 ## Links
 
--   [Slides](https://statsrhian.github.io/talks/2019-01-10-data-detective/2019-01-10-data-detective.html#1)
+-   [Slides](https://statsrhian.github.io/talks/2019/2019-01-10-data-detective/2019-01-10-data-detective.html#1)
 -   [Florence Nightingale Day 2019](https://www.lancaster.ac.uk/maths/engagement/working-with-schools/florence-nightingale-day/)
 

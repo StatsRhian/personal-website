@@ -20,4 +20,4 @@ What is continuous integration (CI) and how can it help me write awesome code? I
 
 - [Slides](https://statsrhian.github.io/talks/2020/2020-01-29-cleaner-code-with-CI/2020-01-29-cleaner-code-with-CI.pdf)
 
-- [Speaker notes](https://statsrhian.github.io/talks/2020/2020-01-29-cleaner-code-with-CI/peaker-notes.html)
+- [Speaker notes](https://statsrhian.github.io/talks/2020/2020-01-29-cleaner-code-with-CI/speaker-notes.html)
