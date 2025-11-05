@@ -18,4 +18,10 @@ All the workflows and templates I’ll show are openly available, so others can 
 
 ## Links
 
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/qa-in-github/" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/qa-in-github/)
 - [NHS-R conference website](https://nhsrcommunity.com/conference.html)

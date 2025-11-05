@@ -18,7 +18,7 @@ By the end of the workshop you will be able to:
 - embed R code into a Quarto report
 - dynamically embed plots and tables
 
-The resources for this workshop are available on [GitHub](https://github.com/jumpingrivers/RSS-reproducible-data-reports-with-Quarto).
+The resources for this workshop are available on [GitHub](https://github.com/StatsRhian/RSS-reproducible-data-reports-with-Quarto).
 
 Joint work with [Nicola Rennie](https://nrennie.rbind.io/)
 
