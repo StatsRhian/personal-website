@@ -16,7 +16,14 @@ In this hands-on workshop, we’ll show how Quarto and parameterised, template-b
 
 Through a short practical exercise, managers will get a glimpse of the technology, see its benefits in action, and understand how investing in reproducible reporting can improve efficiency, consistency, and the impact of analytical work across health and care teams.
 
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/quarto-for-managers/slides/" width="100%" height = "400px"></iframe>
+</p>
+
+
 ## Links
 
+- [Workshop website](https://statsrhian.github.io/quarto-for-managers)
 - [Health and Care Analytics Conference 2025](https://haca-conference.nhs.uk/)
 
