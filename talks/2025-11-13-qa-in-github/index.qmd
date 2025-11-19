@@ -1,5 +1,5 @@
 ---
-title: "Building QA into everyday workflows with GitHub"
+title: "Ditch the Spreadsheets. Make QA work for you."
 subtitle: "NHS-R conference"
 description: "Making QA practical, reproducible, and part of everyday work using GitHub"
 date: 2025-11-13
@@ -10,12 +10,20 @@ img-alt: "Drake Nah-Yeah meme. Nah is a colourful spreadsheet, Yeah is a number 
 
 ## Abstract
 
-Quality assurance is vital for trust in analytical models. Resources like the Aqua Book, the Duck Book, and NAO guidance give useful principles, but they can feel a bit abstract when you’re actually trying to apply them. In this talk, I’ll show how our team has made QA practical, reproducible, and part of everyday work using GitHub
+Quality assurance is vital for trust in analytical models. Resources like the Aqua Book, the Duck Book, and NAO guidance give useful principles, but they can feel a bit abstract when you’re actually trying to apply them. In this talk, I’ll show how our team has made QA practical, reproducible, and part of everyday work using GitHub.
 
 We manage QA through GitHub issues and projects, creating a visible, auditable record of checks alongside our code. Release checklists templates help us document, review, and repeat our QA steps consistently. This approach turns QA from a one-off exercise into a routine part of development.
 
-All the workflows and templates I’ll show are openly available, so others can adapt and build on them. By working “where the work happens” we’ve reduced the burden of QA while increasing transparency, reproducibility, and confidence in our outputs.
+All the workflows and templates I'll show are openly available, so others can adapt and build on them. By working “where the work happens” we’ve reduced the burden of QA while increasing transparency, reproducibility, and confidence in our outputs.
 
 ## Links
 
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/qa-in-github/" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/qa-in-github/)
+- [Blog post](https://rhian.rbind.io/posts/2025-11-07_github-qa/)
 - [NHS-R conference website](https://nhsrcommunity.com/conference.html)
+
