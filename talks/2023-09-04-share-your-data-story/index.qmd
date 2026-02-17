@@ -14,12 +14,13 @@ A data science portfolio is a great way to showcase what makes you standout. In 
 
 For the pre-workshop for early career statisticians.
 
-
-## Links
+## Slides
 
 <p align="center">
 <iframe src="https://statsrhian.github.io/talks/2023/2023-09-04-share-your-data-story/slides.html#1" width="100%" height = "400px"></iframe>
 </p>
+
+## Links
 
 -   [Slides](https://statsrhian.github.io/talks/2023/2023-09-04-share-your-data-story/slides.html#1)
 

@@ -14,8 +14,11 @@ In this talk, Rhian will share stories of how Jumping Rivers develop in both R a
 
 ![](featured.jpg){fig-alt="Three cartoon faces with speech bubbles"}
 
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/live/u1QArSPjb_A?si=6MgqFWB2vN3XQH6S&t=361" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Links
 
-- [Recording](https://www.youtube.com/live/u1QArSPjb_A?si=6MgqFWB2vN3XQH6S&t=361)
 - [Slides](https://statsrhian.github.io/talks/2022/2022-07-27-tale-of-two-languages/2022-07-27-tale-two-languages.pdf)
 - [PyLadies + R-Ladies — Bringing the communities together](https://www.meetup.com/rladies-cologne/events/286727615/)

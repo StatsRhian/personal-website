@@ -16,11 +16,13 @@ You know you need to clean it up but you just don't know where to start.
 
 I recently helped a client completely refactor her R package. This short talk will give you actionable tips to help you refactor your code and make it easier for collaborators to work with it.
 
-## Links
+## Slides
 
 <p align="center">
 <iframe src="https://statsrhian.github.io/talks/2023/2023-09-06-taking-the-stress-out-of-your-code-mess/slides.html" width="100%" height = "400px"></iframe>
 </p>
+
+## Links
 
 - [Slides](https://statsrhian.github.io/talks/2023/2023-09-06-taking-the-stress-out-of-your-code-mess/slides.html)
 
