@@ -16,9 +16,15 @@ Questions often repeat, from convincing IT to allow new tools, to learning Git, 
 
 This talk will share the common themes we’ve heard so far, the lessons that have emerged, and how creating open, welcoming spaces helps make RAP more sustainable across the NHS.
 
+## Slides
+
 <p align="center">
 <iframe src="https://statsrhian.github.io/better-together" width="100%" height = "400px"></iframe>
 </p>
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JynQkEFkGv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share " allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 
 ## Links

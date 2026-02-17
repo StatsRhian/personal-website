@@ -19,12 +19,18 @@ This raises critical questions: Are we creating tools that are insufficiently mo
 
 As a newcomer to the NHS, I've engaged in conversations with analysts and data scientists to better understand these challenges and to promote the reuse of code across teams and organisations. In this talk, I will share insights from these discussions and offer practical tips on how to put the reusable into RAP.
 
-## Links
-
+## Slides
 
 <p align="center">
 <iframe src="https://statsrhian.github.io/nhsrpysoc-reusable" width="100%" height = "400px"></iframe>
 </p>
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s21lNo3pZVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Links
 
 - [Slides](https://statsrhian.github.io/nhsrpysoc-reusable)
 

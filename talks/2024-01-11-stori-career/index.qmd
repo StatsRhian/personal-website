@@ -16,11 +16,13 @@ The Annual Conference provides an opportunity to cement co-working within STOR-i
 
 I'm presenting a career and leadership talk, reflecting on my jobs so far.
 
-## Links
+## Slides
 
 <p align="center">
 <iframe src="https://statsrhian.github.io/talks/2024/2024-01-stori/2024-01-stori.html" width="100%" height = "400px"></iframe>
 </p>
+
+## Links
 
 - [Slides](https://statsrhian.github.io/talks/2024/2024-01-stori/2024-01-stori.html)
 

@@ -5,7 +5,7 @@ description: "Panel discussion with analysts from across health and care"
 date: 2025-12-04
 categories: [career, panel]
 image: "featured.png"
-img-alt: "HACA logo, purple dots in a swirling circle"
+img-alt: "Four panelists (including Rhian) on a Zoom call."
 ---
 
 ## Abstract
@@ -15,6 +15,12 @@ A live, interview-style conversation with analysts from across health and care. 
 We’ll explore how they found their voice, where analysis changes decisions, and what the analyst of the future looks like - connecting human stories to HACA’s theme: Rising to the challenge - analysis at the heart of health and care systems of the future.
 
 Each guest will be invited to talk about current role, career path and challenges along the way and they welcome audience questions so line them up! We'll then look ahead: what will the analyst role look like in 10 years? and what advice helps early-career analysts now? We'll see where the conversation takes us but join us to find out more about the stories of these analysts and how they help us to 'Rise to the Challenge'
+
+## Recording
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xYVAlpLM4Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Notes
 

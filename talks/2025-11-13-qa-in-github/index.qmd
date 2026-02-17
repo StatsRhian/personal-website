@@ -16,12 +16,17 @@ We manage QA through GitHub issues and projects, creating a visible, auditable r
 
 All the workflows and templates I'll show are openly available, so others can adapt and build on them. By working “where the work happens” we’ve reduced the burden of QA while increasing transparency, reproducibility, and confidence in our outputs.
 
-## Links
-
+## Slides
 
 <p align="center">
 <iframe src="https://statsrhian.github.io/qa-in-github/" width="100%" height = "400px"></iframe>
 </p>
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/frqLr5nM9ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Links
 
 - [Slides](https://statsrhian.github.io/qa-in-github/)
 - [Blog post](https://rhian.rbind.io/posts/2025-11-07_github-qa/)
