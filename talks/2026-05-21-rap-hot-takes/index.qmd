@@ -1,0 +1,23 @@
+---
+title: "RAP hot takes 🔥"
+subtitle: "Some personal reflections"
+description: "My opinionated thoughts on Reproducible Analytical Pipelines"
+date: 2026-05-21
+categories: [rap]
+image: "featured.jpg"
+img-alt: "Two animated characters from Toy Story, Woody and Buzz Lightyear, stand together. Buzz gestures widely. Text reads 'Hot Takes Hot Takes Everywhere'."
+---
+
+## Abstract
+
+A quick overview of RAP principals, and some personal reflections, opinions and top tips.
+
+Originally an internal presentation for the NHS Medical Analytics Team (MAT).
+
+## Links
+
+<p align="center">
+<iframe src="https://statsrhian.github.io/rap-hot-takes" width="100%" height = "400px"></iframe>
+</p>
+
+- [Slides](https://statsrhian.github.io/rap-hot-takes)
