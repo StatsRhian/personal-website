@@ -1,23 +1,27 @@
 ---
 title: "What I’m doing now"
+lightbox: true
 ---
 
-_Updated 2025-08-29. Inspired by [Derek Sivers](https://nownownow.com/about)._
+_Updated 2026-10-23. Inspired by [Derek Sivers](https://nownownow.com/about)._
 
-I’ve had a lovely summer travelling around Scotland in my campervan and spending plenty of time on the water kayaking. Now, I’m looking forward to a cosy autumn, contributing to community projects and playing [games](https://steamcommunity.com/id/thetrianglegirl/).
+I’ve had a fabulous summer travelling around Scotland in my campervan and spending plenty of time on the water kayaking. Now, I’m looking forward to a cosy autumn, planning what to do in my garden next spring and playing some [games](https://steamcommunity.com/id/thetrianglegirl/). Despite the darker days, I intend to keep playing outside, going for sunrise swims, getting out on my gravel bike in dark and getting to know the Cheviots better. 
 
-This season I want to give more energy to community work. I’ve recently joined the leadership team for [rainbowR](https://rainbowr.org), and we’re meeting in person to think about how to grow the community and shape our first conference. I’m also hoping to spend more time supporting the [NHS-R Community](https://nhsrcommunity.com/conference.html).
+::: {layout-ncol=4}
 
-Outside of work, I’ve started a small community paddling group, Canny Paddlers, and we’re organising a kayak symposium in Northumberland next May.
+![](img/now/IMG-20260719-WA0067.jpg){fig-alt="Two blue sea kayaks on a quiet, clear, sandy beach" group="my-gallery"}
 
-In work, I’d like to settle into a routine, prioritising morning beach walks and some weekly time for reflection. I’m also aiming to complete my [Advanced Data Science Professional](https://rss.org.uk/membership/professional-development/advanced-data-science-professional/) award. I’ve got a handful of conferences ahead. I’m looking forward to catching up with awesome, inspiring folk, in person. If you’re at any of these, come say hi 👋
+![](img/now/20260705_171932~2.jpg){fig-alt="Red gravel bike up against a wooden signpost on the moors. Purple and green heather is thick on the ground." group="my-gallery"}
 
-- Sept: [RSS Conference](https://rss.org.uk/training-events/conference-2025/)
-- Oct: [Shiny in Production](https://shiny-in-production.jumpingrivers.com/)
-- Nov: [NHS-R conference](https://nhsrcommunity.com/conference.html)
-- Dec: [HACA conference](https://haca-conference.nhs.uk/) (online)
+![](img/now/P8150103~2.JPG){fig-alt="A paddle looks up at a castle. The sky is moody." group="my-gallery"}
 
+![](img/now/P8160075~2.JPG){fig-alt="A bright red lions mane jelly fish against a blue sea" group="my-gallery"}
 
+::::
 
+In work I'm doing some really interesting consultancy for [GreenerNHS](https://www.england.nhs.uk/greenernhs/), helping them use python to orchestrate their SQL based pipeline. 
+I'm also leading a national [RAP accelerator programme](https://the-strategy-unit.github.io/RAP-accelerator/) for senior NHS ICB analysts. Those conversations have got me thinking about what resources could help more NHS analysts use RAP. I've started developing some open-source content on Using GitHub for collaboration, Getting confident with git, and Practical analytical QA. If you're interested in helping me develop any of these materials, get in touch 😊
+
+In community projects, I'm already planning sessions for [RSS conference 2027](https://rss.org.uk/training-events/conference-2027/).
 
 

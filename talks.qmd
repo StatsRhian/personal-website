@@ -6,4 +6,6 @@ listing:
   sort: "date desc"
   filter-ui: [title, description, date]
   categories: true
+  type: grid
+  page-size: 36
 ---

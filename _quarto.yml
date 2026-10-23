@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Rhian Davies"
-  site-url: https://rhian.rbind.io 
+  site-url: https://rhian.rbind.io
   description: "A personal tech blog"
   navbar:
     logo: "img/letter-R.png"
@@ -15,12 +15,10 @@ website:
         file: talks.qmd
       - text: "✍🏻 Blog"
         file: posts.qmd
-      - text: "🌱 Thoughts"
-        href: https://statsrhian-garden.netlify.app/
       - text: "✨ Now"
         file: now.qmd
 
 format: html
 
-execute: 
+execute:
   freeze: auto

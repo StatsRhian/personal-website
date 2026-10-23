@@ -14,11 +14,13 @@ color:
     rhino: "#28435d"
     tasman: "#d1dbd1"
     edgewater: "#d7e9e3"
+    softlinen: "#F5F2EB"
+    warmivory: "#F8F6F0"
 
   # Theme colors
   primary: rhino
   secondary: blackcurrant
-  background: edgewater
+  background: warmivory
   foreground: rhino
   success: goldengrass
   info: goldengrass
