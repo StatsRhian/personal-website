@@ -1,5 +1,6 @@
 ---
 title: "Rhian Davies"
+subtitle: "Bringing a software development mindset to health modelling"
 image: img/rhian-davies.jpg
 image-alt: "A headshot of Rhian. She is has messy long brown hair and a big smile. She is stood in green woodland."
 favicon: img/favicon.ico
@@ -8,14 +9,12 @@ about:
   links:
   - icon: github
     href: https://github.com/statsrhian    
+  - icon: linkedin
+    href: https://www.linkedin.com/in/statsrhian
   - text: "{{< iconify fa6-brands bluesky >}}"
     href: https://bsky.app/profile/statsrhian.bsky.social
   - icon: mastodon
     href: https://fosstodon.org/@statsrhian
-  - icon: strava
-    href: https://www.strava.com/athletes/5412155  
-  - icon: linkedin
-    href: https://www.linkedin.com/in/statsrhian
 ---
 
 Rhian is a data science leader, statistical consultant and R expert, based in the U.K. She is passionate about supporting others to make better data-driven decisions. 
