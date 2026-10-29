@@ -11,14 +11,14 @@ Have you ever sat in a conference session thinking "I wish there was a talk on X
 
 ## Anyone Can Submit an Invited Session
 
-The term "invited session" can be a little misleading. You don't have to be asked or specially invited to propose one. What it means is that you (or a small group) take responsibility for filling an entire slot (typically 80 minutes although check the [latest guidance](https://rss.org.uk/getattachment/Training-Events/Conference-2027/Invited-Topic-Sessions/Guidance-for-Invited-Session-organisers-RSS-2027.pdf.aspx/?lang=en-GB)). It’s up to you to curate the theme, session format, timings and speakers.
+The term "invited session" can be a little misleading. You don't have to be asked or specially invited to propose one. What it means is that you (or a small group) take responsibility for filling an entire slot (typically 80 minutes although check the [latest guidance](https://rss.org.uk/getattachment/Training-Events/Conference-2027/Invited-Topic-Sessions/Guidance-for-Invited-Session-organisers-RSS-2027.pdf.aspx)). It’s up to you to curate the theme, session format, timings and speakers.
 
-![](bafkreicuruook3uhttzkh3irv5xej7c42drsszuxxjqr6newwqle3txb4e.jpg)
+![](bafkreicuruook3uhttzkh3irv5xej7c42drsszuxxjqr6newwqle3txb4e.jpg){fig-alt="Seven people smiling behind a sign for the Royal Statistical Society International Conference 2025."}
 
 ## Choosing your theme and format
 
 Start with a topic you are interested in. My own session grew out of a love of Reproducible Analytical Pipelines (RAP) in public health. I wanted to get a group of people in a room to nerd out about open source tools, data pipelines, and best practice. So I decided to build a session around it.
-Once you have your theme, think about format. You have real creative freedom here. Some sessions are a couple of talks, others do a fireside chat, a debate or something more interactive. This year, [Nicola Rennie](https://nrennie.rbind.io/) organised a fantastic and highly entertaining [debate on the "rules" of data visualisation](https://virtual.oxfordabstracts.com/event/76886/session/197837). I chose four lightning talks showcasing RAP success stories, followed by a "RAP clinic" where the audience could bring their own problems to the panel.
+Once you have your theme, think about format. You have real creative freedom here. Some sessions are a couple of talks, others do a fireside chat, a debate or something more interactive. This year, [Nicola Rennie](https://nrennie.rbind.io/) organised a fantastic and highly entertaining [debate on the "rules" of data visualisation](https://virtual.oxfordabstracts.com/event/76886/session/197837). I chose four lightning talks showcasing RAP success stories in public health, followed by a "RAP clinic" where the audience could bring their own problems to the panel.
 
 
 ## Finding your speakers
@@ -27,9 +27,9 @@ Start with people you already know. I had friends at UKHSA and Public Health Wal
 
 If you're not familiar with a potential speaker, do a little research. Look for talks they've given on YouTube, or ask colleagues who've seen them present. Being an engaging speaker matters as much as expertise.
 
-A practical note on logistics: expenses for invited speakers are very limited and don't cover full attendance costs (check the [guidance notes](https://rss.org.uk/getattachment/Training-Events/Conference-2027/Invited-Topic-Sessions/Guidance-for-Invited-Session-organisers-RSS-2027.pdf.aspx/?lang=en-GB) for details). It helps to prioritise speakers who are already planning to attend, or who are based locally and might welcome the chance to come for the day. Consider reaching out to local universities or businesses. It's a great way to make new connections too.
+A practical note on logistics: expenses for invited speakers are very limited and don't cover full attendance costs (check the [guidance notes](https://rss.org.uk/getattachment/Training-Events/Conference-2027/Invited-Topic-Sessions/Guidance-for-Invited-Session-organisers-RSS-2027.pdf.aspx) for details). It helps to prioritise speakers who are already planning to attend, or who are based locally and might welcome the chance to come for the day. Consider reaching out to local universities or businesses. It's a great way to make new connections too.
 
-![](RSS26-00249.jpg)
+![](RSS26-00249.jpg){fig-alt="Luke Shaw gives a presentation in front of a screen displaying statistical charts comparing age distributions."}
 
 ## Writing a Strong Submission
 
@@ -44,7 +44,7 @@ In the run-up to the conference I kept in regular contact with the speakers to m
 
 You can also offer to run a workshop. These often work well with just one or two speakers. I’ve previously run hand-on technical coding workshops e.g. [visualising spatial data](https://rhian.rbind.io/talks/2023-09-05-making-maps/), or learning to [build an R package](https://rhian.rbind.io/talks/2025-09-03-r-pkg/). Workshops don't have to be technical though, I’ve also worked with the [RSS Statistical Ambassadors](https://rss.org.uk/resources/find-an-expert/statistical-ambassadors/) to run an interactive session on [communicating statistics](https://virtual.oxfordabstracts.com/event/40660/program?session=103091&date=%222025-9-2%22). If you do submit a workshop, make sure the session teaches something rather than selling something —workshops aren’t the place for product pitches. (Although if you do want to pitch something to RSS attendees, consider being an [exhibitor](https://rss.org.uk/RSS/media/File-library/Conference/10165-RSS-2026-Conference-Sponsorship-AW1.pdf))
 
-![](RSS_2025-00464.jpg)
+![](RSS_2025-00464.jpg){fig-alt="Four people sit and stand around a laptop while looking at the screen and smiling during an RSS workshop"}
 
 ## Go for it
 
